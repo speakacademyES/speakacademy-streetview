@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpeakAcademy — Where in the World?</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; overflow: hidden; height: 100vh; }
+
+  #street-view { width: 100vw; height: 100vh; }
+
+  /* ── Top bar ── */
+  #top-bar {
+    position: fixed; top: 0; left: 0; width: 100%; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 24px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, transparent 100%);
+    pointer-events: none;
+  }
+  #logo { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.05em; }
+  #logo span { color: #facc15; }
+  #round-badge {
+    background: rgba(250,204,21,0.15); border: 1px solid #facc15;
+    color: #facc15; padding: 6px 18px; border-radius: 999px;
+    font-size: 0.95rem; font-weight: 700;
+  }
+  #phase-label {
+    font-size: 0.95rem; opacity: 0.7; font-weight: 500; min-width: 160px; text-align: right;
+  }
+
+  /* ── Score strip ── */
+  #scores {
+    position: fixed; right: 20px; top: 50%; transform: translateY(-50%);
+    display: flex; flex-direction: column; gap: 10px; z-index: 10;
+  }
+  .score-card {
+    background: rgba(0,0,0,0.65); border: 1.5px solid rgba(255,255,255,0.15);
+    border-radius: 14px; padding: 12px 18px; text-align: center; min-width: 90px;
+    transition: border-color 0.3s;
+  }
+  .score-card.winning { border-color: #facc15; }
+  .score-name { font-size: 0.7rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.08em; }
+  .score-val { font-size: 1.9rem; font-weight: 800; color: #facc15; line-height: 1.1; }
+  .score-unit { font-size: 0.7rem; opacity: 0.5; margin-top: 1px; }
+
+  /* ── Bottom bar ── */
+  #bottom-bar {
+    position: fixed; bottom: 0; left: 0; width: 100%; z-index: 10;
+    padding: 18px 24px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+    display: flex; align-items: center; justify-content: center; gap: 14px;
+  }
+  .ctrl-btn {
+    padding: 12px 28px; border-radius: 12px; border: none; cursor: pointer;
+    font-size: 1rem; font-weight: 700; letter-spacing: 0.03em; transition: all 0.15s;
+  }
+  #btn-guess-a { background: #3b82f6; color: #fff; }
+  #btn-guess-a:hover { background: #2563eb; }
+  #btn-next { background: #facc15; color: #0f0f0f; display: none; }
+  #btn-next:hover { background: #eab308; }
+
+  /* ── Guess Map Overlay ── */
+  #guess-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 50;
+    background: rgba(0,0,0,0.6);
+    align-items: center; justify-content: center;
+    flex-direction: column; gap: 16px;
+  }
+  #guess-overlay.visible { display: flex; }
+  #guess-map-wrap {
+    position: relative;
+    width: min(820px, 95vw); height: min(480px, 60vh);
+    border-radius: 16px; overflow: hidden;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.7);
+    border: 2px solid rgba(255,255,255,0.2);
+  }
+  #guess-map { width: 100%; height: 100%; }
+  #guess-header {
+    font-size: 1.4rem; font-weight: 800; letter-spacing: 0.03em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+  }
+  #guess-header.team-a { color: #60a5fa; }
+  #guess-header.team-b { color: #f87171; }
+  #guess-footer {
+    display: flex; gap: 12px; align-items: center;
+  }
+  #guess-hint { font-size: 0.85rem; opacity: 0.6; }
+  #btn-confirm {
+    display: none;
+    background: #22c55e; color: #fff;
+    padding: 10px 28px; border-radius: 10px; border: none;
+    cursor: pointer; font-size: 1rem; font-weight: 700;
+    transition: background 0.15s;
+  }
+  #btn-confirm:hover { background: #16a34a; }
+
+  /* ── Reveal Panel ── */
+  #reveal-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 60;
+    background: rgba(0,0,0,0.55);
+    align-items: center; justify-content: center;
+    flex-direction: column; gap: 16px;
+  }
+  #reveal-overlay.visible { display: flex; }
+  #reveal-map-wrap {
+    width: min(820px, 95vw); height: min(440px, 55vh);
+    border-radius: 16px; overflow: hidden;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.7);
+    border: 2px solid rgba(250,204,21,0.4);
+  }
+  #reveal-map { width: 100%; height: 100%; }
+  #reveal-scores {
+    display: flex; gap: 20px; align-items: flex-start;
+  }
+  .reveal-team {
+    background: rgba(0,0,0,0.75); border-radius: 14px; padding: 14px 22px;
+    text-align: center; min-width: 150px; border: 2px solid rgba(255,255,255,0.1);
+  }
+  .reveal-team.winner { border-color: #facc15; }
+  .reveal-team-name { font-size: 0.75rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
+  .reveal-round-km { font-size: 2rem; font-weight: 800; line-height: 1; }
+  .reveal-round-km.team-a-color { color: #60a5fa; }
+  .reveal-round-km.team-b-color { color: #f87171; }
+  .reveal-total { font-size: 0.8rem; opacity: 0.55; margin-top: 4px; }
+  .reveal-winner-badge { font-size: 0.75rem; color: #facc15; font-weight: 700; margin-top: 6px; }
+  #reveal-location-label {
+    font-size: 1.5rem; font-weight: 800; letter-spacing: 0.02em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+  }
+  #btn-next-reveal {
+    background: #facc15; color: #0f0f0f;
+    padding: 12px 32px; border-radius: 12px; border: none;
+    cursor: pointer; font-size: 1rem; font-weight: 800; transition: background 0.15s;
+  }
+  #btn-next-reveal:hover { background: #eab308; }
+
+  /* ── Game Over ── */
+  #gameover-overlay {
+    display: none; position: fixed; inset: 0; z-index: 70;
+    background: rgba(0,0,0,0.85);
+    align-items: center; justify-content: center; flex-direction: column; gap: 20px;
+  }
+  #gameover-overlay.visible { display: flex; }
+  #gameover-box {
+    background: rgba(20,20,20,0.97); border: 1px solid rgba(250,204,21,0.4);
+    border-radius: 24px; padding: 40px 56px; text-align: center;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.8);
+  }
+  #gameover-box h2 { font-size: 2rem; color: #facc15; margin-bottom: 8px; }
+  #gameover-box h3 { font-size: 1.1rem; opacity: 0.6; margin-bottom: 28px; }
+  #gameover-results { display: flex; gap: 24px; justify-content: center; margin-bottom: 28px; }
+  .go-team { text-align: center; }
+  .go-name { font-size: 0.8rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.1em; }
+  .go-km { font-size: 3rem; font-weight: 900; line-height: 1; }
+  .go-km.team-a-color { color: #60a5fa; }
+  .go-km.team-b-color { color: #f87171; }
+  .go-winner { font-size: 0.9rem; color: #facc15; font-weight: 700; margin-top: 4px; }
+  #btn-restart {
+    background: #facc15; color: #0f0f0f;
+    padding: 12px 36px; border-radius: 12px; border: none;
+    cursor: pointer; font-size: 1rem; font-weight: 800;
+  }
+
+  /* ── Pack Selector ── */
+  #pack-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(0,0,0,0.88);
+    align-items: center; justify-content: center;
+  }
+  #pack-overlay.visible { display: flex; }
+  #pack-box {
+    background: #1a1a1a; border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px; padding: 36px 40px;
+    max-width: 640px; width: 90vw;
+    text-align: center;
+  }
+  #pack-title {
+    font-size: 1.8rem; font-weight: 800;
+    margin-bottom: 6px;
+  }
+  #pack-subtitle {
+    font-size: 0.95rem; opacity: 0.55;
+    margin-bottom: 28px;
+  }
+  #pack-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .pack-btn {
+    background: rgba(255,255,255,0.05);
+    border: 1.5px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    color: #fff;
+    display: flex; flex-direction: column; align-items: flex-start;
+    gap: 4px;
+    transition: all 0.15s;
+    text-align: left;
+  }
+  .pack-btn:hover {
+    background: rgba(250,204,21,0.12);
+    border-color: #facc15;
+  }
+  .pack-name { font-size: 0.95rem; font-weight: 700; }
+  .pack-count { font-size: 0.75rem; opacity: 0.5; }
+  #pack-status { font-size: 0.85rem; opacity: 0.6; margin-top: 8px; min-height: 20px; }
+</style>
+</head>
+<body>
+
+<div id="street-view"></div>
+
+<!-- Top bar -->
+<div id="top-bar">
+  <div id="logo">Speak<span>Academy</span></div>
+  <div id="round-badge">Round <span id="round-num">1</span> / <span id="round-total">5</span></div>
+  <div id="phase-label">📍 Study the location…</div>
+</div>
+
+<!-- Score strip -->
+<div id="scores">
+  <div class="score-card" id="score-card-0">
+    <div class="score-name">Team A</div>
+    <div class="score-val" id="score-0">0</div>
+    <div class="score-unit">km total</div>
+  </div>
+  <div class="score-card" id="score-card-1">
+    <div class="score-name">Team B</div>
+    <div class="score-val" id="score-1">0</div>
+    <div class="score-unit">km total</div>
+  </div>
+</div>
+
+<!-- Bottom bar -->
+<div id="bottom-bar">
+  <button class="ctrl-btn" id="btn-guess-a" onclick="openGuessMap(0)">🔵 Team A — Make Your Guess</button>
+  <button class="ctrl-btn" id="btn-next" onclick="nextRound()">⏭ Next Round</button>
+</div>
+
+<!-- Guess map overlay -->
+<div id="guess-overlay">
+  <div id="guess-header" class="team-a">🔵 TEAM A — Click your guess on the map</div>
+  <div id="guess-map-wrap">
+    <div id="guess-map"></div>
+  </div>
+  <div id="guess-footer">
+    <div id="guess-hint">Click anywhere on the map to place your pin</div>
+    <button id="btn-confirm" onclick="confirmGuess()">✔ Confirm Guess</button>
+  </div>
+</div>
+
+<!-- Reveal overlay -->
+<div id="reveal-overlay">
+  <div id="reveal-location-label">—</div>
+  <div id="reveal-map-wrap">
+    <div id="reveal-map"></div>
+  </div>
+  <div id="reveal-scores">
+    <div class="reveal-team" id="reveal-card-0">
+      <div class="reveal-team-name">Team A</div>
+      <div class="reveal-round-km team-a-color" id="reveal-km-0">—</div>
+      <div class="reveal-total" id="reveal-total-0"></div>
+      <div class="reveal-winner-badge" id="reveal-badge-0"></div>
+    </div>
+    <div class="reveal-team" id="reveal-card-1">
+      <div class="reveal-team-name">Team B</div>
+      <div class="reveal-round-km team-b-color" id="reveal-km-1">—</div>
+      <div class="reveal-total" id="reveal-total-1"></div>
+      <div class="reveal-winner-badge" id="reveal-badge-1"></div>
+    </div>
+  </div>
+  <button id="btn-next-reveal" onclick="nextRound()">Next Round ⏭</button>
+</div>
+
+<!-- Game Over overlay -->
+<div id="gameover-overlay">
+  <div id="gameover-box">
+    <h2>🏁 Game Over!</h2>
+    <h3>Lowest total distance wins</h3>
+    <div id="gameover-results">
+      <div class="go-team">
+        <div class="go-name">Team A</div>
+        <div class="go-km team-a-color" id="go-km-0">0</div>
+        <div>km</div>
+        <div class="go-winner" id="go-winner-0"></div>
+      </div>
+      <div class="go-team">
+        <div class="go-name">Team B</div>
+        <div class="go-km team-b-color" id="go-km-1">0</div>
+        <div>km</div>
+        <div class="go-winner" id="go-winner-1"></div>
+      </div>
+    </div>
+    <button id="btn-restart" onclick="restartGame()">🔄 Play Again</button>
+  </div>
+</div>
+
+<!-- Pack Selector Overlay -->
+<div id="pack-overlay">
+  <div id="pack-box">
+    <div id="pack-title">🌍 Choose a Location Pack</div>
+    <div id="pack-subtitle">Select a region or play all 193 locations</div>
+    <div id="pack-grid"></div>
+    <div id="pack-status"></div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+// ── API KEY (loaded from config.js — see config.example.js) ─────────────
+// MAPS_API_KEY is declared in config.js (gitignored)
+
+// ── Config ───────────────────────────────────────────────────────────────
+const MAX_ROUNDS = 5;
+
+// ── Location Database (loaded from JSON) ─────────────────────────────────
+let LOCATIONS = [];
+let currentPackLabel = 'All Locations';
+
+const PACKS = [
+  { id: 'all',           label: '🌐 All Locations',       file: 'data/locations.json',           count: 516 },
+  { id: 'europe',        label: '🌍 Europe',               file: 'data/packs/europe.json',         count: 162 },
+  { id: 'asia',          label: '🌏 Asia & Middle East',   file: 'data/packs/asia.json',           count: 103 },
+  { id: 'latin-america', label: '🌎 Latin America',        file: 'data/packs/latin-america.json',  count: 56  },
+  { id: 'north-america', label: '🌎 North America',        file: 'data/packs/north-america.json',  count: 67  },
+  { id: 'africa',        label: '🌍 Africa',               file: 'data/packs/africa.json',         count: 75  },
+  { id: 'oceania',       label: '🌏 Oceania & Pacific',    file: 'data/packs/oceania.json',        count: 33  },
+  { id: 'unusual',       label: '🗺️ Unusual Places',       file: 'data/packs/unusual.json',        count: 20  },
+];
+
+// ── State ────────────────────────────────────────────────────────────────
+let panorama      = null;
+let guessMap      = null;
+let revealMap     = null;
+let round         = 1;
+let scores        = [0, 0];          // cumulative km, lower is better
+let currentLoc    = null;
+let guesses       = [null, null];    // {lat, lng, km} per team
+let pendingMarker = null;
+let pendingLatLng = null;
+let guessMarkers  = [null, null];
+let usedIndices   = [];
+let currentTeam   = 0;              // 0 = Team A, 1 = Team B
+
+// ── Haversine ────────────────────────────────────────────────────────────
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 +
+            Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) *
+            Math.sin(dLng/2)**2;
+  return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)));
+}
+
+// ── Pick location ────────────────────────────────────────────────────────
+function pickLocation() {
+  if (usedIndices.length >= LOCATIONS.length) usedIndices = [];
+  let idx;
+  do { idx = Math.floor(Math.random() * LOCATIONS.length); }
+  while (usedIndices.includes(idx));
+  usedIndices.push(idx);
+  return LOCATIONS[idx];
+}
+
+// ── Load Street View ─────────────────────────────────────────────────────
+function loadRound() {
+  currentLoc = pickLocation();
+  guesses    = [null, null];
+  currentTeam = 0;
+
+  panorama.setPosition({ lat: currentLoc.lat, lng: currentLoc.lng });
+  panorama.setPov({ heading: Math.floor(Math.random() * 360), pitch: 0, zoom: 1 });
+
+  document.getElementById('round-num').textContent = round;
+  document.getElementById('phase-label').textContent = '📍 Study the location…';
+  document.getElementById('btn-guess-a').textContent = '🔵 Team A — Make Your Guess';
+  document.getElementById('btn-guess-a').style.display = 'inline-block';
+  document.getElementById('btn-next').style.display   = 'none';
+
+  updateScoreCards();
+}
+
+// ── Open Guess Map ───────────────────────────────────────────────────────
+function openGuessMap(team) {
+  currentTeam  = team;
+  pendingMarker = null;
+  pendingLatLng = null;
+
+  const header = document.getElementById('guess-header');
+  const overlay = document.getElementById('guess-overlay');
+  document.getElementById('btn-confirm').style.display = 'none';
+  document.getElementById('guess-hint').textContent = 'Click anywhere on the map to place your pin';
+
+  if (team === 0) {
+    header.textContent  = '🔵 TEAM A — Click your guess on the map';
+    header.className    = 'team-a';
+  } else {
+    header.textContent  = '🔴 TEAM B — Click your guess on the map';
+    header.className    = 'team-b';
+  }
+
+  overlay.classList.add('visible');
+
+  // Init guess map once
+  if (!guessMap) {
+    guessMap = new google.maps.Map(document.getElementById('guess-map'), {
+      zoom: 2,
+      center: { lat: 20, lng: 0 },
+      mapTypeId: 'roadmap',
+      disableDefaultUI: true,
+      zoomControl: true,
+      streetViewControl: false,
+      styles: [{ featureType: 'all', stylers: [{ saturation: -30 }] }]
+    });
+
+    guessMap.addListener('click', function(e) {
+      handleMapClick(e.latLng);
+    });
+  }
+
+  // Show Team A marker if it exists (during Team B's turn)
+  if (team === 1 && guessMarkers[0]) {
+    guessMarkers[0].setMap(guessMap);
+  }
+}
+
+// ── Handle map click ─────────────────────────────────────────────────────
+function handleMapClick(latLng) {
+  // Remove old pending marker
+  if (pendingMarker) pendingMarker.setMap(null);
+
+  const color = currentTeam === 0 ? '#3b82f6' : '#ef4444';
+  const label = currentTeam === 0 ? 'A' : 'B';
+
+  pendingMarker = new google.maps.Marker({
+    position: latLng,
+    map: guessMap,
+    label: { text: label, color: '#fff', fontWeight: 'bold' },
+    icon: {
+      path: google.maps.SymbolPath.CIRCLE,
+      scale: 14,
+      fillColor: color,
+      fillOpacity: 1,
+      strokeColor: '#fff',
+      strokeWeight: 2,
+    }
+  });
+
+  pendingLatLng = latLng;
+  document.getElementById('btn-confirm').style.display = 'inline-block';
+  document.getElementById('guess-hint').textContent = 'Happy with your pin? Click Confirm.';
+}
+
+// ── Confirm guess ────────────────────────────────────────────────────────
+function confirmGuess() {
+  if (!pendingLatLng) return;
+
+  const km = haversine(
+    pendingLatLng.lat(), pendingLatLng.lng(),
+    currentLoc.lat, currentLoc.lng
+  );
+
+  guesses[currentTeam] = { lat: pendingLatLng.lat(), lng: pendingLatLng.lng(), km };
+  guessMarkers[currentTeam] = pendingMarker;
+  pendingMarker = null;
+
+  document.getElementById('guess-overlay').classList.remove('visible');
+
+  if (currentTeam === 0) {
+    // Team A done → open Team B
+    document.getElementById('btn-guess-a').style.display = 'none';
+    document.getElementById('phase-label').textContent = '📍 Team A guessed!';
+    openGuessMap(1);
+  } else {
+    // Both done → reveal
+    document.getElementById('btn-guess-a').style.display = 'none';
+    showReveal();
+  }
+}
+
+// ── Show Reveal ──────────────────────────────────────────────────────────
+function showReveal() {
+  // Update cumulative scores
+  scores[0] += guesses[0].km;
+  scores[1] += guesses[1].km;
+
+  // Winner of this round
+  const roundWinner = guesses[0].km <= guesses[1].km ? 0 : 1;
+
+  // Update reveal panel
+  document.getElementById('reveal-location-label').textContent = '📍 ' + currentLoc.label;
+
+  for (let i = 0; i < 2; i++) {
+    document.getElementById('reveal-km-' + i).textContent = guesses[i].km.toLocaleString() + ' km';
+    document.getElementById('reveal-total-' + i).textContent = 'Total: ' + scores[i].toLocaleString() + ' km';
+    document.getElementById('reveal-badge-' + i).textContent = i === roundWinner ? '🏅 Closer!' : '';
+    document.getElementById('reveal-card-' + i).classList.toggle('winner', i === roundWinner);
+  }
+
+  const isLastRound = round >= MAX_ROUNDS;
+  const nextBtn = document.getElementById('btn-next-reveal');
+  nextBtn.textContent = isLastRound ? '🏁 See Final Results' : 'Next Round ⏭';
+
+  document.getElementById('reveal-overlay').classList.add('visible');
+
+  // Init reveal map
+  setTimeout(() => {
+    if (!revealMap) {
+      revealMap = new google.maps.Map(document.getElementById('reveal-map'), {
+        zoom: 2,
+        center: { lat: 20, lng: 0 },
+        disableDefaultUI: true,
+        zoomControl: true,
+        styles: [{ featureType: 'all', stylers: [{ saturation: -20 }] }]
+      });
+    }
+
+    // Clear old markers/lines
+    if (revealMap._markers) revealMap._markers.forEach(m => m.setMap(null));
+    if (revealMap._lines)   revealMap._lines.forEach(l => l.setMap(null));
+    revealMap._markers = [];
+    revealMap._lines   = [];
+
+    const actualLatLng = { lat: currentLoc.lat, lng: currentLoc.lng };
+
+    // Actual location (gold star)
+    const actualM = new google.maps.Marker({
+      position: actualLatLng, map: revealMap,
+      label: { text: '★', color: '#0f0f0f', fontWeight: 'bold', fontSize: '14px' },
+      icon: { path: google.maps.SymbolPath.CIRCLE, scale: 16,
+              fillColor: '#facc15', fillOpacity: 1, strokeColor: '#0f0f0f', strokeWeight: 2 },
+      title: currentLoc.label, zIndex: 10
+    });
+    revealMap._markers.push(actualM);
+
+    const colors = ['#3b82f6', '#ef4444'];
+    const labels = ['A', 'B'];
+    const bounds = new google.maps.LatLngBounds();
+    bounds.extend(actualLatLng);
+
+    for (let i = 0; i < 2; i++) {
+      const pos = { lat: guesses[i].lat, lng: guesses[i].lng };
+      const m = new google.maps.Marker({
+        position: pos, map: revealMap,
+        label: { text: labels[i], color: '#fff', fontWeight: 'bold' },
+        icon: { path: google.maps.SymbolPath.CIRCLE, scale: 13,
+                fillColor: colors[i], fillOpacity: 1, strokeColor: '#fff', strokeWeight: 2 }
+      });
+      const line = new google.maps.Polyline({
+        path: [pos, actualLatLng], map: revealMap,
+        strokeColor: colors[i], strokeOpacity: 0.7, strokeWeight: 2,
+        icons: [{ icon: { path: google.maps.SymbolPath.FORWARD_OPEN_ARROW }, offset: '100%' }]
+      });
+      revealMap._markers.push(m);
+      revealMap._lines.push(line);
+      bounds.extend(pos);
+    }
+
+    revealMap.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
+  }, 100);
+
+  // Clean up guess markers
+  guessMarkers.forEach(m => { if (m) m.setMap(null); });
+  guessMarkers = [null, null];
+}
+
+// ── Next Round ───────────────────────────────────────────────────────────
+function nextRound() {
+  document.getElementById('reveal-overlay').classList.remove('visible');
+
+  if (round >= MAX_ROUNDS) {
+    showGameOver();
+    return;
+  }
+
+  round++;
+  loadRound();
+}
+
+// ── Game Over ────────────────────────────────────────────────────────────
+function showGameOver() {
+  document.getElementById('go-km-0').textContent = scores[0].toLocaleString();
+  document.getElementById('go-km-1').textContent = scores[1].toLocaleString();
+
+  const winner = scores[0] <= scores[1] ? 0 : 1;
+  document.getElementById('go-winner-' + winner).textContent = '🏆 WINNER!';
+  document.getElementById('go-winner-' + (1 - winner)).textContent = '';
+
+  document.getElementById('gameover-overlay').classList.add('visible');
+}
+
+function restartGame() {
+  document.getElementById('gameover-overlay').classList.remove('visible');
+  showPackSelector();
+}
+
+// ── Score card UI ────────────────────────────────────────────────────────
+function updateScoreCards() {
+  for (let i = 0; i < 2; i++) {
+    document.getElementById('score-' + i).textContent = scores[i].toLocaleString();
+  }
+  // Highlight lower score (winning)
+  const winning = scores[0] <= scores[1] ? 0 : 1;
+  document.getElementById('score-card-0').classList.toggle('winning', winning === 0 && (scores[0] > 0 || scores[1] > 0));
+  document.getElementById('score-card-1').classList.toggle('winning', winning === 1 && (scores[0] > 0 || scores[1] > 0));
+}
+
+// ── Pack Selector ─────────────────────────────────────────────────────────
+function showPackSelector() {
+  const overlay = document.getElementById('pack-overlay');
+  const grid    = document.getElementById('pack-grid');
+  grid.innerHTML = '';
+
+  PACKS.forEach(pack => {
+    const btn = document.createElement('button');
+    btn.className = 'pack-btn';
+    btn.innerHTML = `<span class="pack-name">${pack.label}</span><span class="pack-count">${pack.count} locations</span>`;
+    btn.onclick = () => loadPack(pack);
+    grid.appendChild(btn);
+  });
+
+  overlay.classList.add('visible');
+}
+
+async function loadPack(pack) {
+  const overlay = document.getElementById('pack-overlay');
+  const status  = document.getElementById('pack-status');
+  status.textContent = 'Loading…';
+
+  try {
+    const res  = await fetch(pack.file);
+    const data = await res.json();
+    // Master file returns array; pack files return { id, label, locations }
+    LOCATIONS = Array.isArray(data) ? data : data.locations;
+    currentPackLabel = pack.label;
+    usedIndices = [];
+    overlay.classList.remove('visible');
+    status.textContent = '';
+    startGame();
+  } catch (e) {
+    status.textContent = '⚠️ Failed to load pack. Make sure you\'re running from a server.';
+  }
+}
+
+function startGame() {
+  round = 1; scores = [0, 0]; usedIndices = [];
+  guessMarkers = [null, null];
+  document.getElementById('gameover-overlay').classList.remove('visible');
+  loadRound();
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────
+function initMap() {
+  document.getElementById('round-total').textContent = MAX_ROUNDS;
+
+  panorama = new google.maps.StreetViewPanorama(
+    document.getElementById('street-view'), {
+      pov: { heading: 165, pitch: 0, zoom: 1 },
+      addressControl: false,
+      showRoadLabels: false,
+      zoomControl: false,
+      fullscreenControl: false,
+      motionTracking: false,
+      motionTrackingControl: false,
+      linksControl: false,
+    }
+  );
+
+  showPackSelector();
+}
+</script>
+
+<script>
+(function() {
+  if (!MAPS_API_KEY || MAPS_API_KEY === 'YOUR_GOOGLE_MAPS_API_KEY') {
+    document.getElementById('street-view').innerHTML =
+      '<div style="display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:12px;">' +
+      '<div style="font-size:3rem">🔑</div><div style="font-size:1.3rem;font-weight:700">Add your Google Maps API key to line 1</div></div>';
+    return;
+  }
+  const s = document.createElement('script');
+  s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_API_KEY}&callback=initMap&loading=async`;
+  s.async = true;
+  document.head.appendChild(s);
+})();
+</script>
+
+</body>
+</html>

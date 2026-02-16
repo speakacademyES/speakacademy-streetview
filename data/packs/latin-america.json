@@ -1,0 +1,678 @@
+{
+  "id": "latin-america",
+  "label": "🌎 Latin America",
+  "locations": [
+    {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "label": "Copacabana, Rio de Janeiro 🇧🇷",
+      "words": [
+        "beach",
+        "mosaic pavement",
+        "palm tree",
+        "seafront",
+        "mountain"
+      ]
+    },
+    {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "label": "São Paulo Paulista Avenue 🇧🇷",
+      "words": [
+        "skyscraper",
+        "avenue",
+        "billboard",
+        "metro entrance",
+        "banking district"
+      ]
+    },
+    {
+      "lat": -15.7942,
+      "lng": -47.8822,
+      "label": "Brasília Government District 🇧🇷",
+      "words": [
+        "modernist building",
+        "dome",
+        "lawn",
+        "congress",
+        "brutalist architecture"
+      ]
+    },
+    {
+      "lat": -3.7172,
+      "lng": -38.5433,
+      "label": "Fortaleza, Brazil 🇧🇷",
+      "words": [
+        "beach buggy",
+        "sand dunes",
+        "kite surfing",
+        "seafront",
+        "vendor"
+      ]
+    },
+    {
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "label": "Buenos Aires Plaza de Mayo 🇦🇷",
+      "words": [
+        "pink house",
+        "square",
+        "obelisk",
+        "wide boulevard",
+        "café"
+      ]
+    },
+    {
+      "lat": -31.4201,
+      "lng": -64.1888,
+      "label": "Córdoba, Argentina 🇦🇷",
+      "words": [
+        "colonial building",
+        "jesuit block",
+        "pedestrian street",
+        "plaza",
+        "student quarter"
+      ]
+    },
+    {
+      "lat": -41.1335,
+      "lng": -71.3103,
+      "label": "Bariloche, Argentina 🇦🇷",
+      "words": [
+        "alpine chalet",
+        "lake",
+        "mountain",
+        "chocolate shop",
+        "ski resort"
+      ]
+    },
+    {
+      "lat": -33.4489,
+      "lng": -70.6693,
+      "label": "Santiago, Chile 🇨🇱",
+      "words": [
+        "Andes backdrop",
+        "modern tower",
+        "plaza",
+        "fruit market",
+        "metro"
+      ]
+    },
+    {
+      "lat": -53.1638,
+      "lng": -70.9171,
+      "label": "Punta Arenas, Chile 🇨🇱",
+      "words": [
+        "colourful roof",
+        "windswept",
+        "strait",
+        "ship",
+        "pioneer cemetery"
+      ]
+    },
+    {
+      "lat": 4.711,
+      "lng": -74.0721,
+      "label": "Bogotá La Candelaria 🇨🇴",
+      "words": [
+        "colonial building",
+        "mural",
+        "cobblestone",
+        "street art",
+        "Andean backdrop"
+      ]
+    },
+    {
+      "lat": 6.2442,
+      "lng": -75.5812,
+      "label": "Medellín, Colombia 🇨🇴",
+      "words": [
+        "cable car",
+        "hillside barrio",
+        "mural",
+        "metro",
+        "flower market"
+      ]
+    },
+    {
+      "lat": 10.391,
+      "lng": -75.4794,
+      "label": "Cartagena Old City 🇨🇴",
+      "words": [
+        "colonial wall",
+        "colourful balcony",
+        "flower vendor",
+        "cobblestone",
+        "horse carriage"
+      ]
+    },
+    {
+      "lat": 1.2136,
+      "lng": -77.2811,
+      "label": "Pasto, Colombia 🇨🇴",
+      "words": [
+        "Andean market",
+        "indigenous textiles",
+        "cobblestone",
+        "church",
+        "volcano backdrop"
+      ]
+    },
+    {
+      "lat": -0.2299,
+      "lng": -78.5249,
+      "label": "Quito Historic Centre 🇪🇨",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "Andean backdrop",
+        "iron balcony",
+        "market"
+      ]
+    },
+    {
+      "lat": -2.9001,
+      "lng": -79.0059,
+      "label": "Cuenca, Ecuador 🇪🇨",
+      "words": [
+        "blue dome cathedral",
+        "river",
+        "flower market",
+        "panama hat",
+        "cobblestone"
+      ]
+    },
+    {
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "label": "Lima Miraflores 🇵🇪",
+      "words": [
+        "cliffside park",
+        "Pacific Ocean",
+        "paraglider",
+        "seafront",
+        "shopping mall"
+      ]
+    },
+    {
+      "lat": -13.517,
+      "lng": -71.9785,
+      "label": "Cusco Plaza de Armas 🇵🇪",
+      "words": [
+        "colonial arcade",
+        "cathedral",
+        "llama",
+        "fountain",
+        "Andean market"
+      ]
+    },
+    {
+      "lat": -16.5,
+      "lng": -68.1193,
+      "label": "La Paz, Bolivia 🇧🇴",
+      "words": [
+        "cable car",
+        "market",
+        "bowler hat",
+        "adobe building",
+        "steep street"
+      ]
+    },
+    {
+      "lat": -25.2867,
+      "lng": -57.647,
+      "label": "Asunción, Paraguay 🇵🇾",
+      "words": [
+        "colonial building",
+        "palm tree",
+        "wide street",
+        "market",
+        "horse cart"
+      ]
+    },
+    {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City Zócalo 🇲🇽",
+      "words": [
+        "cathedral",
+        "aztec ruins",
+        "national palace",
+        "flag",
+        "cobblestone"
+      ]
+    },
+    {
+      "lat": 20.9674,
+      "lng": -89.623,
+      "label": "Mérida, Mexico 🇲🇽",
+      "words": [
+        "colonial mansion",
+        "hammock shop",
+        "horse carriage",
+        "jacaranda",
+        "plaza"
+      ]
+    },
+    {
+      "lat": 17.0732,
+      "lng": -96.7266,
+      "label": "Oaxaca, Mexico 🇲🇽",
+      "words": [
+        "green church",
+        "craft market",
+        "colonial arcade",
+        "mole restaurant",
+        "cobblestone"
+      ]
+    },
+    {
+      "lat": 9.9281,
+      "lng": -84.0907,
+      "label": "San José, Costa Rica 🇨🇷",
+      "words": [
+        "National Theatre",
+        "fruit market",
+        "oxcart",
+        "ornate building",
+        "taxi"
+      ]
+    },
+    {
+      "lat": 14.0723,
+      "lng": -87.2023,
+      "label": "Tegucigalpa, Honduras 🇭🇳",
+      "words": [
+        "hillside city",
+        "colonial church",
+        "market",
+        "moto-taxi",
+        "painted wall"
+      ]
+    },
+    {
+      "lat": 23.1136,
+      "lng": -82.3666,
+      "label": "Havana, Cuba 🇨🇺",
+      "words": [
+        "vintage car",
+        "crumbling facade",
+        "Malecón",
+        "cigar shop",
+        "balcony"
+      ]
+    },
+    {
+      "lat": -8.3791,
+      "lng": -74.5539,
+      "label": "Pucallpa, PE 🇵🇪",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -23.1864,
+      "lng": -46.8842,
+      "label": "Jundiaí, BR 🇧🇷",
+      "words": [
+        "Andean village",
+        "adobe wall",
+        "market",
+        "llama",
+        "mountain backdrop"
+      ]
+    },
+    {
+      "lat": -33.5142,
+      "lng": -70.7651,
+      "label": "Maipú, CL 🇨🇱",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -20.3297,
+      "lng": -40.2925,
+      "label": "Vila Velha, BR 🇧🇷",
+      "words": [
+        "hillside barrio",
+        "cable car",
+        "colourful house",
+        "street vendor",
+        "bus terminal"
+      ]
+    },
+    {
+      "lat": -23.4861,
+      "lng": -46.3483,
+      "label": "Itaquaquecetuba, BR 🇧🇷",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": 2.93,
+      "lng": -75.2797,
+      "label": "Neiva, CO 🇨🇴",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -2.1692,
+      "lng": -79.8399,
+      "label": "Eloy Alfaro, EC 🇪🇨",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -25.2865,
+      "lng": -57.647,
+      "label": "Asunción, PY 🇵🇾",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "plaza",
+        "market",
+        "mural"
+      ]
+    },
+    {
+      "lat": -27.5967,
+      "lng": -48.5492,
+      "label": "Florianópolis, BR 🇧🇷",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "plaza",
+        "market",
+        "mural"
+      ]
+    },
+    {
+      "lat": -33.6117,
+      "lng": -70.5758,
+      "label": "Puente Alto, CL 🇨🇱",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -23.5228,
+      "lng": -46.1883,
+      "label": "Mogi das Cruzes, BR 🇧🇷",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -17.3819,
+      "lng": -66.1599,
+      "label": "Cochabamba, BO 🇧🇴",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -16.5,
+      "lng": -68.15,
+      "label": "La Paz, BO 🇧🇴",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -17.7863,
+      "lng": -63.1812,
+      "label": "Santa Cruz de la Sierra, BO 🇧🇴",
+      "words": [
+        "hillside barrio",
+        "cable car",
+        "colourful house",
+        "street vendor",
+        "bus terminal"
+      ]
+    },
+    {
+      "lat": -34.9033,
+      "lng": -56.1882,
+      "label": "Montevideo, UY 🇺🇾",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": 10.3991,
+      "lng": -71.4521,
+      "label": "Cabimas, VE 🇻🇪",
+      "words": [
+        "Andean village",
+        "adobe wall",
+        "market",
+        "llama",
+        "mountain backdrop"
+      ]
+    },
+    {
+      "lat": -31.4065,
+      "lng": -64.1885,
+      "label": "Córdoba, AR 🇦🇷",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "plaza",
+        "market",
+        "mural"
+      ]
+    },
+    {
+      "lat": -9.0751,
+      "lng": -78.5937,
+      "label": "Chimbote, PE 🇵🇪",
+      "words": [
+        "hillside barrio",
+        "cable car",
+        "colourful house",
+        "street vendor",
+        "bus terminal"
+      ]
+    },
+    {
+      "lat": 10.1615,
+      "lng": -68.0004,
+      "label": "Valencia, VE 🇻🇪",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -13.5319,
+      "lng": -71.967,
+      "label": "Cusco, PE 🇵🇪",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -5.795,
+      "lng": -35.2094,
+      "label": "Natal, BR 🇧🇷",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": 10.4654,
+      "lng": -73.2531,
+      "label": "Valledupar, CO 🇨🇴",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -1.2491,
+      "lng": -78.6167,
+      "label": "Ambato, EC 🇪🇨",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -24.8065,
+      "lng": -65.42,
+      "label": "Salta, AR 🇦🇷",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "plaza",
+        "market",
+        "mural"
+      ]
+    },
+    {
+      "lat": -0.2298,
+      "lng": -78.525,
+      "label": "Quito, EC 🇪🇨",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -7.115,
+      "lng": -34.8631,
+      "label": "João Pessoa, BR 🇧🇷",
+      "words": [
+        "hillside barrio",
+        "cable car",
+        "colourful house",
+        "street vendor",
+        "bus terminal"
+      ]
+    },
+    {
+      "lat": -1.4558,
+      "lng": -48.5044,
+      "label": "Belém, BR 🇧🇷",
+      "words": [
+        "beach promenade",
+        "fishing boat",
+        "seafront",
+        "palm tree",
+        "kiosk"
+      ]
+    },
+    {
+      "lat": -33.4569,
+      "lng": -70.6483,
+      "label": "Santiago, CL 🇨🇱",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": -31.6488,
+      "lng": -60.7087,
+      "label": "Santa Fe, AR 🇦🇷",
+      "words": [
+        "colonial church",
+        "cobblestone",
+        "plaza",
+        "market",
+        "mural"
+      ]
+    },
+    {
+      "lat": 8.6206,
+      "lng": -70.231,
+      "label": "Barinas, VE 🇻🇪",
+      "words": [
+        "favela staircase",
+        "bougainvillea",
+        "football court",
+        "moto-taxi",
+        "concrete block"
+      ]
+    },
+    {
+      "lat": 8.7508,
+      "lng": -75.8782,
+      "label": "Montería, CO 🇨🇴",
+      "words": [
+        "hillside barrio",
+        "cable car",
+        "colourful house",
+        "street vendor",
+        "bus terminal"
+      ]
+    }
+  ]
+}

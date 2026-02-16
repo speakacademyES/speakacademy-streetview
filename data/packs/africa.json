@@ -1,0 +1,906 @@
+{
+  "id": "africa",
+  "label": "🌍 Africa",
+  "locations": [
+    {
+      "lat": 34.0209,
+      "lng": -6.8416,
+      "label": "Rabat Medina, Morocco 🇲🇦",
+      "words": [
+        "medina wall",
+        "mosaics",
+        "souk",
+        "minaret",
+        "blue door"
+      ]
+    },
+    {
+      "lat": 33.9716,
+      "lng": -6.8498,
+      "label": "Marrakech Jemaa el-Fna 🇲🇦",
+      "words": [
+        "market square",
+        "snake charmer",
+        "food stall",
+        "fountain",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 35.7673,
+      "lng": 10.8395,
+      "label": "Sousse Medina, Tunisia 🇹🇳",
+      "words": [
+        "white-washed wall",
+        "arched gateway",
+        "souk",
+        "blue door",
+        "ribat fortress"
+      ]
+    },
+    {
+      "lat": 36.8065,
+      "lng": 10.1815,
+      "label": "Tunis Medina 🇹🇳",
+      "words": [
+        "arch",
+        "carpet shop",
+        "souk",
+        "Ottoman architecture",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "label": "Cairo Khan el-Khalili 🇪🇬",
+      "words": [
+        "bazaar",
+        "lantern shop",
+        "minaret",
+        "coffee house",
+        "spice stall"
+      ]
+    },
+    {
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "label": "Alexandria Corniche 🇪🇬",
+      "words": [
+        "Mediterranean seafront",
+        "tram",
+        "Ottoman fort",
+        "café",
+        "fishing boat"
+      ]
+    },
+    {
+      "lat": 15.5007,
+      "lng": 32.5599,
+      "label": "Khartoum, Sudan 🇸🇩",
+      "words": [
+        "Nile confluence",
+        "minaret",
+        "market",
+        "tea stall",
+        "camel"
+      ]
+    },
+    {
+      "lat": 11.8251,
+      "lng": 42.5903,
+      "label": "Djibouti City 🇩🇯",
+      "words": [
+        "Gulf port",
+        "colourful building",
+        "minaret",
+        "market",
+        "French colonial"
+      ]
+    },
+    {
+      "lat": 2.0469,
+      "lng": 45.3182,
+      "label": "Mogadishu Beachfront 🇸🇴",
+      "words": [
+        "Indian Ocean",
+        "minaret",
+        "bullet-scarred building",
+        "beach",
+        "fishing boat"
+      ]
+    },
+    {
+      "lat": -1.2921,
+      "lng": 36.8219,
+      "label": "Nairobi CBD 🇰🇪",
+      "words": [
+        "skyscraper",
+        "matatu minibus",
+        "roundabout",
+        "market",
+        "jacaranda tree"
+      ]
+    },
+    {
+      "lat": -6.1659,
+      "lng": 35.7497,
+      "label": "Dodoma, Tanzania 🇹🇿",
+      "words": [
+        "parliament building",
+        "wide avenue",
+        "acacia tree",
+        "red earth road",
+        "market"
+      ]
+    },
+    {
+      "lat": -6.7924,
+      "lng": 39.2083,
+      "label": "Stone Town, Zanzibar 🇹🇿",
+      "words": [
+        "carved wooden door",
+        "coral stone wall",
+        "narrow alley",
+        "dhow",
+        "spice shop"
+      ]
+    },
+    {
+      "lat": -25.7479,
+      "lng": 28.2293,
+      "label": "Pretoria, South Africa 🇿🇦",
+      "words": [
+        "jacaranda boulevard",
+        "government building",
+        "statue",
+        "traffic roundabout",
+        "lawn"
+      ]
+    },
+    {
+      "lat": -26.2041,
+      "lng": 28.0473,
+      "label": "Johannesburg Sandton 🇿🇦",
+      "words": [
+        "skyscraper",
+        "mall",
+        "taxi rank",
+        "glass tower",
+        "pedestrian street"
+      ]
+    },
+    {
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "label": "Cape Town Waterfront 🇿🇦",
+      "words": [
+        "Table Mountain",
+        "harbour",
+        "clock tower",
+        "Cape Malay house",
+        "penguin"
+      ]
+    },
+    {
+      "lat": 5.36,
+      "lng": -4.0083,
+      "label": "Abidjan Plateau 🇨🇮",
+      "words": [
+        "skyscraper",
+        "bridge",
+        "lagoon",
+        "street market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 6.3703,
+      "lng": 2.3912,
+      "label": "Cotonou, Benin 🇧🇯",
+      "words": [
+        "zémidjan motorcycle taxi",
+        "market",
+        "voodoo shop",
+        "lagoon",
+        "colourful house"
+      ]
+    },
+    {
+      "lat": 9.0579,
+      "lng": 7.4951,
+      "label": "Abuja, Nigeria 🇳🇬",
+      "words": [
+        "National Mosque",
+        "wide boulevard",
+        "rock formation",
+        "modern building",
+        "round-about"
+      ]
+    },
+    {
+      "lat": 14.6937,
+      "lng": -17.4441,
+      "label": "Dakar, Senegal 🇸🇳",
+      "words": [
+        "Atlantic cliff",
+        "mosque",
+        "colourful bus",
+        "fish market",
+        "baobab tree"
+      ]
+    },
+    {
+      "lat": 12.3569,
+      "lng": -1.5353,
+      "label": "Ouagadougou, Burkina Faso 🇧🇫",
+      "words": [
+        "moped swarm",
+        "street vendor",
+        "mud-brick wall",
+        "market",
+        "mosque"
+      ]
+    },
+    {
+      "lat": 9.35,
+      "lng": 42.8,
+      "label": "Jijiga, ET 🇪🇹",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 9.458,
+      "lng": -5.6296,
+      "label": "Korhogo, CI 🇨🇮",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": 30.7885,
+      "lng": 31.0019,
+      "label": "Tanta, EG 🇪🇬",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 7.6939,
+      "lng": -5.0303,
+      "label": "Bouaké, CI 🇨🇮",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": -25.7449,
+      "lng": 28.1878,
+      "label": "Pretoria, ZA 🇿🇦",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": -14.9172,
+      "lng": 13.4925,
+      "label": "Lubango, AO 🇦🇴",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 32.1149,
+      "lng": 20.0686,
+      "label": "Benghazi, LY 🇱🇾",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": -19.8436,
+      "lng": 34.8389,
+      "label": "Beira, MZ 🇲🇿",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 30.0626,
+      "lng": 31.2497,
+      "label": "Cairo, EG 🇪🇬",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": -6.8235,
+      "lng": 39.2695,
+      "label": "Dar es Salaam, TZ 🇹🇿",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": -13.9669,
+      "lng": 33.7873,
+      "label": "Lilongwe, MW 🇲🇼",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 15.6445,
+      "lng": 32.4777,
+      "label": "Omdurman, SD 🇸🇩",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 34.6814,
+      "lng": -1.9086,
+      "label": "Oujda, MA 🇲🇦",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 6.3654,
+      "lng": 2.4183,
+      "label": "Cotonou, BJ 🇧🇯",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -4.0547,
+      "lng": 39.6636,
+      "label": "Mombasa, KE 🇰🇪",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": -10.983,
+      "lng": 26.7384,
+      "label": "Likasi, CD 🇨🇩",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 5.4161,
+      "lng": -4.0159,
+      "label": "Abobo, CI 🇨🇮",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": 32.8874,
+      "lng": 13.1873,
+      "label": "Tripoli, LY 🇱🇾",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": -6.1639,
+      "lng": 39.1979,
+      "label": "Zanzibar, TZ 🇹🇿",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 12.0001,
+      "lng": 8.5167,
+      "label": "Kano, NG 🇳🇬",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": -26.5333,
+      "lng": 27.85,
+      "label": "Evaton, ZA 🇿🇦",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": -25.9964,
+      "lng": 28.2268,
+      "label": "Thembisa, ZA 🇿🇦",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": -25.9622,
+      "lng": 32.4589,
+      "label": "Matola, MZ 🇲🇿",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 8.4966,
+      "lng": 4.5421,
+      "label": "Ilorin, NG 🇳🇬",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 30.6043,
+      "lng": 32.2722,
+      "label": "Ismailia, EG 🇪🇬",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 0.3163,
+      "lng": 32.5822,
+      "label": "Kampala, UG 🇺🇬",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": -6.821,
+      "lng": 37.6612,
+      "label": "Morogoro, TZ 🇹🇿",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -0.3072,
+      "lng": 36.0722,
+      "label": "Nakuru, KE 🇰🇪",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": 36.819,
+      "lng": 10.1658,
+      "label": "Tunis, TN 🇹🇳",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 33.5883,
+      "lng": -7.6114,
+      "label": "Casablanca, MA 🇲🇦",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": -12.7761,
+      "lng": 15.7392,
+      "label": "Huambo, AO 🇦🇴",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 12.0489,
+      "lng": 24.8807,
+      "label": "Nyala, SD 🇸🇩",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": 9.025,
+      "lng": 38.7469,
+      "label": "Addis Ababa, ET 🇪🇹",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": -1.95,
+      "lng": 30.0588,
+      "label": "Kigali, RW 🇷🇼",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    },
+    {
+      "lat": -29.6168,
+      "lng": 30.3928,
+      "label": "Pietermaritzburg, ZA 🇿🇦",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 15.5518,
+      "lng": 32.5324,
+      "label": "Khartoum, SD 🇸🇩",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -10.7148,
+      "lng": 25.4667,
+      "label": "Kolwezi, CD 🇨🇩",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 12.3657,
+      "lng": -1.5339,
+      "label": "Ouagadougou, BF 🇧🇫",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 3.8667,
+      "lng": 11.5167,
+      "label": "Yaoundé, CM 🇨🇲",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 0.5204,
+      "lng": 35.2699,
+      "label": "Eldoret, KE 🇰🇪",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 14.8623,
+      "lng": -15.8753,
+      "label": "Touba, SN 🇸🇳",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 12.9908,
+      "lng": 7.6018,
+      "label": "Katsina, NG 🇳🇬",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -4.2661,
+      "lng": 15.2832,
+      "label": "Brazzaville, CG 🇨🇬",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -3.3819,
+      "lng": 29.3614,
+      "label": "Bujumbura, BI 🇧🇮",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 11.1806,
+      "lng": -4.2949,
+      "label": "Bobo-Dioulasso, BF 🇧🇫",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 6.6885,
+      "lng": -1.6244,
+      "label": "Kumasi, GH 🇬🇭",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": 0.3639,
+      "lng": 32.5286,
+      "label": "Nansana, UG 🇺🇬",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "label": "Fes, MA 🇲🇦",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -20.15,
+      "lng": 28.5833,
+      "label": "Bulawayo, ZW 🇿🇼",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": -17.8277,
+      "lng": 31.0534,
+      "label": "Harare, ZW 🇿🇼",
+      "words": [
+        "market stall",
+        "minaret",
+        "mud-brick wall",
+        "motorbike taxi",
+        "colourful bus"
+      ]
+    },
+    {
+      "lat": -5.562,
+      "lng": 12.1948,
+      "label": "Cabinda, AO 🇦🇴",
+      "words": [
+        "fish market",
+        "beach",
+        "fishing boat",
+        "palm tree",
+        "corrugated iron roof"
+      ]
+    },
+    {
+      "lat": -5.8962,
+      "lng": 22.4166,
+      "label": "Kananga, CD 🇨🇩",
+      "words": [
+        "souk",
+        "carved door",
+        "arch",
+        "carpet shop",
+        "narrow alley"
+      ]
+    },
+    {
+      "lat": 36.365,
+      "lng": 6.6147,
+      "label": "Constantine, DZ 🇩🇿",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 14.6937,
+      "lng": -17.4441,
+      "label": "Dakar, SN 🇸🇳",
+      "words": [
+        "village hut",
+        "red earth road",
+        "baobab tree",
+        "water pump",
+        "children playing"
+      ]
+    },
+    {
+      "lat": 9.4008,
+      "lng": -0.8393,
+      "label": "Tamale, GH 🇬🇭",
+      "words": [
+        "colonial building",
+        "wide boulevard",
+        "jacaranda tree",
+        "roundabout",
+        "taxi rank"
+      ]
+    }
+  ]
+}

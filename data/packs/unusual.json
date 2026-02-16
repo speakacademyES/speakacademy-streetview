@@ -1,0 +1,246 @@
+{
+  "id": "unusual",
+  "label": "🗺️ Unusual Places",
+  "locations": [
+    {
+      "lat": 64.9631,
+      "lng": -19.0208,
+      "label": "Geysir Hot Springs, Iceland 🇮🇸",
+      "words": [
+        "geyser",
+        "steam",
+        "geothermal pool",
+        "volcanic rock",
+        "tourist walkway"
+      ]
+    },
+    {
+      "lat": 78.2232,
+      "lng": 15.6267,
+      "label": "Longyearbyen, Svalbard 🇸🇯",
+      "words": [
+        "Arctic town",
+        "polar bear warning sign",
+        "wooden houses",
+        "snowmobile",
+        "permafrost"
+      ]
+    },
+    {
+      "lat": -77.846,
+      "lng": 166.6863,
+      "label": "McMurdo Station, Antarctica 🇦🇶",
+      "words": [
+        "research station",
+        "ice runway",
+        "cargo container",
+        "snow",
+        "Mount Erebus"
+      ]
+    },
+    {
+      "lat": 0.0,
+      "lng": -90.3,
+      "label": "Puerto Ayora, Galápagos 🇪🇨",
+      "words": [
+        "giant tortoise",
+        "blue-footed booby",
+        "lava rock",
+        "research station",
+        "boat"
+      ]
+    },
+    {
+      "lat": -54.8019,
+      "lng": -68.303,
+      "label": "Ushuaia, Argentina 🇦🇷",
+      "words": [
+        "fin del mundo",
+        "channel",
+        "mountain",
+        "snow cap",
+        "colourful house"
+      ]
+    },
+    {
+      "lat": 28.2937,
+      "lng": -16.6291,
+      "label": "Teide National Park, Tenerife 🇪🇸",
+      "words": [
+        "volcano",
+        "lunar landscape",
+        "cable car",
+        "lava field",
+        "crater"
+      ]
+    },
+    {
+      "lat": 27.1127,
+      "lng": -13.1867,
+      "label": "Dakhla, Western Sahara 🇲🇦",
+      "words": [
+        "sandbar peninsula",
+        "kite surfing",
+        "desert",
+        "Atlantic",
+        "fishing village"
+      ]
+    },
+    {
+      "lat": 13.5137,
+      "lng": 2.1098,
+      "label": "Niamey, Niger 🇳🇪",
+      "words": [
+        "Niger River",
+        "camel",
+        "mud-brick market",
+        "oil drum boat",
+        "moped taxi"
+      ]
+    },
+    {
+      "lat": -21.1789,
+      "lng": 55.5128,
+      "label": "Saint-Denis, Réunion 🇷🇪",
+      "words": [
+        "Creole house",
+        "loukoum shop",
+        "volcano backdrop",
+        "market",
+        "Kreol architecture"
+      ]
+    },
+    {
+      "lat": 4.1755,
+      "lng": 73.5093,
+      "label": "Malé, Maldives 🇲🇻",
+      "words": [
+        "densely packed building",
+        "coral mosque",
+        "harbour",
+        "ferry jetty",
+        "ocean horizon"
+      ]
+    },
+    {
+      "lat": -20.1609,
+      "lng": 57.4983,
+      "label": "Port Louis, Mauritius 🇲🇺",
+      "words": [
+        "Caudan Waterfront",
+        "Creole market",
+        "lighthouse",
+        "Chinatown sign",
+        "port"
+      ]
+    },
+    {
+      "lat": 47.0105,
+      "lng": 28.8638,
+      "label": "Chișinău, Moldova 🇲🇩",
+      "words": [
+        "Soviet-era building",
+        "park alley",
+        "wine country sign",
+        "trolleybus",
+        "abandoned kiosk"
+      ]
+    },
+    {
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "label": "Tbilisi Old Town, Georgia 🇬🇪",
+      "words": [
+        "carved wooden balcony",
+        "sulfur bath",
+        "Mtkvari River",
+        "cliff church",
+        "colourful house"
+      ]
+    },
+    {
+      "lat": 40.1431,
+      "lng": 47.5769,
+      "label": "Sheki, Azerbaijan 🇦🇿",
+      "words": [
+        "Silk Road caravanserai",
+        "stained glass",
+        "mountain valley",
+        "walnut shop",
+        "fortress"
+      ]
+    },
+    {
+      "lat": 39.9334,
+      "lng": 32.8597,
+      "label": "Ankara Citadel, Turkey 🇹🇷",
+      "words": [
+        "ancient fortress wall",
+        "anatolian craft shop",
+        "rooftop view",
+        "mosque",
+        "cobblestone"
+      ]
+    },
+    {
+      "lat": 36.2021,
+      "lng": 37.1343,
+      "label": "Aleppo Old City, Syria 🇸🇾",
+      "words": [
+        "citadel",
+        "covered souk",
+        "ancient mosaic",
+        "rubble",
+        "rebuilding"
+      ]
+    },
+    {
+      "lat": -8.8383,
+      "lng": 13.2344,
+      "label": "Luanda, Angola 🇦🇴",
+      "words": [
+        "Ilha promenade",
+        "Portuguese colonial",
+        "Atlantic",
+        "colourful building",
+        "fishing boat"
+      ]
+    },
+    {
+      "lat": -18.9161,
+      "lng": 47.5361,
+      "label": "Antananarivo, Madagascar 🇲🇬",
+      "words": [
+        "terracotta house",
+        "rice paddy",
+        "church spire",
+        "hillside staircase",
+        "market"
+      ]
+    },
+    {
+      "lat": 15.5528,
+      "lng": 32.5324,
+      "label": "Omdurman Market, Sudan 🇸🇩",
+      "words": [
+        "gold bazaar",
+        "Nile bank",
+        "camel market",
+        "whirling dervish",
+        "mud-brick mosque"
+      ]
+    },
+    {
+      "lat": -15.4167,
+      "lng": 28.2833,
+      "label": "Lusaka, Zambia 🇿🇲",
+      "words": [
+        "market",
+        "Independence Avenue",
+        "jacaranda tree",
+        "minibus",
+        "wire sculpture"
+      ]
+    }
+  ]
+}
