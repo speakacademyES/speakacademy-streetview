@@ -576,14 +576,18 @@ function initLocationSearch() {
   const dropdown = document.getElementById('search-dropdown');
   let activeIdx  = -1;
 
+  function normalize(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
   function showResults(query) {
     dropdown.innerHTML = '';
     activeIdx = -1;
     if (query.length < 2) { dropdown.classList.remove('visible'); return; }
 
-    const q = query.toLowerCase();
+    const q = normalize(query);
     const matches = LOCATIONS
-      .filter(loc => loc.label.toLowerCase().includes(q))
+      .filter(loc => normalize(loc.label).includes(q))
       .slice(0, 8);
 
     if (!matches.length) { dropdown.classList.remove('visible'); return; }
@@ -591,8 +595,9 @@ function initLocationSearch() {
     matches.forEach((loc, i) => {
       const div = document.createElement('div');
       div.className = 'search-result';
-      // Bold the matching part
-      const idx = loc.label.toLowerCase().indexOf(q);
+      // Bold the matching part (normalize for search, display original)
+      const normLabel = normalize(loc.label);
+      const idx = normLabel.indexOf(q);
       const before = loc.label.slice(0, idx);
       const match  = loc.label.slice(idx, idx + q.length);
       const after  = loc.label.slice(idx + q.length);
