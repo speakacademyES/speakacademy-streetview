@@ -68,6 +68,11 @@
   #btn-guess-a:hover { background: #2563eb; }
   #btn-next { background: #facc15; color: #0f0f0f; display: none; }
   #btn-next:hover { background: #eab308; }
+  #btn-skip-loc {
+    background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.2); display: none;
+  }
+  #btn-skip-loc:hover { background: rgba(255,255,255,0.2); color: #fff; }
 
   /* ── Guess Map Overlay ── */
   #guess-overlay {
@@ -310,6 +315,7 @@
 
 <!-- Bottom bar -->
 <div id="bottom-bar">
+  <button class="ctrl-btn" id="btn-skip-loc" onclick="skipLocation()">🔄 Load new place</button>
   <button class="ctrl-btn" id="btn-guess-a" onclick="openGuessMap(currentTeam)" style="display:none">🔵 Guess your location</button>
   <button class="ctrl-btn" id="btn-next" onclick="nextRound()">⏭ Next Round</button>
 </div>
@@ -449,6 +455,25 @@ function pickLocation() {
 function loadPanorama(loc) {
   panorama.setPosition({ lat: loc.lat, lng: loc.lng });
   panorama.setPov({ heading: Math.floor(Math.random() * 360), pitch: 0, zoom: 1 });
+
+  // Auto-skip if no coverage (black screen)
+  google.maps.event.addListenerOnce(panorama, 'status_changed', function() {
+    if (panorama.getStatus() !== 'OK') {
+      console.warn('No coverage at', loc.label, '— auto-skipping');
+      document.getElementById('phase-label').textContent = '⚠️ No coverage — loading another…';
+      const newLoc = pickLocation();
+      teamLocs[currentTeam] = newLoc;
+      loadPanorama(newLoc);
+    }
+  });
+}
+
+// ── Skip Location (manual button) ────────────────────────────────────────
+function skipLocation() {
+  const newLoc = pickLocation();
+  teamLocs[currentTeam] = newLoc;
+  loadPanorama(newLoc);
+  document.getElementById('phase-label').textContent = '📍 Study the location…';
 }
 
 function loadRound() {
@@ -474,17 +499,19 @@ function cancelGuess() {
   document.getElementById('guess-search').value = '';
   if (pendingMarker) { pendingMarker.setMap(null); pendingMarker = null; }
   pendingLatLng = null;
-  // Restore guess button so they can re-open (timer keeps running)
+  // Restore buttons (timer keeps running)
   const btn = document.getElementById('btn-guess-a');
   btn.textContent      = currentTeam === 0 ? '🔵 Guess your location' : '🔴 Guess your location';
   btn.style.background = currentTeam === 0 ? '#3b82f6' : '#ef4444';
   btn.style.color      = '#fff';
   btn.style.display    = 'inline-block';
+  document.getElementById('btn-skip-loc').style.display = 'inline-block';
 }
 
 // ── Open Guess Map ───────────────────────────────────────────────────────
 function openGuessMap(team) {
-  document.getElementById('btn-guess-a').style.display = 'none';
+  document.getElementById('btn-guess-a').style.display  = 'none';
+  document.getElementById('btn-skip-loc').style.display = 'none';
   currentTeam  = team;
   pendingMarker = null;
   pendingLatLng = null;
@@ -799,9 +826,10 @@ function applyTimerPenalty(team) {
 function showTeamStart(team) {
   currentTeam = team;
   stopTimer();
-  // Hide guess button until team hits START
-  document.getElementById('btn-guess-a').style.display = 'none';
-  document.getElementById('btn-next').style.display    = 'none';
+  // Hide buttons until team hits START
+  document.getElementById('btn-guess-a').style.display  = 'none';
+  document.getElementById('btn-skip-loc').style.display = 'none';
+  document.getElementById('btn-next').style.display     = 'none';
 
   const label = document.getElementById('start-team-label');
   label.textContent = team === 0 ? 'TEAM A' : 'TEAM B';
@@ -821,6 +849,8 @@ function beginTurn() {
   btn.style.background = currentTeam === 0 ? '#3b82f6' : '#ef4444';
   btn.style.color      = '#fff';
   btn.style.display    = 'inline-block';
+
+  document.getElementById('btn-skip-loc').style.display = 'inline-block';
 
   startGuessTimer(currentTeam);
 }
