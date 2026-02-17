@@ -92,6 +92,20 @@
   }
   #guess-header.team-a { color: #60a5fa; }
   #guess-header.team-b { color: #f87171; }
+  /* ── Guess search ── */
+  #guess-search-wrap {
+    width: min(820px, 95vw);
+    display: flex; gap: 8px; align-items: center;
+  }
+  #guess-search {
+    flex: 1; padding: 10px 16px; border-radius: 10px;
+    border: 1.5px solid rgba(255,255,255,0.25);
+    background: rgba(20,20,20,0.92); color: #fff;
+    font-size: 0.95rem; outline: none;
+  }
+  #guess-search::placeholder { color: rgba(255,255,255,0.35); }
+  #guess-search:focus { border-color: #facc15; }
+
   #guess-footer {
     display: flex; gap: 12px; align-items: center;
   }
@@ -303,6 +317,9 @@
 <!-- Guess map overlay -->
 <div id="guess-overlay">
   <div id="guess-header" class="team-a">🔵 TEAM A — Click your guess on the map</div>
+  <div id="guess-search-wrap">
+    <input id="guess-search" type="text" placeholder="🔍 Search for a city or place…" autocomplete="off" />
+  </div>
   <div id="guess-map-wrap">
     <div id="guess-map"></div>
   </div>
@@ -396,9 +413,10 @@ const PACKS = [
 let panorama      = null;
 let guessMap      = null;
 let revealMap     = null;
+let autocomplete  = null;
 let round         = 1;
 let scores        = [0, 0];          // cumulative km, lower is better
-let currentLoc    = null;
+let teamLocs      = [null, null];    // separate location per team each round
 let guesses       = [null, null];    // {lat, lng, km} per team
 let pendingMarker = null;
 let pendingLatLng = null;
@@ -428,27 +446,23 @@ function pickLocation() {
 }
 
 // ── Load Street View ─────────────────────────────────────────────────────
-function loadRound() {
-  currentLoc = pickLocation();
-  guesses    = [null, null];
-  currentTeam = 0;
-
-  panorama.setPosition({ lat: currentLoc.lat, lng: currentLoc.lng });
+function loadPanorama(loc) {
+  panorama.setPosition({ lat: loc.lat, lng: loc.lng });
   panorama.setPov({ heading: Math.floor(Math.random() * 360), pitch: 0, zoom: 1 });
+}
 
-  // Skip location if no Street View coverage
-  google.maps.event.addListenerOnce(panorama, 'status_changed', function() {
-    if (panorama.getStatus() !== 'OK') {
-      console.warn('No Street View coverage at', currentLoc.label, '— skipping');
-      currentLoc = pickLocation();
-      panorama.setPosition({ lat: currentLoc.lat, lng: currentLoc.lng });
-      panorama.setPov({ heading: Math.floor(Math.random() * 360), pitch: 0, zoom: 1 });
-    }
-  });
+function loadRound() {
+  // Pick a DIFFERENT location for each team
+  teamLocs[0]  = pickLocation();
+  teamLocs[1]  = pickLocation();
+  guesses      = [null, null];
+  currentTeam  = 0;
 
-  document.getElementById('round-num').textContent = round;
+  loadPanorama(teamLocs[0]);
+
+  document.getElementById('round-num').textContent  = round;
   document.getElementById('phase-label').textContent = '📍 Study the location…';
-  document.getElementById('btn-next').style.display   = 'none';
+  document.getElementById('btn-next').style.display  = 'none';
 
   updateScoreCards();
   showTeamStart(0);
@@ -457,6 +471,7 @@ function loadRound() {
 // ── Cancel Guess ──────────────────────────────────────────────────────────
 function cancelGuess() {
   document.getElementById('guess-overlay').classList.remove('visible');
+  document.getElementById('guess-search').value = '';
   if (pendingMarker) { pendingMarker.setMap(null); pendingMarker = null; }
   pendingLatLng = null;
   // Restore guess button so they can re-open (timer keeps running)
@@ -504,6 +519,21 @@ function openGuessMap(team) {
     guessMap.addListener('click', function(e) {
       handleMapClick(e.latLng);
     });
+
+    // Places autocomplete search box
+    const searchInput = document.getElementById('guess-search');
+    autocomplete = new google.maps.places.Autocomplete(searchInput, {
+      types: ['(cities)'],
+      fields: ['geometry', 'name']
+    });
+    autocomplete.addListener('place_changed', function() {
+      const place = autocomplete.getPlace();
+      if (!place.geometry || !place.geometry.location) return;
+      guessMap.setCenter(place.geometry.location);
+      guessMap.setZoom(6);
+      handleMapClick(place.geometry.location);
+      searchInput.value = '';
+    });
   }
 
   // Show Team A marker if it exists (during Team B's turn)
@@ -544,9 +574,10 @@ function confirmGuess() {
   if (!pendingLatLng) return;
   pauseTimer();
 
+  const loc = teamLocs[currentTeam];
   const km = haversine(
     pendingLatLng.lat(), pendingLatLng.lng(),
-    currentLoc.lat, currentLoc.lng
+    loc.lat, loc.lng
   );
 
   guesses[currentTeam] = { lat: pendingLatLng.lat(), lng: pendingLatLng.lng(), km };
@@ -574,8 +605,9 @@ function showReveal() {
   // Winner of this round
   const roundWinner = guesses[0].km <= guesses[1].km ? 0 : 1;
 
-  // Update reveal panel
-  document.getElementById('reveal-location-label').textContent = '📍 ' + currentLoc.label;
+  // Update reveal panel — show both locations
+  document.getElementById('reveal-location-label').textContent =
+    `🔵 ${teamLocs[0].label}  ·  🔴 ${teamLocs[1].label}`;
 
   for (let i = 0; i < 2; i++) {
     const g = guesses[i];
@@ -612,40 +644,42 @@ function showReveal() {
     revealMap._markers = [];
     revealMap._lines   = [];
 
-    const actualLatLng = { lat: currentLoc.lat, lng: currentLoc.lng };
-
-    // Actual location (gold star)
-    const actualM = new google.maps.Marker({
-      position: actualLatLng, map: revealMap,
-      label: { text: '★', color: '#0f0f0f', fontWeight: 'bold', fontSize: '14px' },
-      icon: { path: google.maps.SymbolPath.CIRCLE, scale: 16,
-              fillColor: '#facc15', fillOpacity: 1, strokeColor: '#0f0f0f', strokeWeight: 2 },
-      title: currentLoc.label, zIndex: 10
-    });
-    revealMap._markers.push(actualM);
-
-    const colors = ['#3b82f6', '#ef4444'];
-    const labels = ['A', 'B'];
-    const bounds = new google.maps.LatLngBounds();
-    bounds.extend(actualLatLng);
+    const colors      = ['#3b82f6', '#ef4444'];
+    const teamLabels  = ['A', 'B'];
+    const starColors  = ['#60a5fa', '#f87171'];  // blue/red star per team
+    const bounds      = new google.maps.LatLngBounds();
 
     for (let i = 0; i < 2; i++) {
-      if (guesses[i] && guesses[i].penalty) continue; // skip penalty — no pin
-      const pos = { lat: guesses[i].lat, lng: guesses[i].lng };
-      const m = new google.maps.Marker({
-        position: pos, map: revealMap,
-        label: { text: labels[i], color: '#fff', fontWeight: 'bold' },
-        icon: { path: google.maps.SymbolPath.CIRCLE, scale: 13,
-                fillColor: colors[i], fillOpacity: 1, strokeColor: '#fff', strokeWeight: 2 }
+      const actualLatLng = { lat: teamLocs[i].lat, lng: teamLocs[i].lng };
+
+      // Actual location (coloured star per team)
+      const actualM = new google.maps.Marker({
+        position: actualLatLng, map: revealMap,
+        label: { text: '★', color: '#0f0f0f', fontWeight: 'bold', fontSize: '14px' },
+        icon: { path: google.maps.SymbolPath.CIRCLE, scale: 16,
+                fillColor: starColors[i], fillOpacity: 1, strokeColor: '#0f0f0f', strokeWeight: 2 },
+        title: teamLocs[i].label, zIndex: 10
       });
-      const line = new google.maps.Polyline({
-        path: [pos, actualLatLng], map: revealMap,
-        strokeColor: colors[i], strokeOpacity: 0.7, strokeWeight: 2,
-        icons: [{ icon: { path: google.maps.SymbolPath.FORWARD_OPEN_ARROW }, offset: '100%' }]
-      });
-      revealMap._markers.push(m);
-      revealMap._lines.push(line);
-      bounds.extend(pos);
+      revealMap._markers.push(actualM);
+      bounds.extend(actualLatLng);
+
+      if (guesses[i] && !guesses[i].penalty) {
+        const pos = { lat: guesses[i].lat, lng: guesses[i].lng };
+        const m = new google.maps.Marker({
+          position: pos, map: revealMap,
+          label: { text: teamLabels[i], color: '#fff', fontWeight: 'bold' },
+          icon: { path: google.maps.SymbolPath.CIRCLE, scale: 13,
+                  fillColor: colors[i], fillOpacity: 1, strokeColor: '#fff', strokeWeight: 2 }
+        });
+        const line = new google.maps.Polyline({
+          path: [pos, actualLatLng], map: revealMap,
+          strokeColor: colors[i], strokeOpacity: 0.7, strokeWeight: 2,
+          icons: [{ icon: { path: google.maps.SymbolPath.FORWARD_OPEN_ARROW }, offset: '100%' }]
+        });
+        revealMap._markers.push(m);
+        revealMap._lines.push(line);
+        bounds.extend(pos);
+      }
     }
 
     revealMap.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
@@ -778,6 +812,9 @@ function showTeamStart(team) {
 function beginTurn() {
   document.getElementById('start-overlay').classList.remove('visible');
 
+  // Switch Street View to this team's location
+  loadPanorama(teamLocs[currentTeam]);
+
   // Show correct colour on guess button
   const btn = document.getElementById('btn-guess-a');
   btn.textContent      = currentTeam === 0 ? '🔵 Guess your location' : '🔴 Guess your location';
@@ -862,7 +899,7 @@ function initMap() {
     return;
   }
   const s = document.createElement('script');
-  s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_API_KEY}&callback=initMap&loading=async`;
+  s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_API_KEY}&libraries=places&callback=initMap&loading=async`;
   s.async = true;
   document.head.appendChild(s);
 })();
