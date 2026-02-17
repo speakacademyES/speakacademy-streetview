@@ -517,15 +517,8 @@ function confirmGuess() {
   document.getElementById('guess-overlay').classList.remove('visible');
 
   if (currentTeam === 0) {
-    // Team A done → show Team B start button
     document.getElementById('phase-label').textContent = '📍 Team A guessed! Team B, ready?';
-    const btn = document.getElementById('btn-guess-a');
-    btn.textContent = '🔴 Team B — Start Your Turn';
-    btn.className   = 'ctrl-btn';
-    btn.style.background = '#ef4444';
-    btn.style.color      = '#fff';
-    btn.onclick = () => { btn.style.background = ''; btn.style.color = ''; openGuessMap(1); };
-    btn.style.display = 'inline-block';
+    showTeamBButton();
   } else {
     // Both done → reveal
     document.getElementById('btn-guess-a').style.display = 'none';
@@ -535,9 +528,9 @@ function confirmGuess() {
 
 // ── Show Reveal ──────────────────────────────────────────────────────────
 function showReveal() {
-  // Update cumulative scores
-  scores[0] += guesses[0].km;
-  scores[1] += guesses[1].km;
+  // Update cumulative scores (penalty = 2000km if no guess)
+  scores[0] += (guesses[0] ? guesses[0].km : PENALTY_KM);
+  scores[1] += (guesses[1] ? guesses[1].km : PENALTY_KM);
 
   // Winner of this round
   const roundWinner = guesses[0].km <= guesses[1].km ? 0 : 1;
@@ -546,10 +539,11 @@ function showReveal() {
   document.getElementById('reveal-location-label').textContent = '📍 ' + currentLoc.label;
 
   for (let i = 0; i < 2; i++) {
-    const isPenalty = guesses[i] && guesses[i].penalty;
+    const g = guesses[i];
+    const isPenalty = !g || g.penalty;
     document.getElementById('reveal-km-' + i).textContent = isPenalty
       ? `⏰ +${PENALTY_KM.toLocaleString()} km (time up)`
-      : guesses[i].km.toLocaleString() + ' km';
+      : g.km.toLocaleString() + ' km';
     document.getElementById('reveal-total-' + i).textContent = 'Total: ' + scores[i].toLocaleString() + ' km';
     document.getElementById('reveal-badge-' + i).textContent = i === roundWinner ? '🏅 Closer!' : '';
     document.getElementById('reveal-card-' + i).classList.toggle('winner', i === roundWinner);
@@ -597,6 +591,7 @@ function showReveal() {
     bounds.extend(actualLatLng);
 
     for (let i = 0; i < 2; i++) {
+      if (guesses[i] && guesses[i].penalty) continue; // skip penalty — no pin
       const pos = { lat: guesses[i].lat, lng: guesses[i].lng };
       const m = new google.maps.Marker({
         position: pos, map: revealMap,
@@ -667,75 +662,78 @@ function updateScoreCards() {
 const GUESS_SECONDS = 90;
 const PENALTY_KM    = 2000;
 let timerInterval   = null;
-let timerSeconds    = GUESS_SECONDS;
-let timerTeam       = 0;
+let timerSeconds    = 0;
+let timerTeam       = -1;
 
 function startGuessTimer(team) {
-  pauseTimer(); // clear any existing interval
-  // Only reset seconds if switching to a new team (not reopening same team's map)
-  if (team !== timerTeam || timerSeconds <= 0 || timerSeconds === GUESS_SECONDS) {
-    timerSeconds = GUESS_SECONDS;
-  }
-  timerTeam = team;
-  updateTimerDisplay();
+  clearInterval(timerInterval);
+  timerTeam    = team;
+  timerSeconds = GUESS_SECONDS;
+  renderTimer();
   timerInterval = setInterval(() => {
     timerSeconds--;
-    updateTimerDisplay();
+    renderTimer();
     if (timerSeconds <= 0) {
-      stopTimer();
+      clearInterval(timerInterval);
+      timerInterval = null;
       applyTimerPenalty(team);
     }
   }, 1000);
 }
 
 function pauseTimer() {
-  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+  clearInterval(timerInterval);
+  timerInterval = null;
 }
 
 function stopTimer() {
-  pauseTimer();
-  timerSeconds = GUESS_SECONDS;
+  clearInterval(timerInterval);
+  timerInterval = null;
+  timerTeam    = -1;
+  timerSeconds = 0;
   const el = document.getElementById('timer-badge');
   el.textContent = '⏱ —';
   el.className = '';
 }
 
-function updateTimerDisplay() {
-  const el   = document.getElementById('timer-badge');
-  const min  = Math.floor(timerSeconds / 60);
-  const sec  = String(Math.max(timerSeconds % 60, 0)).padStart(2, '0');
-  const team = timerTeam === 0 ? '🔵' : '🔴';
-  el.textContent = `${team} ${min}:${sec}`;
+function renderTimer() {
+  const el  = document.getElementById('timer-badge');
+  const min = Math.floor(timerSeconds / 60);
+  const sec = String(timerSeconds % 60).padStart(2, '0');
+  const icon = timerTeam === 0 ? '🔵' : '🔴';
+  el.textContent = `${icon} ${min}:${sec}`;
   el.className = timerSeconds <= 10 ? 'danger' : timerSeconds <= 30 ? 'warning' : '';
 }
 
 function applyTimerPenalty(team) {
-  // Close guess overlay
   document.getElementById('guess-overlay').classList.remove('visible');
   if (pendingMarker) { pendingMarker.setMap(null); pendingMarker = null; }
   pendingLatLng = null;
 
-  // Record penalty guess
-  guesses[team] = { lat: 0, lng: 0, km: PENALTY_KM, penalty: true };
+  guesses[team] = { penalty: true, km: PENALTY_KM };  // no lat/lng — skip map pin
 
   const teamName = team === 0 ? 'Team A' : 'Team B';
-  document.getElementById('phase-label').textContent = `⏰ ${teamName} ran out of time! +${PENALTY_KM.toLocaleString()} km`;
+  document.getElementById('phase-label').textContent =
+    `⏰ ${teamName} ran out of time! +${PENALTY_KM.toLocaleString()} km penalty`;
 
   if (team === 0) {
-    // Team A penalised → show Team B start button
-    setTimeout(() => {
-      const btn = document.getElementById('btn-guess-a');
-      btn.textContent = '🔴 Team B — Start Your Turn';
-      btn.style.background = '#ef4444';
-      btn.style.color      = '#fff';
-      btn.onclick = () => { btn.style.background = ''; btn.style.color = ''; openGuessMap(1); };
-      btn.style.display = 'inline-block';
-    }, 1200);
+    setTimeout(() => showTeamBButton(), 1500);
   } else {
-    // Team B penalised → reveal
-    document.getElementById('btn-guess-a').style.display = 'none';
-    setTimeout(() => showReveal(), 1200);
+    setTimeout(() => showReveal(), 1500);
   }
+}
+
+function showTeamBButton() {
+  const btn = document.getElementById('btn-guess-a');
+  btn.textContent      = '🔴 Team B — Start Your Turn';
+  btn.style.background = '#ef4444';
+  btn.style.color      = '#fff';
+  btn.style.display    = 'inline-block';
+  btn.onclick = () => {
+    btn.style.background = '';
+    btn.style.color      = '';
+    openGuessMap(1);
+  };
 }
 
 // ── Pack Selector ─────────────────────────────────────────────────────────
