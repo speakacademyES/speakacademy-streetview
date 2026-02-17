@@ -6,7 +6,7 @@ Avoids over-indexing on famous capitals; prefers variety.
 """
 import csv, json, os, random
 
-GEONAMES_FILE = "/tmp/cities15000.txt"
+GEONAMES_FILE = "/tmp/cities1000.txt"
 
 # GeoNames tab-separated columns (0-indexed)
 # 0:id 1:name 2:asciiname 3:altnames 4:lat 5:lng 6:feat_class 7:feat_code
@@ -55,14 +55,14 @@ CONTINENT = {
     "TO":"OC","TV":"OC","VU":"OC","WF":"OC","WS":"OC",
 }
 
-# Continent targets
+# Continent targets (~1,400 from GeoNames + 193 curated = ~1,600 total)
 TARGETS = {
-    "EU": 130,  # rich Street View coverage
-    "AS": 90,
-    "NA": 60,
-    "SA": 55,
-    "AF": 55,
-    "OC": 30,
+    "EU": 420,  # excellent Street View coverage
+    "AS": 310,
+    "NA": 180,
+    "SA": 180,
+    "AF": 230,
+    "OC": 100,
 }
 
 # Country → flag emoji
@@ -144,14 +144,33 @@ VOCAB_BY_CONTINENT = {
 
 # Countries with known poor/no Street View coverage (skip or reduce weight)
 LOW_COVERAGE = {
-    "AF","SY","IQ","YE","SO","SS","CF","TD","NE","ML","GN","GW","SL","LR",
-    "ER","DJ","KP","TM","TJ","MR","BD","MO","BT","NR","TV","KI","MH","PW",
+    "SO","SS","CF","TD","ER","KP","TM","NR","TV","KI","MH","PW",
+    "GW","SL","LR","GN","GM","MR",
 }
 
 # Countries to limit to 1-2 cities max (avoid over-indexing large nations)
-CAP_COUNTRIES = {"US":12,"CN":8,"IN":8,"RU":6,"BR":8,"AU":6,"DE":5,"GB":6,"FR":5,"IT":5,
-                 "ES":6,"CA":5,"MX":5,"JP":6,"KR":4,"TR":4,"ID":4,"PK":3,"NG":3,"ZA":4}
-DEFAULT_CAP = 3
+CAP_COUNTRIES = {
+    "US":60,"CN":40,"IN":40,"RU":30,"BR":45,"AU":28,
+    "DE":22,"GB":28,"FR":22,"IT":22,"ES":28,"CA":22,
+    "MX":28,"JP":28,"KR":18,"TR":18,"ID":15,"PK":12,
+    "NG":12,"ZA":18,"AR":22,"CO":18,"PL":15,"UA":15,
+    "NL":12,"BE":9,"PT":12,"GR":12,"SE":12,"NO":9,
+    "FI":9,"DK":9,"CZ":9,"HU":9,"RO":12,"TH":12,
+    "VN":12,"MY":9,"PH":12,"CL":12,"PE":12,"EC":9,
+    "MA":12,"EG":12,"KE":9,"TZ":8,"GH":8,"ET":8,
+    "DZ":9,"TN":8,"LY":5,"SD":6,"SN":6,"CM":6,
+    "CI":6,"AO":6,"MZ":6,"MW":6,"ZM":6,"ZW":6,
+    "BO":8,"PY":6,"UY":8,"VE":12,"CU":8,"DO":6,
+    "GT":6,"HN":6,"SV":5,"CR":6,"PA":6,"NI":6,
+    "IQ":8,"IR":12,"SA":12,"YE":3,"SY":3,"LB":6,
+    "JO":6,"IL":8,"KW":5,"QA":5,"OM":6,"BH":3,
+    "KZ":9,"UZ":8,"AZ":6,"GE":6,"AM":5,"TM":3,
+    "BD":12,"LK":8,"NP":8,"MM":8,"KH":6,"LA":5,
+    "MN":5,"AF":3,"RS":6,"HR":6,"BA":5,"SI":5,
+    "BG":6,"SK":5,"EE":4,"LV":4,"LT":4,"IS":4,
+    "NZ":9,"SG":4,"HK":4,"TW":6,
+}
+DEFAULT_CAP = 5
 
 def get_continent(cc):
     return CONTINENT.get(cc, None)
@@ -159,7 +178,16 @@ def get_continent(cc):
 def get_flag(cc):
     return FLAGS.get(cc, "🌍")
 
-def get_words(continent):
+VOCAB_BY_FEAT = {
+    "PPLC": [["government building", "main square", "national flag", "parliament", "wide avenue"]],
+    "PPLS": [["harbour", "beach", "promenade", "fishing boat", "seafront café"]],
+    "PPLR": [["village square", "church", "farmhouse", "local market", "country road"]],
+}
+
+def get_words(continent, feat="PPL"):
+    feat_pool = VOCAB_BY_FEAT.get(feat)
+    if feat_pool and random.random() < 0.4:
+        return random.choice(feat_pool)
     pool = VOCAB_BY_CONTINENT.get(continent, VOCAB_BY_CONTINENT["EU"])
     return random.choice(pool)
 
@@ -196,7 +224,7 @@ def load_cities(filepath):
                 continue
             if cc in LOW_COVERAGE:
                 continue
-            if pop < 20000:
+            if pop < 10000:
                 continue
 
             cities.append({
@@ -222,9 +250,9 @@ def select_balanced(cities, targets):
         if not pool:
             continue
 
-        # Sort by population descending; take top 3x target as candidates
+        # Sort by population descending; take top 5x target as candidates
         pool.sort(key=lambda x: x["pop"], reverse=True)
-        candidates = pool[:target * 3]
+        candidates = pool[:target * 5]
         random.shuffle(candidates)
 
         country_counts = {}
@@ -247,7 +275,7 @@ def build_location(city):
     cont = city["continent"]
     flag = get_flag(city["cc"])
     pack = get_pack_id(cont)
-    words = get_words(cont)
+    words = get_words(cont, city.get("feat", "PPL"))
     return {
         "lat": round(city["lat"], 4),
         "lng": round(city["lng"], 4),

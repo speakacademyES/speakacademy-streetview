@@ -267,9 +267,57 @@
       ]
     },
     {
-      "lat": 17.997,
-      "lng": -76.7936,
-      "label": "Kingston, JM 🇯🇲",
+      "lat": 13.1073,
+      "lng": -59.6202,
+      "label": "Bridgetown, BB 🇧🇧",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 18.615,
+      "lng": -68.708,
+      "label": "Salvaleón de Higüey, DO 🇩🇴",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 11.9306,
+      "lng": -85.9537,
+      "label": "Granada, NI 🇳🇮",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 15.6144,
+      "lng": -87.953,
+      "label": "Choloma, HN 🇭🇳",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 21.3808,
+      "lng": -77.9169,
+      "label": "Camagüey, CU 🇨🇺",
       "words": [
         "colonial building",
         "cobblestone",
@@ -279,9 +327,21 @@
       ]
     },
     {
-      "lat": 13.7102,
-      "lng": -89.1399,
-      "label": "Soyapango, SV 🇸🇻",
+      "lat": 33.8359,
+      "lng": -118.3406,
+      "label": "Torrance, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 39.5792,
+      "lng": -104.8769,
+      "label": "Centennial, US 🇺🇸",
       "words": [
         "wooden house",
         "church steeple",
@@ -291,27 +351,15 @@
       ]
     },
     {
-      "lat": 8.9936,
-      "lng": -79.5197,
-      "label": "Panamá, PA 🇵🇦",
+      "lat": 44.6713,
+      "lng": -63.5772,
+      "label": "Dartmouth, CA 🇨🇦",
       "words": [
-        "wooden house",
-        "church steeple",
-        "grain silo",
-        "railroad crossing",
-        "small-town diner"
-      ]
-    },
-    {
-      "lat": 18.4719,
-      "lng": -69.8923,
-      "label": "Santo Domingo, DO 🇩🇴",
-      "words": [
-        "pickup truck",
-        "strip mall",
-        "gas station",
-        "parking lot",
-        "wide boulevard"
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
       ]
     },
     {
@@ -319,65 +367,17 @@
       "lng": -101.3563,
       "label": "Irapuato, MX 🇲🇽",
       "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
       ]
     },
     {
-      "lat": 20.0229,
-      "lng": -75.8217,
-      "label": "Santiago de Cuba, CU 🇨🇺",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 21.3069,
-      "lng": -157.8583,
-      "label": "Honolulu, US 🇺🇸",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 19.3984,
-      "lng": -99.1577,
-      "label": "Benito Juarez, MX 🇲🇽",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 14.5251,
-      "lng": -90.5854,
-      "label": "Villa Nueva, GT 🇬🇹",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 43.6442,
-      "lng": -79.5699,
-      "label": "Etobicoke, CA 🇨🇦",
+      "lat": 48.382,
+      "lng": -89.2502,
+      "label": "Thunder Bay, CA 🇨🇦",
       "words": [
         "pickup truck",
         "strip mall",
@@ -387,9 +387,33 @@
       ]
     },
     {
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "label": "Philadelphia, US 🇺🇸",
+      "lat": 18.4554,
+      "lng": -69.9454,
+      "label": "Bella Vista, DO 🇩🇴",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 43.5459,
+      "lng": -80.256,
+      "label": "Guelph, CA 🇨🇦",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 28.0345,
+      "lng": -80.5887,
+      "label": "Palm Bay, US 🇺🇸",
       "words": [
         "wooden house",
         "church steeple",
@@ -399,45 +423,9 @@
       ]
     },
     {
-      "lat": 18.4663,
-      "lng": -66.1057,
-      "label": "San Juan, PR 🇵🇷",
-      "words": [
-        "pickup truck",
-        "strip mall",
-        "gas station",
-        "parking lot",
-        "wide boulevard"
-      ]
-    },
-    {
-      "lat": 18.0075,
-      "lng": -76.7832,
-      "label": "New Kingston, JM 🇯🇲",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 9.9339,
-      "lng": -84.0849,
-      "label": "San José, CR 🇨🇷",
-      "words": [
-        "colonial building",
-        "cobblestone",
-        "plaza",
-        "horse carriage",
-        "market stall"
-      ]
-    },
-    {
-      "lat": 33.767,
-      "lng": -118.1892,
-      "label": "Long Beach, US 🇺🇸",
+      "lat": 18.4539,
+      "lng": -69.3086,
+      "label": "San Pedro de Macorís, DO 🇩🇴",
       "words": [
         "beach promenade",
         "palm tree",
@@ -447,9 +435,21 @@
       ]
     },
     {
-      "lat": 32.7831,
-      "lng": -96.8067,
-      "label": "Dallas, US 🇺🇸",
+      "lat": 34.0633,
+      "lng": -117.6509,
+      "label": "Ontario, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 23.1194,
+      "lng": -82.392,
+      "label": "Plaza de la Revolución, CU 🇨🇺",
       "words": [
         "downtown skyscraper",
         "yellow cab",
@@ -459,9 +459,357 @@
       ]
     },
     {
-      "lat": 13.6893,
-      "lng": -89.1872,
-      "label": "San Salvador, SV 🇸🇻",
+      "lat": 34.0232,
+      "lng": -84.3616,
+      "label": "Roswell, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 31.5493,
+      "lng": -97.1467,
+      "label": "Waco, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 41.1176,
+      "lng": -73.4079,
+      "label": "Norwalk, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 42.3223,
+      "lng": -83.1763,
+      "label": "Dearborn, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 46.8033,
+      "lng": -71.1779,
+      "label": "Lévis, CA 🇨🇦",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 18.4171,
+      "lng": -70.1068,
+      "label": "San Cristóbal, DO 🇩🇴",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 48.5496,
+      "lng": -123.3693,
+      "label": "Saanich, CA 🇨🇦",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 34.4208,
+      "lng": -119.6982,
+      "label": "Santa Barbara, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 41.0534,
+      "lng": -73.5387,
+      "label": "Stamford, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 19.4475,
+      "lng": -72.6893,
+      "label": "Gonaïves, HT 🇭🇹",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 29.0887,
+      "lng": -110.9668,
+      "label": "Hermosillo, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 32.7668,
+      "lng": -96.5992,
+      "label": "Mesquite, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 49.1333,
+      "lng": -122.85,
+      "label": "Newton, CA 🇨🇦",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 18.0075,
+      "lng": -76.7832,
+      "label": "New Kingston, JM 🇯🇲",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 22.7684,
+      "lng": -102.5814,
+      "label": "Zacatecas, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 18.3575,
+      "lng": -66.111,
+      "label": "Guaynabo, PR 🇵🇷",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 45.499,
+      "lng": -73.5705,
+      "label": "Ville-Marie, CA 🇨🇦",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 18.446,
+      "lng": -73.0896,
+      "label": "Miragoâne, HT 🇭🇹",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 43.1334,
+      "lng": -80.2664,
+      "label": "Brantford, CA 🇨🇦",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 35.8456,
+      "lng": -86.3903,
+      "label": "Murfreesboro, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 49.2664,
+      "lng": -122.9526,
+      "label": "Burnaby, CA 🇨🇦",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 19.6666,
+      "lng": -99.0948,
+      "label": "San Pablo de las Salinas, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 19.2447,
+      "lng": -103.7127,
+      "label": "Colima, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 20.9613,
+      "lng": -76.9519,
+      "label": "Las Tunas, CU 🇨🇺",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 40.7608,
+      "lng": -111.8911,
+      "label": "Salt Lake City, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 19.5119,
+      "lng": -98.8829,
+      "label": "Texcoco de Mora, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 39.8366,
+      "lng": -105.0372,
+      "label": "Westminster, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 33.6603,
+      "lng": -117.9992,
+      "label": "Huntington Beach, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 20.3411,
+      "lng": -102.0225,
+      "label": "La Piedad de Cabadas, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 26.1223,
+      "lng": -80.1434,
+      "label": "Fort Lauderdale, US 🇺🇸",
       "words": [
         "pickup truck",
         "strip mall",
@@ -483,15 +831,819 @@
       ]
     },
     {
-      "lat": 14.6407,
-      "lng": -90.5133,
-      "label": "Guatemala City, GT 🇬🇹",
+      "lat": 36.0726,
+      "lng": -79.792,
+      "label": "Greensboro, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 34.7304,
+      "lng": -86.5859,
+      "label": "Huntsville, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 13.6774,
+      "lng": -89.2833,
+      "label": "Santa Tecla, SV 🇸🇻",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 19.7041,
+      "lng": -103.4638,
+      "label": "Ciudad Guzmán, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 12.4353,
+      "lng": -86.8786,
+      "label": "León, NI 🇳🇮",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 25.6768,
+      "lng": -100.2565,
+      "label": "Guadalupe, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 15.7597,
+      "lng": -86.7822,
+      "label": "La Ceiba, HN 🇭🇳",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 38.4088,
+      "lng": -121.3716,
+      "label": "Elk Grove, US 🇺🇸",
       "words": [
         "pickup truck",
         "strip mall",
         "gas station",
         "parking lot",
         "wide boulevard"
+      ]
+    },
+    {
+      "lat": 19.3984,
+      "lng": -99.1577,
+      "label": "Benito Juarez, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 23.2216,
+      "lng": -106.4189,
+      "label": "Mazatlán, MX 🇲🇽",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 28.5383,
+      "lng": -81.3792,
+      "label": "Orlando, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 33.7283,
+      "lng": -117.1464,
+      "label": "Menifee, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 19.0641,
+      "lng": -98.3035,
+      "label": "Cholula, MX 🇲🇽",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 14.5358,
+      "lng": -91.6785,
+      "label": "Retalhuleu, GT 🇬🇹",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 33.1959,
+      "lng": -117.3795,
+      "label": "Oceanside, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 49.144,
+      "lng": -122.9068,
+      "label": "Delta, CA 🇨🇦",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 14.7041,
+      "lng": -91.8643,
+      "label": "Coatepeque, GT 🇬🇹",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 17.997,
+      "lng": -76.7936,
+      "label": "Kingston, JM 🇯🇲",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 20.6226,
+      "lng": -103.2417,
+      "label": "Tonalá, MX 🇲🇽",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 13.9883,
+      "lng": -89.5568,
+      "label": "Santa Ana, SV 🇸🇻",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 17.971,
+      "lng": -76.8869,
+      "label": "Portmore, JM 🇯🇲",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 49.1011,
+      "lng": -122.6588,
+      "label": "Langley, CA 🇨🇦",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 42.8865,
+      "lng": -78.8784,
+      "label": "Buffalo, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 41.0329,
+      "lng": -73.8429,
+      "label": "Greenburgh, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 40.6916,
+      "lng": -112.0011,
+      "label": "West Valley City, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 40.5623,
+      "lng": -74.1399,
+      "label": "Staten Island, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 37.8716,
+      "lng": -122.2728,
+      "label": "Berkeley, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 13.0929,
+      "lng": -86.3559,
+      "label": "Estelí, NI 🇳🇮",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 32.8546,
+      "lng": -79.9748,
+      "label": "North Charleston, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 19.4436,
+      "lng": -99.105,
+      "label": "Venustiano Carranza, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 13.6893,
+      "lng": -89.1872,
+      "label": "San Salvador, SV 🇸🇻",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 40.7834,
+      "lng": -73.9663,
+      "label": "Manhattan, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 19.8407,
+      "lng": -90.5168,
+      "label": "Campeche, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 42.6526,
+      "lng": -73.7562,
+      "label": "Albany, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 42.3334,
+      "lng": -71.0495,
+      "label": "South Boston, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 40.5865,
+      "lng": -122.3917,
+      "label": "Redding, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 19.4366,
+      "lng": -100.3564,
+      "label": "Heróica Zitácuaro, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 25.426,
+      "lng": -100.9796,
+      "label": "Saltillo, MX 🇲🇽",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 23.0239,
+      "lng": -82.408,
+      "label": "Fontanar, CU 🇨🇺",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 33.8675,
+      "lng": -117.9981,
+      "label": "Buena Park, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 19.2869,
+      "lng": -99.0051,
+      "label": "Tláhuac, MX 🇲🇽",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 11.9732,
+      "lng": -86.0959,
+      "label": "Masaya, NI 🇳🇮",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 13.724,
+      "lng": -89.188,
+      "label": "Mejicanos, SV 🇸🇻",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 43.7064,
+      "lng": -79.3986,
+      "label": "Toronto, CA 🇨🇦",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 18.5196,
+      "lng": -88.304,
+      "label": "Chetumal, MX 🇲🇽",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 14.0818,
+      "lng": -87.2068,
+      "label": "Tegucigalpa, HN 🇭🇳",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 43.7667,
+      "lng": -79.3991,
+      "label": "Willowdale, CA 🇨🇦",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 34.1389,
+      "lng": -118.3534,
+      "label": "Universal City, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 9.0406,
+      "lng": -79.4408,
+      "label": "Juan Díaz, PA 🇵🇦",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 9.0503,
+      "lng": -79.4707,
+      "label": "San Miguelito, PA 🇵🇦",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 18.3986,
+      "lng": -66.1557,
+      "label": "Bayamón, PR 🇵🇷",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 33.5926,
+      "lng": -84.6729,
+      "label": "South Fulton, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 20.617,
+      "lng": -105.2302,
+      "label": "Puerto Vallarta, MX 🇲🇽",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 35.2226,
+      "lng": -97.4395,
+      "label": "Norman, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 19.9398,
+      "lng": -72.8304,
+      "label": "Port-de-Paix, HT 🇭🇹",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 29.9785,
+      "lng": -90.164,
+      "label": "Metairie Terrace, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 33.6839,
+      "lng": -112.1349,
+      "label": "Deer Valley, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 23.1377,
+      "lng": -82.3934,
+      "label": "Vedado, CU 🇨🇺",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 20.967,
+      "lng": -89.6232,
+      "label": "Mérida, MX 🇲🇽",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 33.3417,
+      "lng": -111.984,
+      "label": "Ahwatukee Foothills, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 34.0339,
+      "lng": -118.2053,
+      "label": "Boyle Heights, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 18.5818,
+      "lng": -68.4043,
+      "label": "Punta Cana, DO 🇩🇴",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 19.4006,
+      "lng": -99.0148,
+      "label": "Ciudad Nezahualcoyotl, MX 🇲🇽",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 14.9113,
+      "lng": -92.0579,
+      "label": "Malacatán, GT 🇬🇹",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 46.8123,
+      "lng": -71.2145,
+      "label": "Québec, CA 🇨🇦",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 40.7471,
+      "lng": -73.8601,
+      "label": "Corona, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 49.2846,
+      "lng": -122.7822,
+      "label": "Coquitlam, CA 🇨🇦",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 8.9936,
+      "lng": -79.5197,
+      "label": "Panamá, PA 🇵🇦",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
       ]
     },
     {
@@ -507,21 +1659,9 @@
       ]
     },
     {
-      "lat": 29.0887,
-      "lng": -110.9668,
-      "label": "Hermosillo, MX 🇲🇽",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 14.0818,
-      "lng": -87.2068,
-      "label": "Tegucigalpa, HN 🇭🇳",
+      "lat": 14.7029,
+      "lng": -90.4998,
+      "label": "Chinautla, GT 🇬🇹",
       "words": [
         "pickup truck",
         "strip mall",
@@ -531,21 +1671,9 @@
       ]
     },
     {
-      "lat": 53.5501,
-      "lng": -113.4687,
-      "label": "Edmonton, CA 🇨🇦",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 18.5448,
-      "lng": -72.3004,
-      "label": "Delmas, HT 🇭🇹",
+      "lat": 42.1015,
+      "lng": -72.5898,
+      "label": "Springfield, US 🇺🇸",
       "words": [
         "wooden house",
         "church steeple",
@@ -555,33 +1683,21 @@
       ]
     },
     {
-      "lat": 35.0868,
-      "lng": -90.0568,
-      "label": "New South Memphis, US 🇺🇸",
+      "lat": 18.5125,
+      "lng": -72.2853,
+      "label": "Pétionville, HT 🇭🇹",
       "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
       ]
     },
     {
-      "lat": 18.5411,
-      "lng": -72.3992,
-      "label": "Carrefour, HT 🇭🇹",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 36.154,
-      "lng": -95.9928,
-      "label": "Tulsa, US 🇺🇸",
+      "lat": 33.1434,
+      "lng": -117.1661,
+      "label": "San Marcos, US 🇺🇸",
       "words": [
         "pickup truck",
         "strip mall",
@@ -591,33 +1707,9 @@
       ]
     },
     {
-      "lat": 33.8353,
-      "lng": -117.9145,
-      "label": "Anaheim, US 🇺🇸",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 18.5,
-      "lng": -70.0,
-      "label": "Santo Domingo Oeste, DO 🇩🇴",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 18.5435,
-      "lng": -72.3388,
-      "label": "Port-au-Prince, HT 🇭🇹",
+      "lat": 23.1303,
+      "lng": -82.3531,
+      "label": "La Habana Vieja, CU 🇨🇺",
       "words": [
         "pickup truck",
         "strip mall",
@@ -627,9 +1719,21 @@
       ]
     },
     {
-      "lat": 19.4504,
-      "lng": -70.6908,
-      "label": "Santiago de los Caballeros, DO 🇩🇴",
+      "lat": 37.5538,
+      "lng": -77.4603,
+      "label": "Richmond, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 15.4,
+      "lng": -87.8,
+      "label": "El Progreso, HN 🇭🇳",
       "words": [
         "wooden house",
         "church steeple",
@@ -639,9 +1743,9 @@
       ]
     },
     {
-      "lat": 33.749,
-      "lng": -84.388,
-      "label": "Atlanta, US 🇺🇸",
+      "lat": 25.6604,
+      "lng": -100.4065,
+      "label": "San Pedro Garza García, MX 🇲🇽",
       "words": [
         "downtown skyscraper",
         "yellow cab",
@@ -651,9 +1755,321 @@
       ]
     },
     {
-      "lat": 35.7868,
-      "lng": -78.6639,
-      "label": "West Raleigh, US 🇺🇸",
+      "lat": 32.7157,
+      "lng": -117.1647,
+      "label": "San Diego, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 18.0883,
+      "lng": -96.1253,
+      "label": "Tuxtepec, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 23.1383,
+      "lng": -82.3642,
+      "label": "Centro Habana, CU 🇨🇺",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 8.4273,
+      "lng": -82.4309,
+      "label": "David, PA 🇵🇦",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 28.4063,
+      "lng": -106.8667,
+      "label": "Cuauhtémoc, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 46.8289,
+      "lng": -71.2264,
+      "label": "La Cité-Limoilou, CA 🇨🇦",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 36.0526,
+      "lng": -95.7908,
+      "label": "Broken Arrow, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 25.7743,
+      "lng": -80.1937,
+      "label": "Miami, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 13.4826,
+      "lng": -88.1821,
+      "label": "San Miguel, SV 🇸🇻",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 18.4724,
+      "lng": -66.7157,
+      "label": "Arecibo, PR 🇵🇷",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 41.2563,
+      "lng": -95.9404,
+      "label": "Omaha, US 🇺🇸",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 14.546,
+      "lng": -90.4129,
+      "label": "San José Pinula, GT 🇬🇹",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 46.0945,
+      "lng": -64.7965,
+      "label": "Moncton, CA 🇨🇦",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 40.9304,
+      "lng": -73.8979,
+      "label": "Yonkers, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 46.8772,
+      "lng": -96.7898,
+      "label": "Fargo, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 18.4012,
+      "lng": -93.2141,
+      "label": "Paraiso, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 25.9873,
+      "lng": -80.2323,
+      "label": "Miramar, US 🇺🇸",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 42.4904,
+      "lng": -83.013,
+      "label": "Warren, US 🇺🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 25.0582,
+      "lng": -77.3431,
+      "label": "Nassau, BS 🇧🇸",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 19.2672,
+      "lng": -103.7378,
+      "label": "Ciudad de Villa de Álvarez, MX 🇲🇽",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 43.9001,
+      "lng": -78.8496,
+      "label": "Oshawa, CA 🇨🇦",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 18.3808,
+      "lng": -65.9574,
+      "label": "Carolina, PR 🇵🇷",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 18.3454,
+      "lng": -99.5413,
+      "label": "Iguala de la Independencia, MX 🇲🇽",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 45.3071,
+      "lng": -73.2626,
+      "label": "Saint-Jean-sur-Richelieu, CA 🇨🇦",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 23.1081,
+      "lng": -82.3866,
+      "label": "Cerro, CU 🇨🇺",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 18.2341,
+      "lng": -66.0485,
+      "label": "Caguas, PR 🇵🇷",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
+      ]
+    },
+    {
+      "lat": 18.4233,
+      "lng": -68.9664,
+      "label": "La Romana, DO 🇩🇴",
       "words": [
         "colonial building",
         "cobblestone",
@@ -667,53 +2083,17 @@
       "lng": -86.2504,
       "label": "Managua, NI 🇳🇮",
       "words": [
-        "pickup truck",
-        "strip mall",
-        "gas station",
-        "parking lot",
-        "wide boulevard"
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
       ]
     },
     {
-      "lat": 19.4285,
-      "lng": -99.1277,
-      "label": "Mexico City, MX 🇲🇽",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 15.5059,
-      "lng": -88.0259,
-      "label": "San Pedro Sula, HN 🇭🇳",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 43.5789,
-      "lng": -79.6583,
-      "label": "Mississauga, CA 🇨🇦",
-      "words": [
-        "downtown skyscraper",
-        "yellow cab",
-        "fire hydrant",
-        "walk signal",
-        "diner"
-      ]
-    },
-    {
-      "lat": 20.7211,
-      "lng": -103.3874,
-      "label": "Zapopan, MX 🇲🇽",
+      "lat": 45.5587,
+      "lng": -73.6054,
+      "label": "Villeray–Saint-Michel–Parc-Extension, CA 🇨🇦",
       "words": [
         "colonial building",
         "cobblestone",
@@ -723,45 +2103,9 @@
       ]
     },
     {
-      "lat": 37.7749,
-      "lng": -122.4194,
-      "label": "San Francisco, US 🇺🇸",
-      "words": [
-        "wooden house",
-        "church steeple",
-        "grain silo",
-        "railroad crossing",
-        "small-town diner"
-      ]
-    },
-    {
-      "lat": 44.6427,
-      "lng": -63.5769,
-      "label": "Halifax, CA 🇨🇦",
-      "words": [
-        "wooden house",
-        "church steeple",
-        "grain silo",
-        "railroad crossing",
-        "small-town diner"
-      ]
-    },
-    {
-      "lat": 20.8872,
-      "lng": -76.2631,
-      "label": "Holguín, CU 🇨🇺",
-      "words": [
-        "beach promenade",
-        "palm tree",
-        "surf shop",
-        "seafront hotel",
-        "ice cream stand"
-      ]
-    },
-    {
-      "lat": 9.0503,
-      "lng": -79.4707,
-      "label": "San Miguelito, PA 🇵🇦",
+      "lat": 41.1056,
+      "lng": -73.3984,
+      "label": "East Norwalk, US 🇺🇸",
       "words": [
         "pickup truck",
         "strip mall",
@@ -771,9 +2115,9 @@
       ]
     },
     {
-      "lat": 37.9887,
-      "lng": -84.4777,
-      "label": "Lexington, US 🇺🇸",
+      "lat": 18.5448,
+      "lng": -72.3004,
+      "label": "Delmas, HT 🇭🇹",
       "words": [
         "downtown skyscraper",
         "yellow cab",
@@ -783,9 +2127,9 @@
       ]
     },
     {
-      "lat": 14.6308,
-      "lng": -90.6071,
-      "label": "Mixco, GT 🇬🇹",
+      "lat": 38.8106,
+      "lng": -90.6998,
+      "label": "O'Fallon, US 🇺🇸",
       "words": [
         "downtown skyscraper",
         "yellow cab",
@@ -795,15 +2139,147 @@
       ]
     },
     {
-      "lat": 23.133,
-      "lng": -82.383,
-      "label": "Havana, CU 🇨🇺",
+      "lat": 12.9279,
+      "lng": -85.9191,
+      "label": "Matagalpa, NI 🇳🇮",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 49.1792,
+      "lng": -122.8667,
+      "label": "Whalley, CA 🇨🇦",
       "words": [
         "wooden house",
         "church steeple",
         "grain silo",
         "railroad crossing",
         "small-town diner"
+      ]
+    },
+    {
+      "lat": 29.585,
+      "lng": -81.2078,
+      "label": "Palm Coast, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 34.1975,
+      "lng": -119.177,
+      "label": "Oxnard, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 32.3668,
+      "lng": -86.3,
+      "label": "Montgomery, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 9.9339,
+      "lng": -84.0849,
+      "label": "San José, CR 🇨🇷",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 18.4712,
+      "lng": -77.9188,
+      "label": "Montego Bay, JM 🇯🇲",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "label": "Philadelphia, US 🇺🇸",
+      "words": [
+        "colonial building",
+        "cobblestone",
+        "plaza",
+        "horse carriage",
+        "market stall"
+      ]
+    },
+    {
+      "lat": 15.5059,
+      "lng": -88.0259,
+      "label": "San Pedro Sula, HN 🇭🇳",
+      "words": [
+        "pickup truck",
+        "strip mall",
+        "gas station",
+        "parking lot",
+        "wide boulevard"
+      ]
+    },
+    {
+      "lat": 34.1706,
+      "lng": -118.8376,
+      "label": "Thousand Oaks, US 🇺🇸",
+      "words": [
+        "downtown skyscraper",
+        "yellow cab",
+        "fire hydrant",
+        "walk signal",
+        "diner"
+      ]
+    },
+    {
+      "lat": 17.9911,
+      "lng": -76.9574,
+      "label": "Spanish Town, JM 🇯🇲",
+      "words": [
+        "wooden house",
+        "church steeple",
+        "grain silo",
+        "railroad crossing",
+        "small-town diner"
+      ]
+    },
+    {
+      "lat": 14.8009,
+      "lng": -89.5464,
+      "label": "Chiquimula, GT 🇬🇹",
+      "words": [
+        "beach promenade",
+        "palm tree",
+        "surf shop",
+        "seafront hotel",
+        "ice cream stand"
       ]
     }
   ]

@@ -159,9 +159,9 @@
       ]
     },
     {
-      "lat": -9.4772,
-      "lng": 147.1509,
-      "label": "Port Moresby, PG 🇵🇬",
+      "lat": -37.7,
+      "lng": 144.9333,
+      "label": "Glenroy, AU 🇦🇺",
       "words": [
         "vineyard",
         "winery",
@@ -171,33 +171,9 @@
       ]
     },
     {
-      "lat": -26.6568,
-      "lng": 153.0796,
-      "label": "Sunshine Coast, AU 🇦🇺",
-      "words": [
-        "harbour",
-        "ferry",
-        "skyscraper",
-        "park",
-        "botanic garden"
-      ]
-    },
-    {
-      "lat": 15.2123,
-      "lng": 145.7545,
-      "label": "Saipan, MP 🌍",
-      "words": [
-        "vineyard",
-        "winery",
-        "rolling hills",
-        "farmhouse",
-        "sheep paddock"
-      ]
-    },
-    {
-      "lat": -32.3289,
-      "lng": 115.8305,
-      "label": "Baldivis, AU 🇦🇺",
+      "lat": -21.1368,
+      "lng": -175.2011,
+      "label": "Nuku‘alofa, TO 🌍",
       "words": [
         "outback road",
         "eucalyptus",
@@ -207,21 +183,9 @@
       ]
     },
     {
-      "lat": -6.7233,
-      "lng": 146.9961,
-      "label": "Lae, PG 🇵🇬",
-      "words": [
-        "harbour",
-        "ferry",
-        "skyscraper",
-        "park",
-        "botanic garden"
-      ]
-    },
-    {
-      "lat": -40.3564,
-      "lng": 175.6111,
-      "label": "Palmerston North, NZ 🇳🇿",
+      "lat": -17.5065,
+      "lng": -149.489,
+      "label": "Mahina, PF 🌍",
       "words": [
         "outback road",
         "eucalyptus",
@@ -231,9 +195,57 @@
       ]
     },
     {
-      "lat": -39.4926,
-      "lng": 176.9123,
-      "label": "Napier, NZ 🇳🇿",
+      "lat": 7.4465,
+      "lng": 151.8414,
+      "label": "Weno, FM 🌍",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -33.7182,
+      "lng": 151.1156,
+      "label": "Wahroonga, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -37.7882,
+      "lng": 175.2902,
+      "label": "Hamilton East, NZ 🇳🇿",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -34.7263,
+      "lng": 135.8744,
+      "label": "Port Lincoln, AU 🇦🇺",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -8.7654,
+      "lng": 148.2325,
+      "label": "Popondetta, PG 🇵🇬",
       "words": [
         "harbour",
         "ferry",
@@ -243,15 +255,255 @@
       ]
     },
     {
-      "lat": -17.8031,
-      "lng": 177.4162,
-      "label": "Nadi, FJ 🇫🇯",
+      "lat": -37.8149,
+      "lng": 144.9505,
+      "label": "Docklands, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -30.7461,
+      "lng": 121.4742,
+      "label": "Kalgoorlie, AU 🇦🇺",
       "words": [
         "vineyard",
         "winery",
         "rolling hills",
         "farmhouse",
         "sheep paddock"
+      ]
+    },
+    {
+      "lat": -17.5343,
+      "lng": 177.6741,
+      "label": "Ba, FJ 🇫🇯",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -27.7679,
+      "lng": 153.2428,
+      "label": "Ormeau, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -37.8821,
+      "lng": 144.9821,
+      "label": "Elwood, AU 🇦🇺",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": 13.4476,
+      "lng": 144.8011,
+      "label": "Mangilao Village, GU 🌍",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -17.5298,
+      "lng": -149.5512,
+      "label": "Pirae, PF 🌍",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -34.7825,
+      "lng": 138.6108,
+      "label": "Parafield Gardens, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -9.4411,
+      "lng": 159.97,
+      "label": "Kola'a, SB 🇸🇧",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -22.1576,
+      "lng": 166.4572,
+      "label": "Dumbéa, NC 🌍",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": 13.4875,
+      "lng": 144.7814,
+      "label": "Tamuning, GU 🌍",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -27.5971,
+      "lng": 152.9743,
+      "label": "Inala, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -40.9167,
+      "lng": 175.0167,
+      "label": "Paraparaumu, NZ 🇳🇿",
+      "words": [
+        "harbour",
+        "ferry",
+        "skyscraper",
+        "park",
+        "botanic garden"
+      ]
+    },
+    {
+      "lat": -33.9289,
+      "lng": 151.0511,
+      "label": "Punchbowl, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -37.8329,
+      "lng": 145.0367,
+      "label": "Hawthorn South, AU 🇦🇺",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": 14.9682,
+      "lng": 145.62,
+      "label": "San Jose Village, MP 🌍",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -17.6333,
+      "lng": -149.6,
+      "label": "Punaauia, PF 🌍",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -5.5508,
+      "lng": 150.1377,
+      "label": "Kimbe, PG 🇵🇬",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -28.219,
+      "lng": 152.0344,
+      "label": "Warwick, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -6.085,
+      "lng": 145.3867,
+      "label": "Goroka, PG 🇵🇬",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -36.8,
+      "lng": 174.75,
+      "label": "North Shore, NZ 🇳🇿",
+      "words": [
+        "harbour",
+        "ferry",
+        "skyscraper",
+        "park",
+        "botanic garden"
       ]
     },
     {
@@ -259,29 +511,17 @@
       "lng": -171.7667,
       "label": "Apia, WS 🇼🇸",
       "words": [
-        "outback road",
-        "eucalyptus",
-        "red earth",
-        "roadhouse",
-        "cattle grid"
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
       ]
     },
     {
-      "lat": -12.4611,
-      "lng": 130.8418,
-      "label": "Darwin, AU 🇦🇺",
-      "words": [
-        "beach",
-        "surf shop",
-        "blue sky",
-        "bungalow",
-        "garden"
-      ]
-    },
-    {
-      "lat": -41.1383,
-      "lng": 175.0502,
-      "label": "Upper Hutt, NZ 🇳🇿",
+      "lat": -18.1109,
+      "lng": 178.4094,
+      "label": "Lami, FJ 🇫🇯",
       "words": [
         "island seafront",
         "palm tree",
@@ -291,21 +531,33 @@
       ]
     },
     {
-      "lat": -41.4388,
-      "lng": 147.1347,
-      "label": "Launceston, AU 🇦🇺",
+      "lat": -27.9672,
+      "lng": 153.398,
+      "label": "Southport, AU 🇦🇺",
       "words": [
-        "beach",
-        "surf shop",
-        "blue sky",
-        "bungalow",
-        "garden"
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
       ]
     },
     {
-      "lat": -27.4679,
-      "lng": 153.0281,
-      "label": "Brisbane, AU 🇦🇺",
+      "lat": -9.0779,
+      "lng": 143.2089,
+      "label": "Daru, PG 🇵🇬",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -17.5347,
+      "lng": -149.5684,
+      "label": "Papeete, PF 🌍",
       "words": [
         "harbour",
         "ferry",
@@ -315,9 +567,9 @@
       ]
     },
     {
-      "lat": -18.0705,
-      "lng": 178.5131,
-      "label": "Nasinu, FJ 🇫🇯",
+      "lat": -32.081,
+      "lng": 116.0054,
+      "label": "Gosnells, AU 🇦🇺",
       "words": [
         "island seafront",
         "palm tree",
@@ -327,27 +579,267 @@
       ]
     },
     {
-      "lat": -19.2664,
-      "lng": 146.8057,
-      "label": "Townsville, AU 🇦🇺",
-      "words": [
-        "island seafront",
-        "palm tree",
-        "coral reef",
-        "diving shop",
-        "beach bar"
-      ]
-    },
-    {
-      "lat": -18.1368,
-      "lng": 178.4253,
-      "label": "Suva, FJ 🇫🇯",
+      "lat": -29.681,
+      "lng": 152.9339,
+      "label": "Grafton, AU 🇦🇺",
       "words": [
         "outback road",
         "eucalyptus",
         "red earth",
         "roadhouse",
         "cattle grid"
+      ]
+    },
+    {
+      "lat": -37.9333,
+      "lng": 145.2333,
+      "label": "Rowville, AU 🇦🇺",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": 13.4877,
+      "lng": 144.7814,
+      "label": "Tamuning-Tumon-Harmon Village, GU 🌍",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -15.5199,
+      "lng": 167.1624,
+      "label": "Luganville, VU 🇻🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -32.243,
+      "lng": 148.6048,
+      "label": "Dubbo, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -18.1431,
+      "lng": 177.5069,
+      "label": "Sigatoka, FJ 🇫🇯",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -32.3734,
+      "lng": 115.7515,
+      "label": "Port Kennedy, AU 🇦🇺",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -17.5593,
+      "lng": -149.6035,
+      "label": "Faaa, PF 🌍",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -36.8647,
+      "lng": 174.6477,
+      "label": "Te Atatu South, NZ 🇳🇿",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -17.7365,
+      "lng": 168.3137,
+      "label": "Port-Vila, VU 🇻🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -37.5833,
+      "lng": 145.0333,
+      "label": "Wollert, AU 🇦🇺",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -41.2667,
+      "lng": 174.95,
+      "label": "Wainuiomata, NZ 🇳🇿",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -22.2626,
+      "lng": 166.5662,
+      "label": "Mont-Dore, NC 🌍",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -33.9419,
+      "lng": 150.8717,
+      "label": "Prestons, AU 🇦🇺",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -37.8167,
+      "lng": 145.2333,
+      "label": "Ringwood, AU 🇦🇺",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -35.7317,
+      "lng": 174.3239,
+      "label": "Whangarei, NZ 🇳🇿",
+      "words": [
+        "outback road",
+        "eucalyptus",
+        "red earth",
+        "roadhouse",
+        "cattle grid"
+      ]
+    },
+    {
+      "lat": -7.2036,
+      "lng": 146.6401,
+      "label": "Bulolo, PG 🇵🇬",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -16.4332,
+      "lng": 179.3645,
+      "label": "Labasa, FJ 🇫🇯",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -36.841,
+      "lng": 174.6522,
+      "label": "Te Atatu Peninsula, NZ 🇳🇿",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -37.7167,
+      "lng": 144.9667,
+      "label": "Fawkner, AU 🇦🇺",
+      "words": [
+        "harbour",
+        "ferry",
+        "skyscraper",
+        "park",
+        "botanic garden"
+      ]
+    },
+    {
+      "lat": -37.7799,
+      "lng": 144.9228,
+      "label": "Ascot Vale, AU 🇦🇺",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -9.4467,
+      "lng": 159.9455,
+      "label": "Tandai, SB 🇸🇧",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
       ]
     },
     {
@@ -355,35 +847,23 @@
       "lng": 166.4488,
       "label": "Nouméa, NC 🌍",
       "words": [
-        "harbour",
-        "ferry",
-        "skyscraper",
-        "park",
-        "botanic garden"
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
       ]
     },
     {
-      "lat": -6.2298,
-      "lng": 155.566,
-      "label": "Arawa, PG 🇵🇬",
+      "lat": 15.2123,
+      "lng": 145.7545,
+      "label": "Saipan, MP 🌍",
       "words": [
-        "beach",
-        "surf shop",
-        "blue sky",
-        "bungalow",
-        "garden"
-      ]
-    },
-    {
-      "lat": -9.4333,
-      "lng": 159.95,
-      "label": "Honiara, SB 🇸🇧",
-      "words": [
-        "beach",
-        "surf shop",
-        "blue sky",
-        "bungalow",
-        "garden"
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
       ]
     },
     {
@@ -396,6 +876,150 @@
         "coral reef",
         "diving shop",
         "beach bar"
+      ]
+    },
+    {
+      "lat": -17.6169,
+      "lng": 177.4505,
+      "label": "Lautoka, FJ 🇫🇯",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -9.425,
+      "lng": 160.0533,
+      "label": "Malango, SB 🇸🇧",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -37.8338,
+      "lng": 144.9383,
+      "label": "City of Port Phillip, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -41.2167,
+      "lng": 174.9167,
+      "label": "Lower Hutt, NZ 🇳🇿",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -32.2768,
+      "lng": 115.7298,
+      "label": "Rockingham, AU 🇦🇺",
+      "words": [
+        "harbour",
+        "ferry",
+        "skyscraper",
+        "park",
+        "botanic garden"
+      ]
+    },
+    {
+      "lat": 13.536,
+      "lng": 144.8886,
+      "label": "Yigo Village, GU 🌍",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -26.6601,
+      "lng": 153.0995,
+      "label": "Maroochydore, AU 🇦🇺",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -44.3967,
+      "lng": 171.2536,
+      "label": "Timaru, NZ 🇳🇿",
+      "words": [
+        "harbour",
+        "ferry",
+        "skyscraper",
+        "park",
+        "botanic garden"
+      ]
+    },
+    {
+      "lat": -9.4322,
+      "lng": 160.0061,
+      "label": "Panatina, SB 🇸🇧",
+      "words": [
+        "island seafront",
+        "palm tree",
+        "coral reef",
+        "diving shop",
+        "beach bar"
+      ]
+    },
+    {
+      "lat": -33.9167,
+      "lng": 151.0333,
+      "label": "Bankstown, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
+      ]
+    },
+    {
+      "lat": -9.442,
+      "lng": 159.9888,
+      "label": "Vura, SB 🇸🇧",
+      "words": [
+        "beach",
+        "surf shop",
+        "blue sky",
+        "bungalow",
+        "garden"
+      ]
+    },
+    {
+      "lat": -33.7333,
+      "lng": 150.8833,
+      "label": "Quakers Hill, AU 🇦🇺",
+      "words": [
+        "vineyard",
+        "winery",
+        "rolling hills",
+        "farmhouse",
+        "sheep paddock"
       ]
     }
   ]

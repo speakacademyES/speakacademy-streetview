@@ -399,9 +399,57 @@
       ]
     },
     {
-      "lat": 7.0731,
-      "lng": 125.6128,
-      "label": "Davao, PH 🇵🇭",
+      "lat": 26.7303,
+      "lng": 67.7769,
+      "label": "Dadu, PK 🇵🇰",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 37.4565,
+      "lng": 126.7052,
+      "label": "Incheon, KR 🇰🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 35.8622,
+      "lng": 139.9773,
+      "label": "Kashiwa, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 1.532,
+      "lng": 103.7549,
+      "label": "Kampung Kangkar Teberau, MY 🇲🇾",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 22.4568,
+      "lng": 114.0023,
+      "label": "Tin Shui Wai, HK 🇭🇰",
       "words": [
         "skyscraper",
         "harbour",
@@ -411,33 +459,9 @@
       ]
     },
     {
-      "lat": 18.6229,
-      "lng": 73.807,
-      "label": "Pimpri, IN 🇮🇳",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 31.3776,
-      "lng": 120.9543,
-      "label": "Kunshan, CN 🇨🇳",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 21.4266,
-      "lng": 39.8256,
-      "label": "Makkah, SA 🇸🇦",
+      "lat": 10.6667,
+      "lng": 122.95,
+      "label": "Bacolod City, PH 🇵🇭",
       "words": [
         "elevated highway",
         "cable car",
@@ -447,33 +471,9 @@
       ]
     },
     {
-      "lat": -6.9222,
-      "lng": 107.6069,
-      "label": "Bandung, ID 🇮🇩",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 24.6877,
-      "lng": 46.7219,
-      "label": "Riyadh, SA 🇸🇦",
-      "words": [
-        "mosque",
-        "bazaar",
-        "alley",
-        "spice market",
-        "minaret"
-      ]
-    },
-    {
-      "lat": 22.4244,
-      "lng": 114.111,
-      "label": "New Territories, HK 🇭🇰",
+      "lat": 34.9833,
+      "lng": 138.3833,
+      "label": "Shizuoka, JP 🇯🇵",
       "words": [
         "elevated highway",
         "cable car",
@@ -483,9 +483,21 @@
       ]
     },
     {
-      "lat": 16.4619,
-      "lng": 107.5955,
-      "label": "Huế, VN 🇻🇳",
+      "lat": 42.4586,
+      "lng": 59.6058,
+      "label": "Nukus, UZ 🇺🇿",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 32.3219,
+      "lng": 118.2978,
+      "label": "Chuzhou, CN 🇨🇳",
       "words": [
         "rice field",
         "palm tree",
@@ -495,33 +507,21 @@
       ]
     },
     {
-      "lat": 22.9908,
-      "lng": 120.2133,
-      "label": "Tainan, TW 🇹🇼",
+      "lat": 23.3303,
+      "lng": 75.0403,
+      "label": "Ratlām, IN 🇮🇳",
       "words": [
-        "rice field",
-        "palm tree",
-        "wooden house",
-        "canal boat",
-        "vendor cart"
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
       ]
     },
     {
-      "lat": 37.566,
-      "lng": 126.9784,
-      "label": "Seoul, KR 🇰🇷",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 36.6255,
-      "lng": 101.7574,
-      "label": "Xining, CN 🇨🇳",
+      "lat": 39.7432,
+      "lng": 98.5174,
+      "label": "Jiuquan, CN 🇨🇳",
       "words": [
         "mosque",
         "bazaar",
@@ -531,9 +531,9 @@
       ]
     },
     {
-      "lat": 33.3575,
-      "lng": 120.1573,
-      "label": "Yancheng, CN 🇨🇳",
+      "lat": 29.3745,
+      "lng": 113.0948,
+      "label": "Yueyang, CN 🇨🇳",
       "words": [
         "mosque",
         "bazaar",
@@ -543,57 +543,21 @@
       ]
     },
     {
-      "lat": 34.6913,
-      "lng": 135.183,
-      "label": "Kobe, JP 🇯🇵",
+      "lat": 35.9786,
+      "lng": 126.7114,
+      "label": "Gunsan, KR 🇰🇷",
       "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
       ]
     },
     {
-      "lat": 13.754,
-      "lng": 100.5014,
-      "label": "Bangkok, TH 🇹🇭",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 14.6495,
-      "lng": 120.9679,
-      "label": "Caloocan, PH 🇵🇭",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 32.3972,
-      "lng": 119.4358,
-      "label": "Yangzhou, CN 🇨🇳",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 29.8782,
-      "lng": 121.5494,
-      "label": "Ningbo, CN 🇨🇳",
+      "lat": 41.2798,
+      "lng": 36.3361,
+      "label": "Samsun, TR 🇹🇷",
       "words": [
         "skyscraper",
         "harbour",
@@ -603,93 +567,9 @@
       ]
     },
     {
-      "lat": 20.8648,
-      "lng": 106.6834,
-      "label": "Haiphong, VN 🇻🇳",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 19.2167,
-      "lng": 73.0833,
-      "label": "Dombivali, IN 🇮🇳",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 22.7179,
-      "lng": 75.8333,
-      "label": "Indore, IN 🇮🇳",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 33.8933,
-      "lng": 35.5016,
-      "label": "Beirut, LB 🇱🇧",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 43.2525,
-      "lng": 76.9115,
-      "label": "Almaty, KZ 🇰🇿",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 35.6895,
-      "lng": 139.6917,
-      "label": "Tokyo, JP 🇯🇵",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 35.0211,
-      "lng": 135.7538,
-      "label": "Kyoto, JP 🇯🇵",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 10.9447,
-      "lng": 106.8243,
-      "label": "Biên Hòa, VN 🇻🇳",
+      "lat": 28.7016,
+      "lng": 80.5899,
+      "label": "Dhangaḍhi̇̄, NP 🇳🇵",
       "words": [
         "mosque",
         "bazaar",
@@ -699,9 +579,33 @@
       ]
     },
     {
-      "lat": 33.5639,
-      "lng": 114.0427,
-      "label": "Luohe, CN 🇨🇳",
+      "lat": 37.7415,
+      "lng": 127.0474,
+      "label": "Uijeongbu-si, KR 🇰🇷",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 1.4144,
+      "lng": 103.9069,
+      "label": "Punggol, SG 🇸🇬",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 33.8518,
+      "lng": 130.8503,
+      "label": "Kitakyushu, JP 🇯🇵",
       "words": [
         "skyscraper",
         "harbour",
@@ -711,9 +615,21 @@
       ]
     },
     {
-      "lat": 21.1463,
-      "lng": 79.0849,
-      "label": "Nagpur, IN 🇮🇳",
+      "lat": 19.0946,
+      "lng": 74.7384,
+      "label": "Ahilyanagar, IN 🇮🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 27.2173,
+      "lng": 77.4901,
+      "label": "Bharatpur, IN 🇮🇳",
       "words": [
         "rice field",
         "palm tree",
@@ -723,9 +639,45 @@
       ]
     },
     {
-      "lat": 34.6938,
-      "lng": 135.5011,
-      "label": "Osaka, JP 🇯🇵",
+      "lat": 32.0103,
+      "lng": 34.7792,
+      "label": "H̱olon, IL 🇮🇱",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 36.5872,
+      "lng": 36.1735,
+      "label": "İskenderun, TR 🇹🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 22.3812,
+      "lng": 112.6849,
+      "label": "Changsha, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.7214,
+      "lng": 51.109,
+      "label": "Shahr-e Qods, IR 🇮🇷",
       "words": [
         "mosque",
         "bazaar",
@@ -735,45 +687,9 @@
       ]
     },
     {
-      "lat": 22.2783,
-      "lng": 114.1747,
-      "label": "Hong Kong, HK 🇭🇰",
-      "words": [
-        "rice field",
-        "palm tree",
-        "wooden house",
-        "canal boat",
-        "vendor cart"
-      ]
-    },
-    {
-      "lat": 37.9136,
-      "lng": 40.2172,
-      "label": "Diyarbakır, TR 🇹🇷",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 31.558,
-      "lng": 74.3507,
-      "label": "Lahore, PK 🇵🇰",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 24.4512,
-      "lng": 54.397,
-      "label": "Abu Dhabi, AE 🇦🇪",
+      "lat": 37.0742,
+      "lng": 36.2478,
+      "label": "Osmaniye, TR 🇹🇷",
       "words": [
         "mosque",
         "bazaar",
@@ -783,33 +699,9 @@
       ]
     },
     {
-      "lat": 19.0728,
-      "lng": 72.8826,
-      "label": "Mumbai, IN 🇮🇳",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 25.3342,
-      "lng": 55.4122,
-      "label": "Sharjah, AE 🇦🇪",
-      "words": [
-        "rice field",
-        "palm tree",
-        "wooden house",
-        "canal boat",
-        "vendor cart"
-      ]
-    },
-    {
-      "lat": 34.6735,
-      "lng": 112.4368,
-      "label": "Luoyang, CN 🇨🇳",
+      "lat": 1.3333,
+      "lng": 103.9333,
+      "label": "Ulu Bedok, SG 🇸🇬",
       "words": [
         "skyscraper",
         "harbour",
@@ -819,21 +711,9 @@
       ]
     },
     {
-      "lat": 35.1017,
-      "lng": 129.03,
-      "label": "Busan, KR 🇰🇷",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 21.9747,
-      "lng": 96.0836,
-      "label": "Mandalay, MM 🇲🇲",
+      "lat": 35.7353,
+      "lng": 140.1244,
+      "label": "Yachiyo, JP 🇯🇵",
       "words": [
         "mosque",
         "bazaar",
@@ -843,33 +723,21 @@
       ]
     },
     {
-      "lat": 1.2897,
-      "lng": 103.8501,
-      "label": "Singapore, SG 🇸🇬",
+      "lat": 34.008,
+      "lng": 71.5785,
+      "label": "Peshawar, PK 🇵🇰",
       "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
       ]
     },
     {
-      "lat": 38.08,
-      "lng": 46.2919,
-      "label": "Tabriz, IR 🇮🇷",
-      "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
-      ]
-    },
-    {
-      "lat": 11.5625,
-      "lng": 104.916,
-      "label": "Phnom Penh, KH 🇰🇭",
+      "lat": 26.4344,
+      "lng": 50.1033,
+      "label": "Dammam, SA 🇸🇦",
       "words": [
         "rice field",
         "palm tree",
@@ -879,21 +747,9 @@
       ]
     },
     {
-      "lat": 16.8053,
-      "lng": 96.1561,
-      "label": "Yangon, MM 🇲🇲",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 24.4686,
-      "lng": 39.6142,
-      "label": "Madinah, SA 🇸🇦",
+      "lat": 40.5286,
+      "lng": 70.9425,
+      "label": "Qo‘qon, UZ 🇺🇿",
       "words": [
         "temple",
         "street food stall",
@@ -903,9 +759,69 @@
       ]
     },
     {
-      "lat": 35.1547,
-      "lng": 126.9156,
-      "label": "Gwangju, KR 🇰🇷",
+      "lat": 39.0211,
+      "lng": 117.6469,
+      "label": "Tanggu, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 23.6693,
+      "lng": 86.1516,
+      "label": "Bokāro, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 36.4631,
+      "lng": 52.8601,
+      "label": "Qā’em Shahr, IR 🇮🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 30.5085,
+      "lng": 47.7804,
+      "label": "Basrah, IQ 🇮🇶",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 33.7215,
+      "lng": 73.0433,
+      "label": "Islamabad, PK 🇵🇰",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 36.2688,
+      "lng": 50.0041,
+      "label": "Qazvin, IR 🇮🇷",
       "words": [
         "elevated highway",
         "cable car",
@@ -915,9 +831,9 @@
       ]
     },
     {
-      "lat": 25.0772,
-      "lng": 55.3093,
-      "label": "Dubai, AE 🇦🇪",
+      "lat": 40.7806,
+      "lng": 30.4033,
+      "label": "Adapazarı, TR 🇹🇷",
       "words": [
         "temple",
         "street food stall",
@@ -927,9 +843,9 @@
       ]
     },
     {
-      "lat": -6.2146,
-      "lng": 106.8451,
-      "label": "Jakarta, ID 🇮🇩",
+      "lat": 43.8465,
+      "lng": 126.5608,
+      "label": "Jilin, CN 🇨🇳",
       "words": [
         "temple",
         "street food stall",
@@ -939,21 +855,57 @@
       ]
     },
     {
-      "lat": 30.1968,
-      "lng": 71.4782,
-      "label": "Multan, PK 🇵🇰",
+      "lat": 10.7638,
+      "lng": 106.6436,
+      "label": "Quận Mười Một, VN 🇻🇳",
       "words": [
-        "rice field",
-        "palm tree",
-        "wooden house",
-        "canal boat",
-        "vendor cart"
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
       ]
     },
     {
-      "lat": 14.5243,
-      "lng": 121.0792,
-      "label": "Taguig, PH 🇵🇭",
+      "lat": 35.6,
+      "lng": 139.3167,
+      "label": "Aihara, JP 🇯🇵",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 21.0824,
+      "lng": 106.5138,
+      "label": "Thị Trấn Đông Triều, VN 🇻🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 14.8292,
+      "lng": 120.2828,
+      "label": "Olongapo, PH 🇵🇭",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 34.685,
+      "lng": 135.8048,
+      "label": "Nara-shi, JP 🇯🇵",
       "words": [
         "skyscraper",
         "harbour",
@@ -963,9 +915,33 @@
       ]
     },
     {
-      "lat": 21.1959,
-      "lng": 72.8302,
-      "label": "Surat, IN 🇮🇳",
+      "lat": 28.9594,
+      "lng": 118.8686,
+      "label": "Quzhou, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 37.5847,
+      "lng": 36.9264,
+      "label": "Kahramanmaraş, TR 🇹🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 27.1172,
+      "lng": 114.9793,
+      "label": "Ji’an, CN 🇨🇳",
       "words": [
         "temple",
         "street food stall",
@@ -975,9 +951,405 @@
       ]
     },
     {
-      "lat": 22.8028,
-      "lng": 86.1855,
-      "label": "Jamshedpur, IN 🇮🇳",
+      "lat": 16.7792,
+      "lng": 94.7321,
+      "label": "Pathein, MM 🇲🇲",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": -6.4817,
+      "lng": 106.8542,
+      "label": "Cibinong, ID 🇮🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 43.2946,
+      "lng": 68.2569,
+      "label": "Turkestan, KZ 🇰🇿",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 40.8167,
+      "lng": 140.7333,
+      "label": "Aomori, JP 🇯🇵",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 37.2911,
+      "lng": 127.0089,
+      "label": "Suwon, KR 🇰🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 14.5588,
+      "lng": 121.1329,
+      "label": "Taytay, PH 🇵🇭",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 18.191,
+      "lng": 79.943,
+      "label": "Mulugu, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 3.2006,
+      "lng": 101.7397,
+      "label": "Wangsa Maju, MY 🇲🇾",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 24.4111,
+      "lng": 88.9867,
+      "label": "Natore, BD 🇧🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 31.5667,
+      "lng": 130.55,
+      "label": "Kagoshima, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 31.5016,
+      "lng": 34.4667,
+      "label": "Gaza, PS 🇵🇸",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 22.4501,
+      "lng": 114.1688,
+      "label": "Tai Po, HK 🇭🇰",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 35.8903,
+      "lng": 139.7892,
+      "label": "Koshigaya, JP 🇯🇵",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 21.3087,
+      "lng": 76.2303,
+      "label": "Burhānpur, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 1.3567,
+      "lng": 103.8908,
+      "label": "Hougang New Town, SG 🇸🇬",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 30.8103,
+      "lng": 73.4515,
+      "label": "Okara, PK 🇵🇰",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 52.276,
+      "lng": 76.9688,
+      "label": "Pavlodar, KZ 🇰🇿",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 29.1539,
+      "lng": 75.7229,
+      "label": "Hisar, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 25.7895,
+      "lng": 55.9432,
+      "label": "Ras Al Khaimah, AE 🇦🇪",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 13.0878,
+      "lng": 80.2785,
+      "label": "Chennai, IN 🇮🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 6.8402,
+      "lng": 79.8712,
+      "label": "Dehiwala-Mount Lavinia, LK 🇱🇰",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 36.547,
+      "lng": 104.1702,
+      "label": "Baiyin, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 42.3099,
+      "lng": 69.6004,
+      "label": "Shymkent, KZ 🇰🇿",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 43.801,
+      "lng": 87.6005,
+      "label": "Ürümqi, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 7.4475,
+      "lng": 125.8046,
+      "label": "Magugpo Poblacion, PH 🇵🇭",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 26.8895,
+      "lng": 112.6189,
+      "label": "Hengyang, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 24.1917,
+      "lng": 55.7606,
+      "label": "Al Ain City, AE 🇦🇪",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 37.7742,
+      "lng": 29.0875,
+      "label": "Denizli, TR 🇹🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.6923,
+      "lng": 139.8731,
+      "label": "Edogawe, JP 🇯🇵",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 24.0895,
+      "lng": 38.0618,
+      "label": "Yanbu, SA 🇸🇦",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 34.8167,
+      "lng": 134.7,
+      "label": "Himeji, JP 🇯🇵",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 21.4901,
+      "lng": 39.1862,
+      "label": "Jeddah, SA 🇸🇦",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 34.7156,
+      "lng": 135.332,
+      "label": "Nishinomiya, JP 🇯🇵",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 22.3397,
+      "lng": 87.325,
+      "label": "Kharagpur, IN 🇮🇳",
       "words": [
         "mosque",
         "bazaar",
@@ -999,33 +1371,33 @@
       ]
     },
     {
-      "lat": 37.0594,
-      "lng": 37.3825,
-      "label": "Gaziantep, TR 🇹🇷",
+      "lat": -0.5829,
+      "lng": 117.095,
+      "label": "Loa Janan, ID 🇮🇩",
       "words": [
-        "mosque",
-        "bazaar",
-        "alley",
-        "spice market",
-        "minaret"
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
       ]
     },
     {
-      "lat": 35.5206,
-      "lng": 139.7172,
-      "label": "Kawasaki, JP 🇯🇵",
+      "lat": 5.1801,
+      "lng": 97.1507,
+      "label": "Lhokseumawe, ID 🇮🇩",
       "words": [
-        "mosque",
-        "bazaar",
-        "alley",
-        "spice market",
-        "minaret"
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
       ]
     },
     {
-      "lat": 22.2994,
-      "lng": 73.2081,
-      "label": "Vadodara, IN 🇮🇳",
+      "lat": 35.1272,
+      "lng": 126.8315,
+      "label": "Masan, KR 🇰🇷",
       "words": [
         "elevated highway",
         "cable car",
@@ -1035,9 +1407,21 @@
       ]
     },
     {
-      "lat": 41.0138,
-      "lng": 28.9497,
-      "label": "Istanbul, TR 🇹🇷",
+      "lat": 35.1017,
+      "lng": 129.03,
+      "label": "Busan, KR 🇰🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.6745,
+      "lng": 139.4822,
+      "label": "Fuchū, JP 🇯🇵",
       "words": [
         "temple",
         "street food stall",
@@ -1047,15 +1431,2187 @@
       ]
     },
     {
-      "lat": 43.0667,
-      "lng": 141.35,
-      "label": "Sapporo, JP 🇯🇵",
+      "lat": 35.7323,
+      "lng": 114.2862,
+      "label": "Hebi, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 36.5438,
+      "lng": 31.9998,
+      "label": "Alanya, TR 🇹🇷",
       "words": [
         "skyscraper",
         "harbour",
         "rickshaw",
         "lantern",
         "traditional roof"
+      ]
+    },
+    {
+      "lat": 36.3327,
+      "lng": 43.1056,
+      "label": "Al Mawşil al Jadīdah, IQ 🇮🇶",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 36.35,
+      "lng": 140.45,
+      "label": "Mito, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 27.6803,
+      "lng": 84.4365,
+      "label": "Bharatpur, NP 🇳🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 19.2167,
+      "lng": 73.0833,
+      "label": "Dombivali, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 8.179,
+      "lng": 77.4323,
+      "label": "Nāgercoil, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 5.363,
+      "lng": 100.4667,
+      "label": "Bukit Mertajam, MY 🇲🇾",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 45.768,
+      "lng": 130.9953,
+      "label": "Qitaihe, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 7.9064,
+      "lng": 125.0942,
+      "label": "NIA Valencia, PH 🇵🇭",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 36.2981,
+      "lng": 59.6057,
+      "label": "Mashhad, IR 🇮🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 21.0029,
+      "lng": 75.566,
+      "label": "Jalgaon, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 27.7017,
+      "lng": 85.3206,
+      "label": "Kathmandu, NP 🇳🇵",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 24.899,
+      "lng": 91.872,
+      "label": "Sylhet, BD 🇧🇩",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 22.4244,
+      "lng": 114.111,
+      "label": "New Territories, HK 🇭🇰",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 32.9408,
+      "lng": 117.3608,
+      "label": "Bengbu, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 34.7843,
+      "lng": 135.4013,
+      "label": "Itami, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 27.5625,
+      "lng": 76.625,
+      "label": "Alwar, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 23.9746,
+      "lng": 91.1123,
+      "label": "Brāhmanbāria, BD 🇧🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 23.0489,
+      "lng": 112.4609,
+      "label": "Zhaoqing, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 19.0728,
+      "lng": 72.8826,
+      "label": "Mumbai, IN 🇮🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 25.2919,
+      "lng": 51.4244,
+      "label": "Ar Rayyān, QA 🇶🇦",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 21.1405,
+      "lng": 105.5069,
+      "label": "Sơn Tây, VN 🇻🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 40.9778,
+      "lng": 37.8905,
+      "label": "Ordu, TR 🇹🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 35.5653,
+      "lng": 51.1583,
+      "label": "Nasimshahr, IR 🇮🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 27.9994,
+      "lng": 120.6668,
+      "label": "Wenzhou, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 31.558,
+      "lng": 74.3507,
+      "label": "Lahore, PK 🇵🇰",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 24.4926,
+      "lng": 39.5857,
+      "label": "Sulţānah, SA 🇸🇦",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 3.1545,
+      "lng": 101.5802,
+      "label": "Kota Damansara, MY 🇲🇾",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 25.5385,
+      "lng": 87.5704,
+      "label": "Katihar, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 25.3471,
+      "lng": 74.6408,
+      "label": "Bhilwara, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 3.207,
+      "lng": 101.727,
+      "label": "Setapak, MY 🇲🇾",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.9439,
+      "lng": 126.9544,
+      "label": "Iksan, KR 🇰🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 36.709,
+      "lng": 67.1109,
+      "label": "Mazār-e Sharīf, AF 🇦🇫",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 31.0155,
+      "lng": 47.4336,
+      "label": "Al Qurnah, IQ 🇮🇶",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 41.005,
+      "lng": 39.7269,
+      "label": "Trabzon, TR 🇹🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 24.4798,
+      "lng": 118.0819,
+      "label": "Xiamen, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 29.5603,
+      "lng": 106.5577,
+      "label": "Chongqing, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 25.0531,
+      "lng": 121.5264,
+      "label": "Taipei, TW 🇹🇼",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 35.2342,
+      "lng": 128.8811,
+      "label": "Kimhae, KR 🇰🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 32.6883,
+      "lng": 112.8275,
+      "label": "Binhe, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 21.3227,
+      "lng": 105.402,
+      "label": "Việt Trì, VN 🇻🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 49.8019,
+      "lng": 73.1021,
+      "label": "Karagandy, KZ 🇰🇿",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": -3.8004,
+      "lng": 102.2655,
+      "label": "Bengkulu, ID 🇮🇩",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 23.0955,
+      "lng": 113.7919,
+      "label": "Shijie, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": -6.2146,
+      "lng": 106.8451,
+      "label": "Jakarta, ID 🇮🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 24.3589,
+      "lng": 54.4827,
+      "label": "Musaffah, AE 🇦🇪",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 37.8694,
+      "lng": 112.5603,
+      "label": "Taiyuan, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 25.2445,
+      "lng": 86.9718,
+      "label": "Bhāgalpur, IN 🇮🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 36.3491,
+      "lng": 127.3849,
+      "label": "Daejeon, KR 🇰🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 19.745,
+      "lng": 96.1297,
+      "label": "Nay Pyi Taw, MM 🇲🇲",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 24.374,
+      "lng": 88.6011,
+      "label": "Rajshahi, BD 🇧🇩",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 36.61,
+      "lng": 114.4876,
+      "label": "Handan, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.1815,
+      "lng": 136.9064,
+      "label": "Nagoya, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 21.0201,
+      "lng": 105.831,
+      "label": "Đống Đa, VN 🇻🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 23.5777,
+      "lng": 58.3998,
+      "label": "Bawshar, OM 🇴🇲",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 24.8383,
+      "lng": 121.0078,
+      "label": "Zhubei, TW 🇹🇼",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 35.6322,
+      "lng": 139.7017,
+      "label": "Meguro, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 15.3478,
+      "lng": 75.1338,
+      "label": "Hubballi, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 41.0138,
+      "lng": 28.9497,
+      "label": "Istanbul, TR 🇹🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 42.2683,
+      "lng": 118.9636,
+      "label": "Chifeng, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 18.3,
+      "lng": 42.7333,
+      "label": "Khamis Mushait, SA 🇸🇦",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 35.5613,
+      "lng": 139.716,
+      "label": "Ōta, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 40.3842,
+      "lng": 71.7843,
+      "label": "Fergana, UZ 🇺🇿",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 38.4127,
+      "lng": 27.1384,
+      "label": "İzmir, TR 🇹🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 27.0174,
+      "lng": 84.8805,
+      "label": "Birgañj, NP 🇳🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.5522,
+      "lng": 51.235,
+      "label": "Eslamshahr, IR 🇮🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 40.9983,
+      "lng": 71.6726,
+      "label": "Namangan, UZ 🇺🇿",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 44.8933,
+      "lng": 82.0699,
+      "label": "Bole, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 29.4963,
+      "lng": 60.8629,
+      "label": "Zahedan, IR 🇮🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 21.8526,
+      "lng": 106.761,
+      "label": "Lạng Sơn, VN 🇻🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 26.2394,
+      "lng": 68.4037,
+      "label": "Nawabshah, PK 🇵🇰",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": -6.1703,
+      "lng": 106.5303,
+      "label": "Pasarkemis, ID 🇮🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 31.3256,
+      "lng": 75.5792,
+      "label": "Jalandhar, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 25.0015,
+      "lng": 89.3227,
+      "label": "Shibganj, BD 🇧🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 27.4284,
+      "lng": 85.0322,
+      "label": "Hetauda, NP 🇳🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 30.912,
+      "lng": 75.8538,
+      "label": "Ludhiana, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 40.1292,
+      "lng": 124.3947,
+      "label": "Dandong, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 30.3,
+      "lng": 109.4833,
+      "label": "Enshi, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 14.3545,
+      "lng": 108.0076,
+      "label": "Kon Tum, VN 🇻🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 25.0025,
+      "lng": 55.1081,
+      "label": "Jebel Ali, AE 🇦🇪",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 39.9179,
+      "lng": 32.8627,
+      "label": "Çankaya, TR 🇹🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 26.2684,
+      "lng": 73.0059,
+      "label": "Jodhpur, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 37.566,
+      "lng": 126.9784,
+      "label": "Seoul, KR 🇰🇷",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 41.0605,
+      "lng": 28.9872,
+      "label": "Şişli, TR 🇹🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 34.8135,
+      "lng": 135.6491,
+      "label": "Hirakata, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 10.3103,
+      "lng": 123.9494,
+      "label": "Lapu-Lapu City, PH 🇵🇭",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 28.4604,
+      "lng": 119.9103,
+      "label": "Lishui, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 23.8093,
+      "lng": 90.3609,
+      "label": "Mirpur Model Thana, BD 🇧🇩",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 37.0622,
+      "lng": 114.4927,
+      "label": "Xingtai, CN 🇨🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 31.992,
+      "lng": 35.84,
+      "label": "Ḩayy Khildā, JO 🇯🇴",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 17.384,
+      "lng": 78.4564,
+      "label": "Hyderabad, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 47.9077,
+      "lng": 106.8832,
+      "label": "Ulan Bator, MN 🇲🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 24.9937,
+      "lng": 121.297,
+      "label": "Taoyuan City, TW 🇹🇼",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 2.7297,
+      "lng": 101.9381,
+      "label": "Seremban, MY 🇲🇾",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 33.0751,
+      "lng": 107.0221,
+      "label": "Hanzhong, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": -6.1781,
+      "lng": 106.63,
+      "label": "Tangerang, ID 🇮🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 30.2936,
+      "lng": 120.1614,
+      "label": "Hangzhou, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 18.6715,
+      "lng": 78.0988,
+      "label": "Nizāmābād, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": -6.8886,
+      "lng": 109.6753,
+      "label": "Pekalongan, ID 🇮🇩",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 27.559,
+      "lng": 68.212,
+      "label": "Larkana, PK 🇵🇰",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 22.8275,
+      "lng": 86.2164,
+      "label": "Mango, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 37.8747,
+      "lng": 127.7342,
+      "label": "Chuncheon, KR 🇰🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 26.1226,
+      "lng": 85.3906,
+      "label": "Muzaffarpur, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 6.848,
+      "lng": 79.9265,
+      "label": "Maharagama, LK 🇱🇰",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 18.6187,
+      "lng": 73.8037,
+      "label": "Pimpri-Chinchwad, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 3.1073,
+      "lng": 101.6067,
+      "label": "Petaling Jaya, MY 🇲🇾",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 40.5489,
+      "lng": 34.9533,
+      "label": "Çorum, TR 🇹🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 21.9197,
+      "lng": 110.8568,
+      "label": "Gaozhou, CN 🇨🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 21.4397,
+      "lng": 92.0096,
+      "label": "Cox’s Bāzār, BD 🇧🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 25.2855,
+      "lng": 51.531,
+      "label": "Doha, QA 🇶🇦",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 19.2686,
+      "lng": 76.7708,
+      "label": "Parbhani, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.342,
+      "lng": 129.0336,
+      "label": "Yangsan, KR 🇰🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 23.6703,
+      "lng": 58.1891,
+      "label": "Seeb, OM 🇴🇲",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 27.6766,
+      "lng": 85.3142,
+      "label": "Pātan, NP 🇳🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": -6.3947,
+      "lng": 106.9592,
+      "label": "Cileungsir, ID 🇮🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 10.6311,
+      "lng": 122.9789,
+      "label": "Mansilingan, PH 🇵🇭",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 29.6103,
+      "lng": 52.5311,
+      "label": "Shiraz, IR 🇮🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 10.7668,
+      "lng": 106.7057,
+      "label": "Quận Bốn, VN 🇻🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 31.6133,
+      "lng": 65.7101,
+      "label": "Kandahār, AF 🇦🇫",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 39.9075,
+      "lng": 116.3972,
+      "label": "Beijing, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 29.0769,
+      "lng": 48.0839,
+      "label": "Al Aḩmadī, KW 🇰🇼",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 14.6258,
+      "lng": 121.1225,
+      "label": "Antipolo, PH 🇵🇭",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 25.6274,
+      "lng": 88.6378,
+      "label": "Dinajpur, BD 🇧🇩",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 24.8036,
+      "lng": 120.9686,
+      "label": "Hsinchu, TW 🇹🇼",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 37.7527,
+      "lng": 128.8724,
+      "label": "Gangneung, KR 🇰🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 22.1999,
+      "lng": 84.8618,
+      "label": "Raurkela Industrial Township, IN 🇮🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 24.1554,
+      "lng": 47.3346,
+      "label": "Al Kharj, SA 🇸🇦",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 34.889,
+      "lng": 35.8866,
+      "label": "Ţarţūs, SY 🇸🇾",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 39.6546,
+      "lng": 66.9644,
+      "label": "Samarkand, UZ 🇺🇿",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 26.5667,
+      "lng": 78.7873,
+      "label": "Bhind, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 34.4265,
+      "lng": 70.4515,
+      "label": "Jalālābād, AF 🇦🇫",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 0.9093,
+      "lng": 108.9846,
+      "label": "Singkawang, ID 🇮🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 35.4681,
+      "lng": 44.3922,
+      "label": "Kirkuk, IQ 🇮🇶",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 13.8607,
+      "lng": 100.5148,
+      "label": "Mueang Nonthaburi, TH 🇹🇭",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 10.7852,
+      "lng": 79.1391,
+      "label": "Thanjavur, IN 🇮🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 25.1449,
+      "lng": 82.5653,
+      "label": "Mirzāpur, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 33.5102,
+      "lng": 36.2913,
+      "label": "Damascus, SY 🇸🇾",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 29.6384,
+      "lng": 91.0444,
+      "label": "Chéngguān Qū, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 36.551,
+      "lng": 52.6786,
+      "label": "Bābol, IR 🇮🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 32.0809,
+      "lng": 34.7806,
+      "label": "Tel Aviv, IL 🇮🇱",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 32.75,
+      "lng": 129.8833,
+      "label": "Nagasaki, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 33.5097,
+      "lng": 126.5219,
+      "label": "Jeju City, KR 🇰🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 36.9862,
+      "lng": 35.3253,
+      "label": "Adana, TR 🇹🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 22.2769,
+      "lng": 113.5678,
+      "label": "Zhuhai, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 14.8139,
+      "lng": 121.0453,
+      "label": "San Jose del Monte, PH 🇵🇭",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 24.5866,
+      "lng": 98.6893,
+      "label": "Longling County, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 2.9942,
+      "lng": 101.7887,
+      "label": "Kajang, MY 🇲🇾",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 22.3305,
+      "lng": 114.1922,
+      "label": "Kowloon City, HK 🇭🇰",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 30.128,
+      "lng": 77.2837,
+      "label": "Yamuna Nagar, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 32.0727,
+      "lng": 36.088,
+      "label": "Zarqa, JO 🇯🇴",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 37.6564,
+      "lng": 126.835,
+      "label": "Goyang-si, KR 🇰🇷",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 41.1607,
+      "lng": 27.8009,
+      "label": "Çorlu, TR 🇹🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 35.7632,
+      "lng": 139.8076,
+      "label": "Adachi, JP 🇯🇵",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 37.4772,
+      "lng": 126.8664,
+      "label": "Gwangmyeong, KR 🇰🇷",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 31.9753,
+      "lng": 74.223,
+      "label": "Kamoke, PK 🇵🇰",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 36.335,
+      "lng": 43.1189,
+      "label": "Mosul, IQ 🇮🇶",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 17.9667,
+      "lng": 102.6,
+      "label": "Vientiane, LA 🇱🇦",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 7.0731,
+      "lng": 125.6128,
+      "label": "Davao, PH 🇵🇭",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 35.6419,
+      "lng": 139.6472,
+      "label": "Setagaya, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 13.9667,
+      "lng": 44.1833,
+      "label": "Ibb, YE 🇾🇪",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 22.705,
+      "lng": 90.3701,
+      "label": "Barishal, BD 🇧🇩",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 3.0693,
+      "lng": 101.6074,
+      "label": "Bandar Sunway, MY 🇲🇾",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 30.0726,
+      "lng": 71.1938,
+      "label": "Muzaffargarh, PK 🇵🇰",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 22.6566,
+      "lng": 89.7912,
+      "label": "Bagerhat, BD 🇧🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 39.941,
+      "lng": 119.5894,
+      "label": "Qinhuangdao, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 54.8734,
+      "lng": 69.1506,
+      "label": "Petropavl, KZ 🇰🇿",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 22.6711,
+      "lng": 88.3747,
+      "label": "Kāmārhāti, IN 🇮🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 23.0268,
+      "lng": 113.1315,
+      "label": "Foshan, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 18.2164,
+      "lng": 42.5053,
+      "label": "Abha, SA 🇸🇦",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 36.5633,
+      "lng": 53.0601,
+      "label": "Sari, IR 🇮🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 29.4709,
+      "lng": 77.7033,
+      "label": "Muzaffarnagar, IN 🇮🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": -8.5833,
+      "lng": 116.1167,
+      "label": "Mataram, ID 🇮🇩",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.7045,
+      "lng": 139.6695,
+      "label": "Nakano, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 30.9632,
+      "lng": 47.27,
+      "label": "Al Madīnah, IQ 🇮🇶",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 30.5032,
+      "lng": 47.8151,
+      "label": "Al Başrah al Qadīmah, IQ 🇮🇶",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 26.1844,
+      "lng": 91.7458,
+      "label": "Guwahati, IN 🇮🇳",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 35.9528,
+      "lng": 39.0079,
+      "label": "Ar Raqqah, SY 🇸🇾",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 35.9541,
+      "lng": 50.6061,
+      "label": "Naz̧arābād, IR 🇮🇷",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 20.941,
+      "lng": 106.333,
+      "label": "Hải Dương, VN 🇻🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 31.2222,
+      "lng": 121.4581,
+      "label": "Shanghai, CN 🇨🇳",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 34.0857,
+      "lng": 74.8055,
+      "label": "Srinagar, IN 🇮🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
       ]
     },
     {
@@ -1071,21 +3627,21 @@
       ]
     },
     {
-      "lat": 37.4565,
-      "lng": 126.7052,
-      "label": "Incheon, KR 🇰🇷",
+      "lat": 19.8,
+      "lng": 105.7667,
+      "label": "Thanh Hóa, VN 🇻🇳",
       "words": [
-        "temple",
-        "street food stall",
-        "motorbike",
-        "neon sign",
-        "market"
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
       ]
     },
     {
-      "lat": 39.9199,
-      "lng": 32.8543,
-      "label": "Ankara, TR 🇹🇷",
+      "lat": 31.8313,
+      "lng": 70.9017,
+      "label": "Dera Ismail Khan, PK 🇵🇰",
       "words": [
         "rice field",
         "palm tree",
@@ -1095,9 +3651,45 @@
       ]
     },
     {
-      "lat": 3.1412,
-      "lng": 101.6865,
-      "label": "Kuala Lumpur, MY 🇲🇾",
+      "lat": 11.9465,
+      "lng": 108.4419,
+      "label": "Ðà Lạt, VN 🇻🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 9.9399,
+      "lng": 76.2602,
+      "label": "Kochi, IN 🇮🇳",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 35.6944,
+      "lng": 51.4215,
+      "label": "Tehran, IR 🇮🇷",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 20.4339,
+      "lng": 106.1773,
+      "label": "Nam Định, VN 🇻🇳",
       "words": [
         "rice field",
         "palm tree",
@@ -1107,9 +3699,21 @@
       ]
     },
     {
-      "lat": 35.8327,
-      "lng": 50.9915,
-      "label": "Karaj, IR 🇮🇷",
+      "lat": 36.1136,
+      "lng": 128.336,
+      "label": "Gumi, KR 🇰🇷",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": -6.4856,
+      "lng": 106.8819,
+      "label": "Citeureup, ID 🇮🇩",
       "words": [
         "temple",
         "street food stall",
@@ -1119,9 +3723,21 @@
       ]
     },
     {
-      "lat": 25.062,
-      "lng": 121.457,
-      "label": "New Taipei City, TW 🇹🇼",
+      "lat": 15.4802,
+      "lng": 120.5979,
+      "label": "Tarlac City, PH 🇵🇭",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 24.8081,
+      "lng": 93.9442,
+      "label": "Imphal, IN 🇮🇳",
       "words": [
         "elevated highway",
         "cable car",
@@ -1131,21 +3747,9 @@
       ]
     },
     {
-      "lat": -6.4,
-      "lng": 106.8186,
-      "label": "Depok, ID 🇮🇩",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 25.0531,
-      "lng": 121.5264,
-      "label": "Taipei, TW 🇹🇼",
+      "lat": 22.2006,
+      "lng": 113.5461,
+      "label": "Macau, MO 🇲🇴",
       "words": [
         "temple",
         "street food stall",
@@ -1155,33 +3759,9 @@
       ]
     },
     {
-      "lat": 22.3167,
-      "lng": 114.1833,
-      "label": "Kowloon, HK 🇭🇰",
-      "words": [
-        "elevated highway",
-        "cable car",
-        "fish market",
-        "pagoda",
-        "street art"
-      ]
-    },
-    {
-      "lat": 25.4394,
-      "lng": 119.0103,
-      "label": "Putian, CN 🇨🇳",
-      "words": [
-        "skyscraper",
-        "harbour",
-        "rickshaw",
-        "lantern",
-        "traditional roof"
-      ]
-    },
-    {
-      "lat": 36.2981,
-      "lng": 59.6057,
-      "label": "Mashhad, IR 🇮🇷",
+      "lat": 19.2167,
+      "lng": 73.15,
+      "label": "Ulhasnagar, IN 🇮🇳",
       "words": [
         "mosque",
         "bazaar",
@@ -1191,9 +3771,9 @@
       ]
     },
     {
-      "lat": 31.9552,
-      "lng": 35.945,
-      "label": "Amman, JO 🇯🇴",
+      "lat": 24.0733,
+      "lng": 120.5628,
+      "label": "Chang-hua, TW 🇹🇼",
       "words": [
         "mosque",
         "bazaar",
@@ -1203,9 +3783,9 @@
       ]
     },
     {
-      "lat": 27.7017,
-      "lng": 85.3206,
-      "label": "Kathmandu, NP 🇳🇵",
+      "lat": 34.6552,
+      "lng": 135.0069,
+      "label": "Akashi, JP 🇯🇵",
       "words": [
         "elevated highway",
         "cable car",
@@ -1215,9 +3795,201 @@
       ]
     },
     {
-      "lat": -6.9931,
-      "lng": 110.4208,
-      "label": "Semarang, ID 🇮🇩",
+      "lat": 33.3406,
+      "lng": 44.4009,
+      "label": "Baghdad, IQ 🇮🇶",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": -0.8796,
+      "lng": 131.261,
+      "label": "Sorong, ID 🇮🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 43.2525,
+      "lng": 76.9115,
+      "label": "Almaty, KZ 🇰🇿",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 49.9714,
+      "lng": 82.6059,
+      "label": "Ust-Kamenogorsk, KZ 🇰🇿",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 24.1469,
+      "lng": 120.6839,
+      "label": "Taichung, TW 🇹🇼",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 35.405,
+      "lng": 116.5814,
+      "label": "Jining, CN 🇨🇳",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 14.3427,
+      "lng": 121.0807,
+      "label": "Biñan, PH 🇵🇭",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 13.754,
+      "lng": 100.5014,
+      "label": "Bangkok, TH 🇹🇭",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 22.6906,
+      "lng": 92.2347,
+      "label": "Karnaphuli, BD 🇧🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 38.3725,
+      "lng": 34.0254,
+      "label": "Aksaray, TR 🇹🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 11.5625,
+      "lng": 104.916,
+      "label": "Phnom Penh, KH 🇰🇭",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 30.0459,
+      "lng": 70.6403,
+      "label": "Dera Ghazi Khan, PK 🇵🇰",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 14.7978,
+      "lng": 42.9545,
+      "label": "Al Ḩudaydah, YE 🇾🇪",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 37.54,
+      "lng": 127.2056,
+      "label": "Hanam, KR 🇰🇷",
+      "words": [
+        "rice field",
+        "palm tree",
+        "wooden house",
+        "canal boat",
+        "vendor cart"
+      ]
+    },
+    {
+      "lat": 24.5133,
+      "lng": 117.6556,
+      "label": "Zhangzhou, CN 🇨🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 34.2322,
+      "lng": 132.5666,
+      "label": "Kure, JP 🇯🇵",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 35.3364,
+      "lng": 139.4043,
+      "label": "Chigasaki, JP 🇯🇵",
       "words": [
         "temple",
         "street food stall",
@@ -1227,15 +3999,123 @@
       ]
     },
     {
-      "lat": 33.9,
-      "lng": 35.4833,
-      "label": "Ra’s Bayrūt, LB 🇱🇧",
+      "lat": 35.3,
+      "lng": 136.8,
+      "label": "Ichinomiya, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 23.923,
+      "lng": 90.7177,
+      "label": "Narsingdi, BD 🇧🇩",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 38.6735,
+      "lng": 29.4058,
+      "label": "Uşak, TR 🇹🇷",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": 27.0174,
+      "lng": 49.6225,
+      "label": "Al Jubayl, SA 🇸🇦",
       "words": [
         "skyscraper",
         "harbour",
         "rickshaw",
         "lantern",
         "traditional roof"
+      ]
+    },
+    {
+      "lat": 38.2333,
+      "lng": 140.3667,
+      "label": "Yamagata, JP 🇯🇵",
+      "words": [
+        "temple",
+        "street food stall",
+        "motorbike",
+        "neon sign",
+        "market"
+      ]
+    },
+    {
+      "lat": 27.1509,
+      "lng": 78.3978,
+      "label": "Fīrozābād, IN 🇮🇳",
+      "words": [
+        "mosque",
+        "bazaar",
+        "alley",
+        "spice market",
+        "minaret"
+      ]
+    },
+    {
+      "lat": -3.6958,
+      "lng": 128.1833,
+      "label": "Ambon, ID 🇮🇩",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": -10.1708,
+      "lng": 123.6069,
+      "label": "Kupang, ID 🇮🇩",
+      "words": [
+        "skyscraper",
+        "harbour",
+        "rickshaw",
+        "lantern",
+        "traditional roof"
+      ]
+    },
+    {
+      "lat": 32.0871,
+      "lng": 34.8875,
+      "label": "Petaẖ Tiqva, IL 🇮🇱",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
+      ]
+    },
+    {
+      "lat": 1.3264,
+      "lng": 103.9417,
+      "label": "Bedok New Town, SG 🇸🇬",
+      "words": [
+        "elevated highway",
+        "cable car",
+        "fish market",
+        "pagoda",
+        "street art"
       ]
     }
   ]

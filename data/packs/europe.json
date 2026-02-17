@@ -723,21 +723,9 @@
       ]
     },
     {
-      "lat": 57.1522,
-      "lng": 65.5272,
-      "label": "Tyumen, RU 🇷🇺",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 55.6059,
-      "lng": 13.0007,
-      "label": "Malmö, SE 🇸🇪",
+      "lat": 55.1611,
+      "lng": 61.4288,
+      "label": "Chelyabinsk, RU 🇷🇺",
       "words": [
         "cobblestone street",
         "tram",
@@ -747,9 +735,33 @@
       ]
     },
     {
-      "lat": 53.1235,
-      "lng": 18.0076,
-      "label": "Bydgoszcz, PL 🇵🇱",
+      "lat": 40.7642,
+      "lng": 47.0623,
+      "label": "Mingachevir, AZ 🇦🇿",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 50.6337,
+      "lng": 5.5675,
+      "label": "Liège, BE 🇧🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 44.9254,
+      "lng": 25.4567,
+      "label": "Târgovişte, RO 🇷🇴",
       "words": [
         "old town square",
         "market stall",
@@ -759,15 +771,255 @@
       ]
     },
     {
-      "lat": 40.389,
-      "lng": -3.7457,
-      "label": "Latina, ES 🇪🇸",
+      "lat": 45.05,
+      "lng": 23.2833,
+      "label": "Târgu Jiu, RO 🇷🇴",
       "words": [
         "railway station",
         "tramline",
         "roundabout",
         "castle",
         "town hall"
+      ]
+    },
+    {
+      "lat": 36.4759,
+      "lng": -6.1982,
+      "label": "San Fernando, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 51.3689,
+      "lng": 42.098,
+      "label": "Borisoglebsk, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 38.0848,
+      "lng": -0.944,
+      "label": "Orihuela, ES 🇪🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.2092,
+      "lng": 15.8328,
+      "label": "Hradec Králové, CZ 🇨🇿",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.1328,
+      "lng": 21.7158,
+      "label": "Kumanovo, MK 🇲🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 58.3806,
+      "lng": 26.7251,
+      "label": "Tartu, EE 🌍",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.0333,
+      "lng": 5.6583,
+      "label": "Ede, NL 🇳🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 57.721,
+      "lng": 12.9401,
+      "label": "Borås, SE 🇸🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 58.9701,
+      "lng": 5.7333,
+      "label": "Stavanger, NO 🇳🇴",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 37.4903,
+      "lng": 14.0622,
+      "label": "Caltanissetta, IT 🇮🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 41.5514,
+      "lng": -8.4231,
+      "label": "Braga, PT 🇵🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 50.9174,
+      "lng": 34.7991,
+      "label": "Sumy, UA 🇺🇦",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 59.9657,
+      "lng": 30.3115,
+      "label": "Petrogradka, RU 🇷🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 62.6012,
+      "lng": 29.7632,
+      "label": "Joensuu, FI 🇫🇮",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 55.9333,
+      "lng": 23.3167,
+      "label": "Šiauliai, LT 🇱🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 41.7172,
+      "lng": 21.772,
+      "label": "Veles, MK 🇲🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.9997,
+      "lng": 6.8063,
+      "label": "Pulheim, DE 🇩🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 53.5654,
+      "lng": -0.0755,
+      "label": "Grimsby, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.9022,
+      "lng": -0.2026,
+      "label": "Stevenage, GB 🇬🇧",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.9599,
+      "lng": 4.7593,
+      "label": "Den Helder, NL 🇳🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
       ]
     },
     {
@@ -775,17 +1027,17 @@
       "lng": 24.7535,
       "label": "Tallinn, EE 🌍",
       "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
       ]
     },
     {
-      "lat": 45.8144,
-      "lng": 15.978,
-      "label": "Zagreb, HR 🇭🇷",
+      "lat": 44.9263,
+      "lng": 37.9903,
+      "label": "Krymsk, RU 🇷🇺",
       "words": [
         "canal",
         "bridge",
@@ -795,21 +1047,9 @@
       ]
     },
     {
-      "lat": 43.2191,
-      "lng": 27.9102,
-      "label": "Varna, BG 🇧🇬",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 49.554,
-      "lng": 25.5907,
-      "label": "Ternopil, UA 🇺🇦",
+      "lat": 54.5243,
+      "lng": -1.5504,
+      "label": "Darlington, GB 🇬🇧",
       "words": [
         "medieval wall",
         "arch",
@@ -819,57 +1059,21 @@
       ]
     },
     {
-      "lat": 54.9733,
-      "lng": -1.614,
-      "label": "Newcastle upon Tyne, GB 🇬🇧",
+      "lat": 48.8642,
+      "lng": 2.4432,
+      "label": "Montreuil, FR 🇫🇷",
       "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
       ]
     },
     {
-      "lat": 44.608,
-      "lng": 33.5213,
-      "label": "Sevastopol, UA 🇺🇦",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 51.5555,
-      "lng": 5.0913,
-      "label": "Tilburg, NL 🇳🇱",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 41.6914,
-      "lng": 44.8341,
-      "label": "Tbilisi, GE 🇬🇪",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 41.45,
-      "lng": 2.2474,
-      "label": "Badalona, ES 🇪🇸",
+      "lat": 48.5083,
+      "lng": 32.2662,
+      "label": "Kropyvnytskyy, UA 🇺🇦",
       "words": [
         "canal",
         "bridge",
@@ -879,9 +1083,9 @@
       ]
     },
     {
-      "lat": 51.4566,
-      "lng": 7.0123,
-      "label": "Essen, DE 🇩🇪",
+      "lat": 50.8796,
+      "lng": 4.7009,
+      "label": "Leuven, BE 🇧🇪",
       "words": [
         "canal",
         "bridge",
@@ -891,15 +1095,843 @@
       ]
     },
     {
-      "lat": 47.0673,
-      "lng": 15.442,
-      "label": "Graz, AT 🇦🇹",
+      "lat": 41.5627,
+      "lng": 44.9787,
+      "label": "Rustavi, GE 🇬🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 59.3772,
+      "lng": 28.1903,
+      "label": "Narva, EE 🌍",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 40.1992,
+      "lng": 44.4706,
+      "label": "Ajapnyak, AM 🇦🇲",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 44.7467,
+      "lng": 19.69,
+      "label": "Šabac, RS 🇷🇸",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 43.297,
+      "lng": 5.3811,
+      "label": "Marseille, FR 🇫🇷",
       "words": [
         "cobblestone street",
         "tram",
         "café terrace",
         "church spire",
         "bicycle lane"
+      ]
+    },
+    {
+      "lat": 51.3755,
+      "lng": 7.7028,
+      "label": "Iserlohn, DE 🇩🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 37.9833,
+      "lng": 23.6833,
+      "label": "Aigáleo, GR 🇬🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 54.5971,
+      "lng": 52.4512,
+      "label": "Leninogorsk, RU 🇷🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 46.0679,
+      "lng": 11.1211,
+      "label": "Trento, IT 🇮🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.3702,
+      "lng": 5.2141,
+      "label": "Almere Stad, NL 🇳🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.2,
+      "lng": 16.2667,
+      "label": "Penzing, AT 🇦🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 44.1158,
+      "lng": 15.2251,
+      "label": "Zadar, HR 🇭🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 46.5558,
+      "lng": 15.6459,
+      "label": "Maribor, SI 🇸🇮",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 55.9029,
+      "lng": -3.5226,
+      "label": "Livingston, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 53.5476,
+      "lng": 8.1039,
+      "label": "Wilhelmshaven, DE 🇩🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.503,
+      "lng": 13.6362,
+      "label": "Most, CZ 🇨🇿",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 40.7058,
+      "lng": 19.9522,
+      "label": "Berat, AL 🇦🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.5382,
+      "lng": -0.131,
+      "label": "Benidorm, ES 🇪🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.1855,
+      "lng": 16.3537,
+      "label": "Margareten, AT 🇦🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.5156,
+      "lng": 13.4548,
+      "label": "Friedrichshain, DE 🇩🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 49.4445,
+      "lng": 32.0574,
+      "label": "Cherkasy, UA 🇺🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 59.3666,
+      "lng": 16.5077,
+      "label": "Eskilstuna, SE 🇸🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 47.4298,
+      "lng": 19.2159,
+      "label": "Pestlőrinc, HU 🇭🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 40.2069,
+      "lng": -8.42,
+      "label": "Coimbra, PT 🇵🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.767,
+      "lng": -9.2979,
+      "label": "Cacém, PT 🇵🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 45.7452,
+      "lng": 4.842,
+      "label": "Lyon 07, FR 🇫🇷",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 56.0467,
+      "lng": 12.6944,
+      "label": "Helsingborg, SE 🇸🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 38.7976,
+      "lng": -9.3437,
+      "label": "Algueirão, PT 🇵🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 56.4607,
+      "lng": 10.0364,
+      "label": "Randers, DK 🇩🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.4378,
+      "lng": 13.3811,
+      "label": "Mariendorf, DE 🇩🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.5313,
+      "lng": 20.0085,
+      "label": "Tomaszów Mazowiecki, PL 🇵🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 56.9053,
+      "lng": 59.9436,
+      "label": "Pervouralsk, RU 🇷🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.8324,
+      "lng": 9.3164,
+      "label": "Waiblingen, DE 🇩🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 43.3186,
+      "lng": 5.4084,
+      "label": "Marseille 13, FR 🇫🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 34.6841,
+      "lng": 33.0379,
+      "label": "Limassol, CY 🇨🇾",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.9465,
+      "lng": 3.1227,
+      "label": "Roeselare, BE 🇧🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 42.5514,
+      "lng": 21.9003,
+      "label": "Vranje, RS 🇷🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 40.4937,
+      "lng": -3.6359,
+      "label": "Valdefuentes, ES 🇪🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.0494,
+      "lng": 10.2218,
+      "label": "Schweinfurt, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.1465,
+      "lng": 0.8738,
+      "label": "Ashford, GB 🇬🇧",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 28.1272,
+      "lng": -15.4314,
+      "label": "Centro, ES 🇪🇸",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 43.3576,
+      "lng": 132.1914,
+      "label": "Artëm, RU 🇷🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 55.63,
+      "lng": 37.8,
+      "label": "Alekseyevka, RU 🇷🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 40.8591,
+      "lng": 14.1731,
+      "label": "Pianura, IT 🇮🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 53.0138,
+      "lng": 18.5981,
+      "label": "Toruń, PL 🇵🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 44.2017,
+      "lng": 17.904,
+      "label": "Zenica, BA 🇧🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 41.6857,
+      "lng": 12.7775,
+      "label": "Velletri, IT 🇮🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.0789,
+      "lng": 13.5124,
+      "label": "Bagheria, IT 🇮🇹",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 49.7798,
+      "lng": 18.4369,
+      "label": "Havířov, CZ 🇨🇿",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 40.5825,
+      "lng": 22.9503,
+      "label": "Kalamariá, GR 🇬🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 47.2309,
+      "lng": 16.6215,
+      "label": "Szombathely, HU 🇭🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.6607,
+      "lng": 14.0323,
+      "label": "Ústí nad Labem, CZ 🇨🇿",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 35.1728,
+      "lng": 33.354,
+      "label": "Nicosia, CY 🇨🇾",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 50.348,
+      "lng": 18.9328,
+      "label": "Bytom, PL 🇵🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 59.9127,
+      "lng": 10.7461,
+      "label": "Oslo, NO 🇳🇴",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 48.7144,
+      "lng": 21.258,
+      "label": "Košice, SK 🇸🇰",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.8362,
+      "lng": 4.3145,
+      "label": "Anderlecht, BE 🇧🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 48.892,
+      "lng": 2.2067,
+      "label": "Nanterre, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 47.7682,
+      "lng": 29.01,
+      "label": "Rîbniţa, MD 🇲🇩",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 32.6657,
+      "lng": -16.9255,
+      "label": "Funchal, PT 🇵🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 48.7395,
+      "lng": 19.1493,
+      "label": "Banská Bystrica, SK 🇸🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.4635,
+      "lng": 23.6028,
+      "label": "Chalkída, GR 🇬🇷",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 46.8428,
+      "lng": 29.6284,
+      "label": "Tiraspol, MD 🇲🇩",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 47.0933,
+      "lng": 17.9115,
+      "label": "Veszprém, HU 🇭🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 37.9667,
+      "lng": 23.65,
+      "label": "Níkaia, GR 🇬🇷",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 44.8412,
+      "lng": -0.5805,
+      "label": "Bordeaux, FR 🇫🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 59.1312,
+      "lng": 10.2166,
+      "label": "Sandefjord, NO 🇳🇴",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.2942,
+      "lng": -0.7557,
+      "label": "Farnborough, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 41.6408,
+      "lng": 41.6306,
+      "label": "Batumi, GE 🇬🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 42.3803,
+      "lng": 20.4308,
+      "label": "Gjakovë, XK 🇽🇰",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
       ]
     },
     {
@@ -907,6 +1939,18 @@
       "lng": 19.8369,
       "label": "Novi Sad, RS 🇷🇸",
       "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 55.6415,
+      "lng": 12.0803,
+      "label": "Roskilde, DK 🇩🇰",
+      "words": [
         "medieval wall",
         "arch",
         "monastery",
@@ -915,9 +1959,9 @@
       ]
     },
     {
-      "lat": 41.3274,
-      "lng": 19.8187,
-      "label": "Tirana, AL 🇦🇱",
+      "lat": 43.3603,
+      "lng": -5.8448,
+      "label": "Oviedo, ES 🇪🇸",
       "words": [
         "cobblestone street",
         "tram",
@@ -927,15 +1971,51 @@
       ]
     },
     {
-      "lat": 52.5597,
-      "lng": 103.9141,
-      "label": "Angarsk, RU 🇷🇺",
+      "lat": 37.1852,
+      "lng": -5.7809,
+      "label": "Utrera, ES 🇪🇸",
       "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.0153,
+      "lng": 21.4411,
+      "label": "Čair, MK 🇲🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 55.313,
+      "lng": 38.691,
+      "label": "Voskresensk, RU 🇷🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.1089,
+      "lng": 23.7175,
+      "label": "Brest, BY 🇧🇾",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
       ]
     },
     {
@@ -943,17 +2023,41 @@
       "lng": 24.1059,
       "label": "Riga, LV 🇱🇻",
       "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
       ]
     },
     {
-      "lat": 54.6892,
-      "lng": 25.2798,
-      "label": "Vilnius, LT 🇱🇹",
+      "lat": 51.8265,
+      "lng": 107.5998,
+      "label": "Ulan-Ude, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 60.017,
+      "lng": 30.417,
+      "label": "Grazhdanka, RU 🇷🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 47.5686,
+      "lng": 19.0846,
+      "label": "Újpest, HU 🇭🇺",
       "words": [
         "cobblestone street",
         "tram",
@@ -963,21 +2067,9 @@
       ]
     },
     {
-      "lat": 46.6369,
-      "lng": 32.6146,
-      "label": "Kherson, UA 🇺🇦",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 53.3331,
-      "lng": -6.2489,
-      "label": "Dublin, IE 🇮🇪",
+      "lat": 50.1473,
+      "lng": 14.1029,
+      "label": "Kladno, CZ 🇨🇿",
       "words": [
         "canal",
         "bridge",
@@ -987,15 +2079,147 @@
       ]
     },
     {
-      "lat": 40.5897,
-      "lng": 49.6686,
-      "label": "Sumqayıt, AZ 🇦🇿",
+      "lat": 48.9745,
+      "lng": 14.4743,
+      "label": "České Budějovice, CZ 🇨🇿",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 56.5047,
+      "lng": 21.0109,
+      "label": "Liepāja, LV 🇱🇻",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.8144,
+      "lng": 15.978,
+      "label": "Zagreb, HR 🇭🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 41.2426,
+      "lng": 16.501,
+      "label": "Bisceglie, IT 🇮🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 49.8347,
+      "lng": 18.282,
+      "label": "Ostrava, CZ 🇨🇿",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 38.918,
+      "lng": -6.3429,
+      "label": "Mérida, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 44.8169,
+      "lng": 15.8708,
+      "label": "Bihać, BA 🇧🇦",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 57.7814,
+      "lng": 14.1562,
+      "label": "Jönköping, SE 🇸🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 38.8995,
+      "lng": 22.4335,
+      "label": "Lamía, GR 🇬🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.5362,
+      "lng": -0.103,
+      "label": "Islington, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 62.4723,
+      "lng": 6.1549,
+      "label": "Ålesund, NO 🇳🇴",
       "words": [
         "railway station",
         "tramline",
         "roundabout",
         "castle",
         "town hall"
+      ]
+    },
+    {
+      "lat": 51.8017,
+      "lng": -0.2069,
+      "label": "Welwyn Garden City, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
       ]
     },
     {
@@ -1011,21 +2235,33 @@
       ]
     },
     {
+      "lat": 42.0146,
+      "lng": 23.098,
+      "label": "Blagoevgrad, BG 🇧🇬",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
       "lat": 40.1776,
       "lng": 44.5126,
       "label": "Yerevan, AM 🇦🇲",
       "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
       ]
     },
     {
-      "lat": 57.7072,
-      "lng": 11.9668,
-      "label": "Göteborg, SE 🇸🇪",
+      "lat": 39.9378,
+      "lng": 48.929,
+      "label": "Şirvan, AZ 🇦🇿",
       "words": [
         "old town square",
         "market stall",
@@ -1035,15 +2271,75 @@
       ]
     },
     {
-      "lat": 43.7031,
-      "lng": 7.2661,
-      "label": "Nice, FR 🇫🇷",
+      "lat": 44.0575,
+      "lng": 12.5653,
+      "label": "Rimini, IT 🇮🇹",
       "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 40.7167,
+      "lng": 19.5667,
+      "label": "Fier-Çifçi, AL 🇦🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 48.0424,
+      "lng": 38.1473,
+      "label": "Khartsyzk, UA 🇺🇦",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 47.3949,
+      "lng": 18.9136,
+      "label": "Érd, HU 🇭🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 38.7927,
+      "lng": -9.1838,
+      "label": "Odivelas, PT 🇵🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.1787,
+      "lng": 5.7148,
+      "label": "Grenoble, FR 🇫🇷",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
       ]
     },
     {
@@ -1059,9 +2355,33 @@
       ]
     },
     {
-      "lat": 47.4984,
-      "lng": 19.0404,
-      "label": "Budapest, HU 🇭🇺",
+      "lat": 50.0833,
+      "lng": 14.45,
+      "label": "Žižkov, CZ 🇨🇿",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 43.8315,
+      "lng": 18.307,
+      "label": "Ilidža, BA 🇧🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 46.9167,
+      "lng": 26.3333,
+      "label": "Piatra Neamţ, RO 🇷🇴",
       "words": [
         "railway station",
         "tramline",
@@ -1071,21 +2391,9 @@
       ]
     },
     {
-      "lat": 50.799,
-      "lng": -1.0913,
-      "label": "Portsmouth, GB 🇬🇧",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 37.1882,
-      "lng": -3.6067,
-      "label": "Granada, ES 🇪🇸",
+      "lat": 53.2077,
+      "lng": 50.1355,
+      "label": "Samara, RU 🇷🇺",
       "words": [
         "cobblestone street",
         "tram",
@@ -1095,21 +2403,9 @@
       ]
     },
     {
-      "lat": 45.4643,
-      "lng": 9.1895,
-      "label": "Milan, IT 🇮🇹",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 55.1904,
-      "lng": 30.2049,
-      "label": "Vitebsk, BY 🇧🇾",
+      "lat": 43.2907,
+      "lng": 5.4384,
+      "label": "Marseille 11, FR 🇫🇷",
       "words": [
         "old town square",
         "market stall",
@@ -1119,9 +2415,9 @@
       ]
     },
     {
-      "lat": 63.4305,
-      "lng": 10.3951,
-      "label": "Trondheim, NO 🇳🇴",
+      "lat": 47.9025,
+      "lng": 1.9041,
+      "label": "Orléans, FR 🇫🇷",
       "words": [
         "medieval wall",
         "arch",
@@ -1131,15 +2427,147 @@
       ]
     },
     {
-      "lat": 44.8412,
-      "lng": -0.5805,
-      "label": "Bordeaux, FR 🇫🇷",
+      "lat": 49.6098,
+      "lng": 6.1327,
+      "label": "Luxembourg, LU 🇱🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 50.3249,
+      "lng": 18.7858,
+      "label": "Zabrze, PL 🇵🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 54.074,
+      "lng": 9.9846,
+      "label": "Neumünster, DE 🇩🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 46.8316,
+      "lng": 29.4767,
+      "label": "Bender, MD 🇲🇩",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 52.255,
+      "lng": 6.1639,
+      "label": "Deventer, NL 🇳🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 54.1118,
+      "lng": 22.9309,
+      "label": "Suwałki, PL 🇵🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 48.7995,
+      "lng": 9.7981,
+      "label": "Schwäbisch Gmünd, DE 🇩🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 39.2293,
+      "lng": 9.25,
+      "label": "Quartu Sant'Elena, IT 🇮🇹",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 45.3267,
+      "lng": 14.4424,
+      "label": "Rijeka, HR 🇭🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 47.22,
+      "lng": 39.7077,
+      "label": "Rostov-na-Donu, RU 🇷🇺",
       "words": [
         "railway station",
         "tramline",
         "roundabout",
         "castle",
         "town hall"
+      ]
+    },
+    {
+      "lat": 45.1,
+      "lng": 24.3667,
+      "label": "Râmnicu Vâlcea, RO 🇷🇴",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 42.2679,
+      "lng": 42.6946,
+      "label": "Kutaisi, GE 🇬🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
       ]
     },
     {
@@ -1147,779 +2575,11 @@
       "lng": 12.5655,
       "label": "Copenhagen, DK 🇩🇰",
       "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 51.2205,
-      "lng": 4.4003,
-      "label": "Antwerpen, BE 🇧🇪",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 52.25,
-      "lng": -0.8833,
-      "label": "Northampton, GB 🇬🇧",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 60.393,
-      "lng": 5.3242,
-      "label": "Bergen, NO 🇳🇴",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 42.6727,
-      "lng": 21.1669,
-      "label": "Pristina, XK 🇽🇰",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 47.1667,
-      "lng": 27.6,
-      "label": "Iaşi, RO 🇷🇴",
-      "words": [
         "canal",
         "bridge",
         "baroque church",
         "bell tower",
         "colourful facade"
-      ]
-    },
-    {
-      "lat": 43.7792,
-      "lng": 11.2463,
-      "label": "Florence, IT 🇮🇹",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 53.5833,
-      "lng": 10.0831,
-      "label": "Wandsbek, DE 🇩🇪",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 42.2328,
-      "lng": -8.7226,
-      "label": "Vigo, ES 🇪🇸",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 53.5405,
-      "lng": -2.1183,
-      "label": "Oldham, GB 🇬🇧",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 48.8534,
-      "lng": 2.3488,
-      "label": "Paris, FR 🇫🇷",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 51.4408,
-      "lng": 5.4778,
-      "label": "Eindhoven, NL 🇳🇱",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 54.5189,
-      "lng": 18.5319,
-      "label": "Gdynia, PL 🇵🇱",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 47.009,
-      "lng": 28.8594,
-      "label": "Chisinau, MD 🇲🇩",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 54.9016,
-      "lng": 23.9091,
-      "label": "Kaunas, LT 🇱🇹",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 45.7537,
-      "lng": 21.2257,
-      "label": "Timişoara, RO 🇷🇴",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 50.8505,
-      "lng": 4.3488,
-      "label": "Brussels, BE 🇧🇪",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 48.7144,
-      "lng": 21.258,
-      "label": "Košice, SK 🇸🇰",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 59.3294,
-      "lng": 18.0687,
-      "label": "Stockholm, SE 🇸🇪",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 53.2903,
-      "lng": -6.3415,
-      "label": "South Dublin, IE 🇮🇪",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 42.4412,
-      "lng": 19.2631,
-      "label": "Podgorica, ME 🇲🇪",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 50.088,
-      "lng": 14.4208,
-      "label": "Prague, CZ 🇨🇿",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 53.4106,
-      "lng": -2.9779,
-      "label": "Liverpool, GB 🇬🇧",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 65.0124,
-      "lng": 25.4682,
-      "label": "Oulu, FI 🇫🇮",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 53.4809,
-      "lng": -2.2374,
-      "label": "Manchester, GB 🇬🇧",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 48.1482,
-      "lng": 17.1067,
-      "label": "Bratislava, SK 🇸🇰",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 61.2576,
-      "lng": 73.4177,
-      "label": "Surgut, RU 🇷🇺",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 41.9965,
-      "lng": 21.4314,
-      "label": "Skopje, MK 🇲🇰",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 47.2363,
-      "lng": 38.9053,
-      "label": "Taganrog, RU 🇷🇺",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 42.6975,
-      "lng": 23.3241,
-      "label": "Sofia, BG 🇧🇬",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 49.1952,
-      "lng": 16.608,
-      "label": "Brno, CZ 🇨🇿",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 48.3064,
-      "lng": 14.2861,
-      "label": "Linz, AT 🇦🇹",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 38.1166,
-      "lng": 13.3636,
-      "label": "Palermo, IT 🇮🇹",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 53.9002,
-      "lng": 27.5665,
-      "label": "Minsk, BY 🇧🇾",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 52.9688,
-      "lng": 36.0791,
-      "label": "Orël, RU 🇷🇺",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 56.1567,
-      "lng": 10.2108,
-      "label": "Århus, DK 🇩🇰",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 40.3777,
-      "lng": 49.892,
-      "label": "Baku, AZ 🇦🇿",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 48.5839,
-      "lng": 7.7455,
-      "label": "Strasbourg, FR 🇫🇷",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 51.1029,
-      "lng": 17.0301,
-      "label": "Wrocław, PL 🇵🇱",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 41.1485,
-      "lng": -8.611,
-      "label": "Porto, PT 🇵🇹",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 52.0767,
-      "lng": 4.2986,
-      "label": "The Hague, NL 🇳🇱",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 39.4739,
-      "lng": -0.3797,
-      "label": "Valencia, ES 🇪🇸",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 43.3247,
-      "lng": 21.9033,
-      "label": "Niš, RS 🇷🇸",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 40.6816,
-      "lng": 46.3613,
-      "label": "Ganja, AZ 🇦🇿",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 50.1155,
-      "lng": 8.6842,
-      "label": "Frankfurt am Main, DE 🇩🇪",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 51.5051,
-      "lng": 7.0965,
-      "label": "Gelsenkirchen, DE 🇩🇪",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 41.389,
-      "lng": 2.1618,
-      "label": "Eixample, ES 🇪🇸",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 42.1539,
-      "lng": 24.75,
-      "label": "Plovdiv, BG 🇧🇬",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 51.05,
-      "lng": 3.7167,
-      "label": "Gent, BE 🇧🇪",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 59.9127,
-      "lng": 10.7461,
-      "label": "Oslo, NO 🇳🇴",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 49.8347,
-      "lng": 18.282,
-      "label": "Ostrava, CZ 🇨🇿",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 43.8486,
-      "lng": 18.3564,
-      "label": "Sarajevo, BA 🇧🇦",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 40.6407,
-      "lng": 22.9349,
-      "label": "Thessaloníki, GR 🇬🇷",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 44.7788,
-      "lng": 17.2063,
-      "label": "Banja Luka, BA 🇧🇦",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 53.9088,
-      "lng": 30.3404,
-      "label": "Mahilyow, BY 🇧🇾",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 44.4938,
-      "lng": 11.3387,
-      "label": "Bologna, IT 🇮🇹",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 44.804,
-      "lng": 20.4651,
-      "label": "Belgrade, RS 🇷🇸",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 48.2085,
-      "lng": 16.3721,
-      "label": "Vienna, AT 🇦🇹",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 38.7251,
-      "lng": -9.1498,
-      "label": "Lisbon, PT 🇵🇹",
-      "words": [
-        "railway station",
-        "tramline",
-        "roundabout",
-        "castle",
-        "town hall"
-      ]
-    },
-    {
-      "lat": 50.8357,
-      "lng": 12.9292,
-      "label": "Chemnitz, DE 🇩🇪",
-      "words": [
-        "cobblestone street",
-        "tram",
-        "café terrace",
-        "church spire",
-        "bicycle lane"
-      ]
-    },
-    {
-      "lat": 44.4358,
-      "lng": 26.0165,
-      "label": "Sector 6, RO 🇷🇴",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 37.9838,
-      "lng": 23.7278,
-      "label": "Athens, GR 🇬🇷",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
-      ]
-    },
-    {
-      "lat": 47.3667,
-      "lng": 8.55,
-      "label": "Zürich, CH 🇨🇭",
-      "words": [
-        "canal",
-        "bridge",
-        "baroque church",
-        "bell tower",
-        "colourful facade"
-      ]
-    },
-    {
-      "lat": 54.3282,
-      "lng": 48.3866,
-      "label": "Ulyanovsk, RU 🇷🇺",
-      "words": [
-        "medieval wall",
-        "arch",
-        "monastery",
-        "vineyard hillside",
-        "waterfront"
-      ]
-    },
-    {
-      "lat": 50.6339,
-      "lng": 3.0551,
-      "label": "Lille, FR 🇫🇷",
-      "words": [
-        "old town square",
-        "market stall",
-        "apartment block",
-        "pedestrian zone",
-        "fountain"
       ]
     },
     {
@@ -1935,15 +2595,2943 @@
       ]
     },
     {
-      "lat": 46.0511,
-      "lng": 14.5051,
-      "label": "Ljubljana, SI 🇸🇮",
+      "lat": 37.9281,
+      "lng": 23.701,
+      "label": "Palaió Fáliro, GR 🇬🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 39.437,
+      "lng": -0.4655,
+      "label": "Torrent, ES 🇪🇸",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 55.6843,
+      "lng": 37.4465,
+      "label": "Ochakovo-Matveyevskoye, RU 🇷🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.4664,
+      "lng": 30.4759,
+      "label": "Lukyanivka, UA 🇺🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 49.4891,
+      "lng": 8.4669,
+      "label": "Mannheim, DE 🇩🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 40.4074,
+      "lng": -3.6494,
+      "label": "Moratalaz, ES 🇪🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 42.4412,
+      "lng": 19.2631,
+      "label": "Podgorica, ME 🇲🇪",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 44.8683,
+      "lng": 13.8481,
+      "label": "Pula, HR 🇭🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 50.809,
+      "lng": 7.1497,
+      "label": "Troisdorf, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 52.7337,
+      "lng": 15.225,
+      "label": "Gorzów Wielkopolski, PL 🇵🇱",
       "words": [
         "medieval wall",
         "arch",
         "monastery",
         "vineyard hillside",
         "waterfront"
+      ]
+    },
+    {
+      "lat": 41.3456,
+      "lng": 21.5537,
+      "label": "Prilep, MK 🇲🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 49.9818,
+      "lng": 36.2548,
+      "label": "Kharkiv, UA 🇺🇦",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 53.7259,
+      "lng": -1.3626,
+      "label": "Castleford, GB 🇬🇧",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.4584,
+      "lng": 14.2028,
+      "label": "Pescara, IT 🇮🇹",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 55.6375,
+      "lng": 37.7644,
+      "label": "Brateyevo, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 55.7058,
+      "lng": 13.1932,
+      "label": "Lund, SE 🇸🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 38.1166,
+      "lng": 13.3636,
+      "label": "Palermo, IT 🇮🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 40.6816,
+      "lng": 46.3613,
+      "label": "Ganja, AZ 🇦🇿",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.655,
+      "lng": 17.8069,
+      "label": "Ostrów Wielkopolski, PL 🇵🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.5,
+      "lng": -2.0833,
+      "label": "Dudley, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 42.0095,
+      "lng": -4.5241,
+      "label": "Palencia, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 53.2724,
+      "lng": -9.051,
+      "label": "Galway, IE 🇮🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 59.8333,
+      "lng": 10.4372,
+      "label": "Asker, NO 🇳🇴",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 43.007,
+      "lng": 40.9893,
+      "label": "Sokhumi, GE 🇬🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 52.6647,
+      "lng": -8.6231,
+      "label": "Limerick, IE 🇮🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 45.6495,
+      "lng": 13.7768,
+      "label": "Trieste, IT 🇮🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 53.2903,
+      "lng": -6.3415,
+      "label": "South Dublin, IE 🇮🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 53.55,
+      "lng": 10.1333,
+      "label": "Billstedt, DE 🇩🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 64.1355,
+      "lng": -21.8954,
+      "label": "Reykjavík, IS 🇮🇸",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 46.5826,
+      "lng": 0.3435,
+      "label": "Poitiers, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 48.0144,
+      "lng": 37.7362,
+      "label": "Kuybyshevskyi, UA 🇺🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 50.8483,
+      "lng": 5.6889,
+      "label": "Maastricht, NL 🇳🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 52.4308,
+      "lng": 7.0683,
+      "label": "Nordhorn, DE 🇩🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 42.5065,
+      "lng": 27.4689,
+      "label": "Burgas, BG 🇧🇬",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.4264,
+      "lng": 30.3744,
+      "label": "Mykilska Borshchahivka, UA 🇺🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 53.4809,
+      "lng": -2.2374,
+      "label": "Manchester, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 55.8,
+      "lng": 37.5167,
+      "label": "Sokol, RU 🇷🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 40.9234,
+      "lng": 9.498,
+      "label": "Olbia, IT 🇮🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 47.009,
+      "lng": 28.8594,
+      "label": "Chisinau, MD 🇲🇩",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 40.7251,
+      "lng": 19.5582,
+      "label": "Fier, AL 🇦🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 60.2052,
+      "lng": 24.6522,
+      "label": "Espoo, FI 🇫🇮",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.5132,
+      "lng": 30.5055,
+      "label": "Obolon, UA 🇺🇦",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.7634,
+      "lng": 7.8887,
+      "label": "Ahlen, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 34.9221,
+      "lng": 33.6279,
+      "label": "Larnaca, CY 🇨🇾",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 54.0924,
+      "lng": 18.7779,
+      "label": "Tczew, PL 🇵🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 53.7628,
+      "lng": -2.7045,
+      "label": "Preston, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 43.6768,
+      "lng": 4.6303,
+      "label": "Arles, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.4866,
+      "lng": 4.1879,
+      "label": "La Louvière, BE 🇧🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 54.2279,
+      "lng": 28.505,
+      "label": "Barysaw, BY 🇧🇾",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 51.6553,
+      "lng": -0.396,
+      "label": "Watford, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.509,
+      "lng": -0.2762,
+      "label": "Acton, GB 🇬🇧",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 37.6712,
+      "lng": -1.7017,
+      "label": "Lorca, ES 🇪🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 48.2254,
+      "lng": 16.3087,
+      "label": "Hernals, AT 🇦🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.7649,
+      "lng": 55.7878,
+      "label": "Kumertau, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 54.5685,
+      "lng": -1.3187,
+      "label": "Stockton-on-Tees, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 50.965,
+      "lng": 5.5008,
+      "label": "Genk, BE 🇧🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 59.428,
+      "lng": 17.9509,
+      "label": "Sollentuna, SE 🇸🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 44.9092,
+      "lng": 8.6101,
+      "label": "Alessandria, IT 🇮🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 49.7557,
+      "lng": 6.6394,
+      "label": "Trier, DE 🇩🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 42.8833,
+      "lng": 20.8667,
+      "label": "Mitrovicë, XK 🇽🇰",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.5036,
+      "lng": 32.2803,
+      "label": "Podilsk, UA 🇺🇦",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 41.389,
+      "lng": 2.1618,
+      "label": "Eixample, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 46.6697,
+      "lng": -1.4276,
+      "label": "La Roche-sur-Yon, FR 🇫🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 53.9002,
+      "lng": 27.5665,
+      "label": "Minsk, BY 🇧🇾",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 37.945,
+      "lng": 23.7142,
+      "label": "Néa Smýrni, GR 🇬🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.1651,
+      "lng": 4.1437,
+      "label": "Sint-Niklaas, BE 🇧🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 54.9,
+      "lng": -1.5167,
+      "label": "Washington, GB 🇬🇧",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 50.0452,
+      "lng": 36.1932,
+      "label": "Oleksiyivka, UA 🇺🇦",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 46.0667,
+      "lng": 23.5833,
+      "label": "Alba Iulia, RO 🇷🇴",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 46.0101,
+      "lng": 8.96,
+      "label": "Lugano, CH 🇨🇭",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 69.3535,
+      "lng": 88.2027,
+      "label": "Norilsk, RU 🇷🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 47.3667,
+      "lng": 8.55,
+      "label": "Zürich, CH 🇨🇭",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.2213,
+      "lng": 4.466,
+      "label": "Deurne, BE 🇧🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 52.2544,
+      "lng": 21.0347,
+      "label": "Praga Północ, PL 🇵🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 48.6289,
+      "lng": 35.2589,
+      "label": "Samar, UA 🇺🇦",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 59.36,
+      "lng": 18.0009,
+      "label": "Solna, SE 🇸🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 41.608,
+      "lng": 2.2877,
+      "label": "Granollers, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 59.7439,
+      "lng": 10.2045,
+      "label": "Drammen, NO 🇳🇴",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 47.2,
+      "lng": 23.05,
+      "label": "Zalău, RO 🇷🇴",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 40.4189,
+      "lng": 49.9669,
+      "label": "Bakıxanov, AZ 🇦🇿",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 55.3959,
+      "lng": 10.3883,
+      "label": "Odense, DK 🇩🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 46.9481,
+      "lng": 7.4474,
+      "label": "Bern, CH 🇨🇭",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 60.1695,
+      "lng": 24.9354,
+      "label": "Helsinki, FI 🇫🇮",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.5378,
+      "lng": 0.7143,
+      "label": "Southend-on-Sea, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 35.1487,
+      "lng": 33.3338,
+      "label": "Stróvolos, CY 🇨🇾",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.431,
+      "lng": -8.6443,
+      "label": "Pontevedra, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.3777,
+      "lng": 17.586,
+      "label": "Trnava, SK 🇸🇰",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.5566,
+      "lng": 7.3116,
+      "label": "Castrop-Rauxel, DE 🇩🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 41.2773,
+      "lng": 16.4101,
+      "label": "Trani, IT 🇮🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 43.2706,
+      "lng": 26.9229,
+      "label": "Shumen, BG 🇧🇬",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 43.5649,
+      "lng": 27.8314,
+      "label": "Dobrich, BG 🇧🇬",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 54.9153,
+      "lng": 23.9683,
+      "label": "Dainava (Kaunas), LT 🇱🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 42.6861,
+      "lng": 26.3256,
+      "label": "Sliven, BG 🇧🇬",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.0808,
+      "lng": 7.3558,
+      "label": "Colmar, FR 🇫🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.5507,
+      "lng": 18.6942,
+      "label": "Osijek, HR 🇭🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 37.2664,
+      "lng": -6.94,
+      "label": "Huelva, ES 🇪🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 62.7945,
+      "lng": 22.8282,
+      "label": "Seinäjoki, FI 🇫🇮",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 53.0042,
+      "lng": -2.1854,
+      "label": "Stoke-on-Trent, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 40.8074,
+      "lng": 44.497,
+      "label": "Vanadzor, AM 🇦🇲",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 55.6059,
+      "lng": 13.0007,
+      "label": "Malmö, SE 🇸🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 59.8588,
+      "lng": 17.6389,
+      "label": "Uppsala, SE 🇸🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 54.5968,
+      "lng": -5.9254,
+      "label": "Belfast, GB 🇬🇧",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 42.8817,
+      "lng": 47.6392,
+      "label": "Kaspiysk, RU 🇷🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 35.5112,
+      "lng": 24.0292,
+      "label": "Chaniá, GR 🇬🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 39.7436,
+      "lng": -8.8071,
+      "label": "Leiria, PT 🇵🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 61.4807,
+      "lng": 21.7852,
+      "label": "Pori, FI 🇫🇮",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 56.1322,
+      "lng": 47.246,
+      "label": "Cheboksary, RU 🇷🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 38.0357,
+      "lng": 23.7573,
+      "label": "Néa Ionía, GR 🇬🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 53.4606,
+      "lng": 9.9839,
+      "label": "Harburg, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 55.9142,
+      "lng": 37.8256,
+      "label": "Korolev, RU 🇷🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.5244,
+      "lng": -8.8882,
+      "label": "Setúbal, PT 🇵🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 54.5189,
+      "lng": 18.5319,
+      "label": "Gdynia, PL 🇵🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 42.6612,
+      "lng": 13.699,
+      "label": "Teramo, IT 🇮🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 37.0187,
+      "lng": -7.9272,
+      "label": "Faro, PT 🇵🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 42.3566,
+      "lng": -3.6732,
+      "label": "Gamonal, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 48.5839,
+      "lng": 7.7455,
+      "label": "Strasbourg, FR 🇫🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 41.124,
+      "lng": -8.6124,
+      "label": "Vila Nova de Gaia, PT 🇵🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 42.1993,
+      "lng": 24.3332,
+      "label": "Pazardzhik, BG 🇧🇬",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.2085,
+      "lng": 16.3721,
+      "label": "Vienna, AT 🇦🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.5333,
+      "lng": 0.0833,
+      "label": "Barking, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 41.6307,
+      "lng": 15.9188,
+      "label": "Manfredonia, IT 🇮🇹",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 52.3617,
+      "lng": 30.3916,
+      "label": "Rechytsa, BY 🇧🇾",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.25,
+      "lng": -0.8833,
+      "label": "Northampton, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.7533,
+      "lng": 2.2967,
+      "label": "Antony, FR 🇫🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.2715,
+      "lng": 27.9743,
+      "label": "Brăila, RO 🇷🇴",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 40.9396,
+      "lng": 24.4069,
+      "label": "Kavála, GR 🇬🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 55.643,
+      "lng": 12.4771,
+      "label": "Hvidovre, DK 🇩🇰",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 45.7679,
+      "lng": 4.8506,
+      "label": "Lyon 06, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 52.498,
+      "lng": 13.3443,
+      "label": "Schöneberg, DE 🇩🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 59.34,
+      "lng": 17.94,
+      "label": "Bromma, SE 🇸🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 45.7797,
+      "lng": 3.0868,
+      "label": "Clermont-Ferrand, FR 🇫🇷",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 55.7319,
+      "lng": 24.3598,
+      "label": "Panevėžys, LT 🇱🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 59.956,
+      "lng": 11.0492,
+      "label": "Lillestrøm, NO 🇳🇴",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 55.6794,
+      "lng": 12.5346,
+      "label": "Frederiksberg, DK 🇩🇰",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 66.499,
+      "lng": 25.6887,
+      "label": "Rovaniemi, FI 🇫🇮",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 43.3182,
+      "lng": 11.3306,
+      "label": "Siena, IT 🇮🇹",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 47.5925,
+      "lng": 18.381,
+      "label": "Tatabánya, HU 🇭🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 38.8309,
+      "lng": -9.1684,
+      "label": "Loures, PT 🇵🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 39.9321,
+      "lng": 48.3689,
+      "label": "Saatlı, AZ 🇦🇿",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 28.0996,
+      "lng": -16.681,
+      "label": "Arona, ES 🇪🇸",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 59.9731,
+      "lng": 30.4761,
+      "label": "Krasnogvargeisky, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.05,
+      "lng": 14.3167,
+      "label": "Stodůlky, CZ 🇨🇿",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 40.1331,
+      "lng": 44.5301,
+      "label": "Erebuni, AM 🇦🇲",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 47.7629,
+      "lng": 27.9285,
+      "label": "Bălţi, MD 🇲🇩",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.4137,
+      "lng": 9.5899,
+      "label": "Garbsen, DE 🇩🇪",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 47.4239,
+      "lng": 9.3748,
+      "label": "Sankt Gallen, CH 🇨🇭",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.1964,
+      "lng": 39.5663,
+      "label": "Rossosh’, RU 🇷🇺",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 43.7085,
+      "lng": 10.4036,
+      "label": "Pisa, IT 🇮🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 39.0808,
+      "lng": 17.1276,
+      "label": "Crotone, IT 🇮🇹",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 52.2583,
+      "lng": -7.1119,
+      "label": "Waterford, IE 🇮🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.1787,
+      "lng": 28.805,
+      "label": "Tulcea, RO 🇷🇴",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 43.3569,
+      "lng": -3.0115,
+      "label": "Getxo, ES 🇪🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 44.7993,
+      "lng": 10.3262,
+      "label": "Parma, IT 🇮🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 39.3692,
+      "lng": 22.9477,
+      "label": "Volos, GR 🇬🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 60.4515,
+      "lng": 22.2687,
+      "label": "Turku, FI 🇫🇮",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.4975,
+      "lng": -0.1357,
+      "label": "City of Westminster, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 49.6328,
+      "lng": 8.3592,
+      "label": "Worms, DE 🇩🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 56.968,
+      "lng": 23.7704,
+      "label": "Jūrmala, LV 🇱🇻",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 43.8866,
+      "lng": 25.9627,
+      "label": "Giurgiu, RO 🇷🇴",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 44.8718,
+      "lng": 20.6417,
+      "label": "Pančevo, RS 🇷🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.5836,
+      "lng": 5.5011,
+      "label": "Seraing, BE 🇧🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 55.4904,
+      "lng": 9.4722,
+      "label": "Kolding, DK 🇩🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 45.8833,
+      "lng": 22.9,
+      "label": "Deva, RO 🇷🇴",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 52.0264,
+      "lng": 47.7967,
+      "label": "Balakovo, RU 🇷🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 40.3272,
+      "lng": -3.7635,
+      "label": "Leganés, ES 🇪🇸",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 54.6892,
+      "lng": 25.2798,
+      "label": "Vilnius, LT 🇱🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 43.7258,
+      "lng": 20.6894,
+      "label": "Kraljevo, RS 🇷🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.9124,
+      "lng": 128.5124,
+      "label": "Belogorsk, RU 🇷🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 42.2139,
+      "lng": 20.7397,
+      "label": "Prizren, XK 🇽🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 44.6983,
+      "lng": 10.6312,
+      "label": "Reggio nell'Emilia, IT 🇮🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 43.5089,
+      "lng": 16.4392,
+      "label": "Split, HR 🇭🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.3008,
+      "lng": 4.8639,
+      "label": "Amstelveen, NL 🇳🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 46.0511,
+      "lng": 14.5051,
+      "label": "Ljubljana, SI 🇸🇮",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 47.0833,
+      "lng": 2.4,
+      "label": "Bourges, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 59.2675,
+      "lng": 10.4076,
+      "label": "Tønsberg, NO 🇳🇴",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 47.5584,
+      "lng": 7.5733,
+      "label": "Basel, CH 🇨🇭",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 44.2751,
+      "lng": 19.8982,
+      "label": "Valjevo, RS 🇷🇸",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 59.35,
+      "lng": 18.0333,
+      "label": "Vasastaden, SE 🇸🇪",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.6339,
+      "lng": 3.0551,
+      "label": "Lille, FR 🇫🇷",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.2852,
+      "lng": -1.52,
+      "label": "Royal Leamington Spa, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 41.3235,
+      "lng": 19.4547,
+      "label": "Durrës, AL 🇦🇱",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.0292,
+      "lng": 5.0806,
+      "label": "Nieuwegein, NL 🇳🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.898,
+      "lng": -8.4706,
+      "label": "Cork, IE 🇮🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 54.948,
+      "lng": 43.3152,
+      "label": "Sarov, RU 🇷🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.4561,
+      "lng": -2.1432,
+      "label": "Stourbridge, GB 🇬🇧",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 50.8114,
+      "lng": -0.5408,
+      "label": "Littlehampton, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 55.8833,
+      "lng": 26.5333,
+      "label": "Daugavpils, LV 🇱🇻",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 56.8573,
+      "lng": 60.6153,
+      "label": "Yekaterinburg, RU 🇷🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 47.5626,
+      "lng": 19.1168,
+      "label": "Budapest XV. kerület, HU 🇭🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 47.4892,
+      "lng": 19.0701,
+      "label": "Budapest VIII. kerület, HU 🇭🇺",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 51.6213,
+      "lng": 0.3056,
+      "label": "Brentwood, GB 🇬🇧",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 47.4442,
+      "lng": 19.176,
+      "label": "Budapest XVIII. kerület, HU 🇭🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 52.3984,
+      "lng": -0.7257,
+      "label": "Kettering, GB 🇬🇧",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 37.9333,
+      "lng": 23.7333,
+      "label": "Agios Dimitrios, GR 🇬🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 38.9863,
+      "lng": -3.9291,
+      "label": "Ciudad Real, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.5273,
+      "lng": 37.7059,
+      "label": "Kostiantynivka, UA 🇺🇦",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 44.7788,
+      "lng": 17.2063,
+      "label": "Banja Luka, BA 🇧🇦",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.9601,
+      "lng": 2.8788,
+      "label": "Meaux, FR 🇫🇷",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 41.1919,
+      "lng": 47.1706,
+      "label": "Sheki, AZ 🇦🇿",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.1215,
+      "lng": 26.0673,
+      "label": "Pinsk, BY 🇧🇾",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 51.5555,
+      "lng": 5.0913,
+      "label": "Tilburg, NL 🇳🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.3688,
+      "lng": 19.3567,
+      "label": "Bełchatów, PL 🇵🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 38.7661,
+      "lng": -9.328,
+      "label": "Rio de Mouro, PT 🇵🇹",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 41.3274,
+      "lng": 19.8187,
+      "label": "Tirana, AL 🇦🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 41.5667,
+      "lng": 2.0167,
+      "label": "Terrassa, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 52.1583,
+      "lng": 4.4931,
+      "label": "Leiden, NL 🇳🇱",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 51.0261,
+      "lng": 7.5647,
+      "label": "Gummersbach, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 55.6205,
+      "lng": 37.4934,
+      "label": "Tyoply Stan, RU 🇷🇺",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 41.6914,
+      "lng": 44.8341,
+      "label": "Tbilisi, GE 🇬🇪",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 63.4305,
+      "lng": 10.3951,
+      "label": "Trondheim, NO 🇳🇴",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 42.3706,
+      "lng": 21.1553,
+      "label": "Ferizaj, XK 🇽🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 40.2164,
+      "lng": 44.4809,
+      "label": "Davtashen, AM 🇦🇲",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.5342,
+      "lng": 85.1966,
+      "label": "Biysk, RU 🇷🇺",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 55.8184,
+      "lng": 37.4122,
+      "label": "Strogino, RU 🇷🇺",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.6283,
+      "lng": 20.8939,
+      "label": "Glogovac, XK 🇽🇰",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.1833,
+      "lng": 16.4333,
+      "label": "Simmering, AT 🇦🇹",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 51.5308,
+      "lng": 4.4653,
+      "label": "Roosendaal, NL 🇳🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 55.6272,
+      "lng": 12.4564,
+      "label": "Avedøre, DK 🇩🇰",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 51.9192,
+      "lng": 4.3889,
+      "label": "Schiedam, NL 🇳🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 43.8486,
+      "lng": 18.3564,
+      "label": "Sarajevo, BA 🇧🇦",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 45.8,
+      "lng": 24.15,
+      "label": "Sibiu, RO 🇷🇴",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 52.2546,
+      "lng": 20.9084,
+      "label": "Bemowo, PL 🇵🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 42.7731,
+      "lng": 18.9445,
+      "label": "Nikšić, ME 🇲🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 37.2829,
+      "lng": -5.9209,
+      "label": "Dos Hermanas, ES 🇪🇸",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 56.1567,
+      "lng": 10.2108,
+      "label": "Århus, DK 🇩🇰",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 46.1667,
+      "lng": 24.35,
+      "label": "Mediaş, RO 🇷🇴",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.115,
+      "lng": 39.0913,
+      "label": "Antratsyt, UA 🇺🇦",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 52.5167,
+      "lng": 13.2833,
+      "label": "Charlottenburg, DE 🇩🇪",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 59.4439,
+      "lng": 18.0687,
+      "label": "Täby, SE 🇸🇪",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 50.2053,
+      "lng": 19.275,
+      "label": "Jaworzno, PL 🇵🇱",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 40.367,
+      "lng": -3.6015,
+      "label": "Villa de Vallecas, ES 🇪🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 41.9965,
+      "lng": 21.4314,
+      "label": "Skopje, MK 🇲🇰",
+      "words": [
+        "government building",
+        "main square",
+        "national flag",
+        "parliament",
+        "wide avenue"
+      ]
+    },
+    {
+      "lat": 36.7642,
+      "lng": -2.6147,
+      "label": "Roquetas de Mar, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.75,
+      "lng": -2.2,
+      "label": "Stroud, GB 🇬🇧",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 52.6482,
+      "lng": 19.0678,
+      "label": "Włocławek, PL 🇵🇱",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 49.2231,
+      "lng": 18.7394,
+      "label": "Žilina, SK 🇸🇰",
+      "words": [
+        "old town square",
+        "market stall",
+        "apartment block",
+        "pedestrian zone",
+        "fountain"
+      ]
+    },
+    {
+      "lat": 47.9057,
+      "lng": 33.394,
+      "label": "Kryvyy Rih, UA 🇺🇦",
+      "words": [
+        "cobblestone street",
+        "tram",
+        "café terrace",
+        "church spire",
+        "bicycle lane"
+      ]
+    },
+    {
+      "lat": 42.85,
+      "lng": -2.6727,
+      "label": "Gasteiz / Vitoria, ES 🇪🇸",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 48.1482,
+      "lng": 17.1067,
+      "label": "Bratislava, SK 🇸🇰",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 51.495,
+      "lng": 4.2917,
+      "label": "Bergen op Zoom, NL 🇳🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 48.8498,
+      "lng": 2.5627,
+      "label": "Noisy-le-Grand, FR 🇫🇷",
+      "words": [
+        "medieval wall",
+        "arch",
+        "monastery",
+        "vineyard hillside",
+        "waterfront"
+      ]
+    },
+    {
+      "lat": 45.7491,
+      "lng": 4.8479,
+      "label": "Lyon, FR 🇫🇷",
+      "words": [
+        "canal",
+        "bridge",
+        "baroque church",
+        "bell tower",
+        "colourful facade"
+      ]
+    },
+    {
+      "lat": 42.6,
+      "lng": -5.5703,
+      "label": "León, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 50.5829,
+      "lng": 22.0533,
+      "label": "Stalowa Wola, PL 🇵🇱",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
+      ]
+    },
+    {
+      "lat": 40.4724,
+      "lng": -3.6471,
+      "label": "Pinar del Rey, ES 🇪🇸",
+      "words": [
+        "railway station",
+        "tramline",
+        "roundabout",
+        "castle",
+        "town hall"
       ]
     }
   ]
