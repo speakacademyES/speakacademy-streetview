@@ -100,16 +100,34 @@
   /* ── Guess search ── */
   #guess-search-wrap {
     width: min(820px, 95vw);
-    display: flex; gap: 8px; align-items: center;
+    position: relative;
   }
   #guess-search {
-    flex: 1; padding: 10px 16px; border-radius: 10px;
+    width: 100%; padding: 10px 16px; border-radius: 10px;
     border: 1.5px solid rgba(255,255,255,0.25);
     background: rgba(20,20,20,0.92); color: #fff;
     font-size: 0.95rem; outline: none;
+    box-sizing: border-box;
   }
   #guess-search::placeholder { color: rgba(255,255,255,0.35); }
   #guess-search:focus { border-color: #facc15; }
+  #search-dropdown {
+    display: none;
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+    background: #1a1a1a; border: 1.5px solid rgba(255,255,255,0.2);
+    border-radius: 10px; overflow: hidden; z-index: 200;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  }
+  #search-dropdown.visible { display: block; }
+  .search-result {
+    padding: 10px 16px; cursor: pointer; font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    transition: background 0.1s;
+  }
+  .search-result:last-child { border-bottom: none; }
+  .search-result:hover, .search-result.active { background: rgba(250,204,21,0.15); color: #facc15; }
+  .search-result-label { font-weight: 600; }
+  .search-result-meta { font-size: 0.75rem; opacity: 0.5; margin-left: 6px; }
 
   #guess-footer {
     display: flex; gap: 12px; align-items: center;
@@ -325,6 +343,7 @@
   <div id="guess-header" class="team-a">🔵 TEAM A — Click your guess on the map</div>
   <div id="guess-search-wrap">
     <input id="guess-search" type="text" placeholder="🔍 Search for a city or place…" autocomplete="off" />
+    <div id="search-dropdown"></div>
   </div>
   <div id="guess-map-wrap">
     <div id="guess-map"></div>
@@ -419,7 +438,6 @@ const PACKS = [
 let panorama      = null;
 let guessMap      = null;
 let revealMap     = null;
-let autocomplete  = null;
 let round         = 1;
 let scores        = [0, 0];          // cumulative km, lower is better
 let teamLocs      = [null, null];    // separate location per team each round
@@ -463,6 +481,71 @@ function loadPanorama(loc) {
       document.getElementById('phase-label').textContent = '⚠️ No coverage — loading another…';
       skipLocation();
     }
+  });
+}
+
+// ── Location Search (local database) ────────────────────────────────────
+function initLocationSearch() {
+  const input    = document.getElementById('guess-search');
+  const dropdown = document.getElementById('search-dropdown');
+  let activeIdx  = -1;
+
+  function showResults(query) {
+    dropdown.innerHTML = '';
+    activeIdx = -1;
+    if (query.length < 2) { dropdown.classList.remove('visible'); return; }
+
+    const q = query.toLowerCase();
+    const matches = LOCATIONS
+      .filter(loc => loc.label.toLowerCase().includes(q))
+      .slice(0, 8);
+
+    if (!matches.length) { dropdown.classList.remove('visible'); return; }
+
+    matches.forEach((loc, i) => {
+      const div = document.createElement('div');
+      div.className = 'search-result';
+      // Bold the matching part
+      const idx = loc.label.toLowerCase().indexOf(q);
+      const before = loc.label.slice(0, idx);
+      const match  = loc.label.slice(idx, idx + q.length);
+      const after  = loc.label.slice(idx + q.length);
+      div.innerHTML = `<span class="search-result-label">${before}<strong>${match}</strong>${after}</span>`;
+      div.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        selectResult(loc);
+      });
+      dropdown.appendChild(div);
+    });
+    dropdown.classList.add('visible');
+  }
+
+  function selectResult(loc) {
+    input.value = '';
+    dropdown.classList.remove('visible');
+    const latLng = new google.maps.LatLng(loc.lat, loc.lng);
+    guessMap.setCenter(latLng);
+    guessMap.setZoom(6);
+    handleMapClick(latLng);
+  }
+
+  input.addEventListener('input', () => showResults(input.value));
+  input.addEventListener('blur',  () => setTimeout(() => dropdown.classList.remove('visible'), 150));
+  input.addEventListener('keydown', (e) => {
+    const items = dropdown.querySelectorAll('.search-result');
+    if (e.key === 'ArrowDown') {
+      activeIdx = Math.min(activeIdx + 1, items.length - 1);
+    } else if (e.key === 'ArrowUp') {
+      activeIdx = Math.max(activeIdx - 1, 0);
+    } else if (e.key === 'Enter' && activeIdx >= 0) {
+      e.preventDefault();
+      items[activeIdx].dispatchEvent(new MouseEvent('mousedown'));
+      return;
+    } else if (e.key === 'Escape') {
+      dropdown.classList.remove('visible');
+      return;
+    }
+    items.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
   });
 }
 
@@ -547,20 +630,8 @@ function openGuessMap(team) {
       handleMapClick(e.latLng);
     });
 
-    // Places autocomplete search box
-    const searchInput = document.getElementById('guess-search');
-    autocomplete = new google.maps.places.Autocomplete(searchInput, {
-      types: ['(cities)'],
-      fields: ['geometry', 'name']
-    });
-    autocomplete.addListener('place_changed', function() {
-      const place = autocomplete.getPlace();
-      if (!place.geometry || !place.geometry.location) return;
-      guessMap.setCenter(place.geometry.location);
-      guessMap.setZoom(6);
-      handleMapClick(place.geometry.location);
-      searchInput.value = '';
-    });
+    // Local search box — searches our LOCATIONS database
+    initLocationSearch();
   }
 
   // Show Team A marker if it exists (during Team B's turn)
@@ -929,7 +1000,7 @@ function initMap() {
     return;
   }
   const s = document.createElement('script');
-  s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_API_KEY}&libraries=places&callback=initMap&loading=async`;
+  s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_API_KEY}&callback=initMap&loading=async`;
   s.async = true;
   document.head.appendChild(s);
 })();
