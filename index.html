@@ -515,19 +515,41 @@ function loadPanorama(loc) {
 }
 
 // ── Hints ────────────────────────────────────────────────────────────────
+function getContinent(lat, lng) {
+  if (lat < -60) return '🧊 Antarctica';
+  // Oceania
+  if (lat < 0 && lat > -50 && lng > 110 && lng < 180) return '🌏 Oceania';
+  // North America
+  if (lat > 15 && lat < 85 && lng > -170 && lng < -50) return '🌎 North America';
+  // South America
+  if (lat > -56 && lat < 15 && lng > -85 && lng < -30) return '🌎 South America';
+  // Europe
+  if (lat > 35 && lat < 72 && lng > -25 && lng < 45) return '🌍 Europe';
+  // Africa
+  if (lat > -35 && lat < 37 && lng > -20 && lng < 55) return '🌍 Africa';
+  // Asia (everything else in the eastern hemisphere)
+  if (lng >= 45 || (lat > 0 && lng > 25)) return '🌏 Asia';
+  return '🌍 somewhere on Earth';
+}
+
 function getHints(loc) {
-  const label = loc.label;
-  // Extract flag emoji (surrogate pairs: regional indicator letters)
-  const flagMatch = label.match(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g);
-  const flag = flagMatch ? flagMatch[0] : '';
-  // Strip flag from label to get text parts
-  const stripped = label.replace(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g, '').trim();
-  const parts = stripped.split(',').map(s => s.trim()).filter(Boolean);
-  const city = parts[parts.length - 1] || stripped;
+  const continent = getContinent(loc.lat, loc.lng);
+
+  // 15s hint: pick a random vocabulary word if available
+  let wordHint = '';
+  if (loc.words && loc.words.length > 0) {
+    const word = loc.words[Math.floor(Math.random() * loc.words.length)];
+    wordHint = `👀 Look for a <strong>${word}</strong>`;
+  } else {
+    // Fallback: hemisphere
+    const ns = loc.lat >= 0 ? 'northern' : 'southern';
+    const ew = loc.lng >= 0 ? 'eastern' : 'western';
+    wordHint = `🧭 ${ns.charAt(0).toUpperCase() + ns.slice(1)} hemisphere, ${ew} side`;
+  }
 
   return {
-    hint1: flag ? `💡 Somewhere in ${flag}` : `💡 Near: ${city}`,
-    hint2: `🔍 ${city}${flag ? ' ' + flag : ''}`
+    hint1: `💡 ${continent}`,
+    hint2: wordHint
   };
 }
 
@@ -536,7 +558,12 @@ function showHint(level) {
   if (!loc) return;
   const hints = getHints(loc);
   const bar = document.getElementById('hint-bar');
-  bar.innerHTML = `<span class="hint-pill hint${level}">${level === 1 ? hints.hint1 : hints.hint2}</span>`;
+  const text = level === 1 ? hints.hint1 : hints.hint2;
+  const pill = document.createElement('span');
+  pill.className = `hint-pill hint${level}`;
+  pill.innerHTML = text;
+  bar.innerHTML = '';
+  bar.appendChild(pill);
 }
 
 function clearHints() {
