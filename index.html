@@ -250,6 +250,30 @@
     cursor: pointer; font-size: 1rem; font-weight: 800;
   }
 
+  /* ── Hint Bar ── */
+  #hint-bar {
+    position: fixed; bottom: 72px; left: 50%; transform: translateX(-50%);
+    z-index: 15; text-align: center; pointer-events: none;
+    transition: opacity 0.4s;
+  }
+  .hint-pill {
+    display: inline-block;
+    padding: 8px 22px; border-radius: 999px;
+    font-size: 1rem; font-weight: 700; letter-spacing: 0.03em;
+    backdrop-filter: blur(6px);
+    animation: hintPop 0.3s ease;
+  }
+  .hint-pill.hint1 {
+    background: rgba(250,204,21,0.18); border: 1.5px solid #facc15; color: #facc15;
+  }
+  .hint-pill.hint2 {
+    background: rgba(239,68,68,0.2); border: 1.5px solid #ef4444; color: #ef4444;
+  }
+  @keyframes hintPop {
+    from { transform: scale(0.85); opacity: 0; }
+    to   { transform: scale(1);    opacity: 1; }
+  }
+
   /* ── Pack Selector ── */
   #pack-overlay {
     display: none;
@@ -404,6 +428,9 @@
   </div>
 </div>
 
+<!-- Hint Bar -->
+<div id="hint-bar"></div>
+
 <!-- Pack Selector Overlay -->
 <div id="pack-overlay">
   <div id="pack-box">
@@ -485,6 +512,35 @@ function loadPanorama(loc) {
       skipLocation();
     }
   });
+}
+
+// ── Hints ────────────────────────────────────────────────────────────────
+function getHints(loc) {
+  const label = loc.label;
+  // Extract flag emoji (surrogate pairs: regional indicator letters)
+  const flagMatch = label.match(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g);
+  const flag = flagMatch ? flagMatch[0] : '';
+  // Strip flag from label to get text parts
+  const stripped = label.replace(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g, '').trim();
+  const parts = stripped.split(',').map(s => s.trim()).filter(Boolean);
+  const city = parts[parts.length - 1] || stripped;
+
+  return {
+    hint1: flag ? `💡 Somewhere in ${flag}` : `💡 Near: ${city}`,
+    hint2: `🔍 ${city}${flag ? ' ' + flag : ''}`
+  };
+}
+
+function showHint(level) {
+  const loc = teamLocs[currentTeam];
+  if (!loc) return;
+  const hints = getHints(loc);
+  const bar = document.getElementById('hint-bar');
+  bar.innerHTML = `<span class="hint-pill hint${level}">${level === 1 ? hints.hint1 : hints.hint2}</span>`;
+}
+
+function clearHints() {
+  document.getElementById('hint-bar').innerHTML = '';
 }
 
 // ── Location Search (local database) ────────────────────────────────────
@@ -574,6 +630,7 @@ function loadRound() {
   document.getElementById('round-num').textContent  = round;
   document.getElementById('phase-label').textContent = '📍 Study the location…';
   document.getElementById('btn-next').style.display  = 'none';
+  clearHints();
 
   updateScoreCards();
   showTeamStart(0);
@@ -877,6 +934,10 @@ function renderTimer() {
   const icon = timerTeam === 0 ? '🔵' : '🔴';
   el.textContent = `${icon} ${min}:${sec}`;
   el.className = timerSeconds <= 10 ? 'danger' : timerSeconds <= 30 ? 'warning' : '';
+
+  // Hints: vague at 45s, precise at 15s
+  if (timerSeconds === 45) showHint(1);
+  if (timerSeconds === 15) showHint(2);
 }
 
 function applyTimerPenalty(team) {
@@ -900,6 +961,7 @@ function applyTimerPenalty(team) {
 function showTeamStart(team) {
   currentTeam = team;
   stopTimer();
+  clearHints();
   // Hide buttons until team hits START
   document.getElementById('btn-guess-a').style.display  = 'none';
   document.getElementById('btn-skip-loc').style.display = 'none';
