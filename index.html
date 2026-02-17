@@ -111,6 +111,37 @@
   }
   #btn-cancel-guess:hover { background: rgba(255,255,255,0.15); color: #fff; }
 
+  /* ── Team Start Overlay ── */
+  #start-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 40;
+    background: rgba(0,0,0,0.55);
+    align-items: center; justify-content: center;
+  }
+  #start-overlay.visible { display: flex; }
+  #start-box {
+    display: flex; flex-direction: column; align-items: center; gap: 18px;
+    text-align: center;
+  }
+  #start-team-label {
+    font-size: 2.4rem; font-weight: 900; letter-spacing: 0.12em;
+    text-shadow: 0 2px 16px rgba(0,0,0,0.8);
+  }
+  #start-team-label.team-a { color: #60a5fa; }
+  #start-team-label.team-b { color: #f87171; }
+  #start-sub {
+    font-size: 1rem; opacity: 0.7;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.8);
+  }
+  #btn-start-turn {
+    background: #facc15; color: #0f0f0f;
+    font-size: 2rem; font-weight: 900; letter-spacing: 0.1em;
+    padding: 22px 72px; border-radius: 18px; border: none;
+    cursor: pointer; transition: all 0.15s;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  }
+  #btn-start-turn:hover { background: #fde047; transform: scale(1.04); }
+
   /* ── Reveal Panel ── */
   #reveal-overlay {
     display: none;
@@ -254,9 +285,18 @@
   </div>
 </div>
 
+<!-- Team Start Overlay -->
+<div id="start-overlay">
+  <div id="start-box">
+    <div id="start-team-label">TEAM A</div>
+    <div id="start-sub">Study the location, then hit START when ready</div>
+    <button id="btn-start-turn" onclick="beginTurn()">START</button>
+  </div>
+</div>
+
 <!-- Bottom bar -->
 <div id="bottom-bar">
-  <button class="ctrl-btn" id="btn-guess-a" onclick="openGuessMap(0)">🔵 Team A — Make Your Guess</button>
+  <button class="ctrl-btn" id="btn-guess-a" onclick="openGuessMap(currentTeam)" style="display:none">🔵 Guess your location</button>
   <button class="ctrl-btn" id="btn-next" onclick="nextRound()">⏭ Next Round</button>
 </div>
 
@@ -408,16 +448,10 @@ function loadRound() {
 
   document.getElementById('round-num').textContent = round;
   document.getElementById('phase-label').textContent = '📍 Study the location…';
-  const btnA = document.getElementById('btn-guess-a');
-  btnA.textContent = '🔵 Team A — Start Your Turn';
-  btnA.style.background = '';
-  btnA.style.color      = '';
-  btnA.onclick = () => openGuessMap(0);
-  btnA.style.display = 'inline-block';
   document.getElementById('btn-next').style.display   = 'none';
 
   updateScoreCards();
-  stopTimer(); // reset display; timer only runs during guessing
+  showTeamStart(0);
 }
 
 // ── Cancel Guess ──────────────────────────────────────────────────────────
@@ -425,12 +459,17 @@ function cancelGuess() {
   document.getElementById('guess-overlay').classList.remove('visible');
   if (pendingMarker) { pendingMarker.setMap(null); pendingMarker = null; }
   pendingLatLng = null;
-  // Resume countdown in background — timer still running, just overlay hidden
+  // Restore guess button so they can re-open (timer keeps running)
+  const btn = document.getElementById('btn-guess-a');
+  btn.textContent      = currentTeam === 0 ? '🔵 Guess your location' : '🔴 Guess your location';
+  btn.style.background = currentTeam === 0 ? '#3b82f6' : '#ef4444';
+  btn.style.color      = '#fff';
+  btn.style.display    = 'inline-block';
 }
 
 // ── Open Guess Map ───────────────────────────────────────────────────────
 function openGuessMap(team) {
-  startGuessTimer(team);
+  document.getElementById('btn-guess-a').style.display = 'none';
   currentTeam  = team;
   pendingMarker = null;
   pendingLatLng = null;
@@ -518,7 +557,7 @@ function confirmGuess() {
 
   if (currentTeam === 0) {
     document.getElementById('phase-label').textContent = '📍 Team A guessed! Team B, ready?';
-    showTeamBButton();
+    showTeamStart(1);
   } else {
     // Both done → reveal
     document.getElementById('btn-guess-a').style.display = 'none';
@@ -717,23 +756,36 @@ function applyTimerPenalty(team) {
     `⏰ ${teamName} ran out of time! +${PENALTY_KM.toLocaleString()} km penalty`;
 
   if (team === 0) {
-    setTimeout(() => showTeamBButton(), 1500);
+    setTimeout(() => showTeamStart(1), 1500);
   } else {
     setTimeout(() => showReveal(), 1500);
   }
 }
 
-function showTeamBButton() {
+function showTeamStart(team) {
+  currentTeam = team;
+  stopTimer();
+  // Hide guess button until team hits START
+  document.getElementById('btn-guess-a').style.display = 'none';
+  document.getElementById('btn-next').style.display    = 'none';
+
+  const label = document.getElementById('start-team-label');
+  label.textContent = team === 0 ? 'TEAM A' : 'TEAM B';
+  label.className   = team === 0 ? 'team-a' : 'team-b';
+  document.getElementById('start-overlay').classList.add('visible');
+}
+
+function beginTurn() {
+  document.getElementById('start-overlay').classList.remove('visible');
+
+  // Show correct colour on guess button
   const btn = document.getElementById('btn-guess-a');
-  btn.textContent      = '🔴 Team B — Start Your Turn';
-  btn.style.background = '#ef4444';
+  btn.textContent      = currentTeam === 0 ? '🔵 Guess your location' : '🔴 Guess your location';
+  btn.style.background = currentTeam === 0 ? '#3b82f6' : '#ef4444';
   btn.style.color      = '#fff';
   btn.style.display    = 'inline-block';
-  btn.onclick = () => {
-    btn.style.background = '';
-    btn.style.color      = '';
-    openGuessMap(1);
-  };
+
+  startGuessTimer(currentTeam);
 }
 
 // ── Pack Selector ─────────────────────────────────────────────────────────
