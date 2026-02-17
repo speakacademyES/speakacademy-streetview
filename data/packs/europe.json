@@ -845,7 +845,7 @@
     {
       "lat": 58.3806,
       "lng": 26.7251,
-      "label": "Tartu, EE 🌍",
+      "label": "Tartu, 🇪🇪",
       "words": [
         "cobblestone street",
         "tram",
@@ -1025,7 +1025,7 @@
     {
       "lat": 59.437,
       "lng": 24.7535,
-      "label": "Tallinn, EE 🌍",
+      "label": "Tallinn, 🇪🇪",
       "words": [
         "cobblestone street",
         "tram",
@@ -1109,7 +1109,7 @@
     {
       "lat": 59.3772,
       "lng": 28.1903,
-      "label": "Narva, EE 🌍",
+      "label": "Narva, 🇪🇪",
       "words": [
         "old town square",
         "market stall",

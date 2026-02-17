@@ -535,21 +535,13 @@ function getContinent(lat, lng) {
 function getHints(loc) {
   const continent = getContinent(loc.lat, loc.lng);
 
-  // 15s hint: pick a random vocabulary word if available
-  let wordHint = '';
-  if (loc.words && loc.words.length > 0) {
-    const word = loc.words[Math.floor(Math.random() * loc.words.length)];
-    wordHint = `👀 Look for a <strong>${word}</strong>`;
-  } else {
-    // Fallback: hemisphere
-    const ns = loc.lat >= 0 ? 'northern' : 'southern';
-    const ew = loc.lng >= 0 ? 'eastern' : 'western';
-    wordHint = `🧭 ${ns.charAt(0).toUpperCase() + ns.slice(1)} hemisphere, ${ew} side`;
-  }
+  // Extract flag emoji from label
+  const flagMatch = loc.label.match(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/g);
+  const flag = flagMatch ? flagMatch[0] : '🌍';
 
   return {
     hint1: `💡 ${continent}`,
-    hint2: wordHint
+    hint2: `🏳️ ${flag}`
   };
 }
 

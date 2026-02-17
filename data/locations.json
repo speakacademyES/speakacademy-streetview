@@ -2654,7 +2654,7 @@
   {
     "lat": -21.1368,
     "lng": -175.2011,
-    "label": "Nuku‘alofa, TO 🌍",
+    "label": "Nuku‘alofa, 🇹🇴",
     "words": [
       "outback road",
       "eucalyptus",
@@ -2726,7 +2726,7 @@
   {
     "lat": 58.3806,
     "lng": 26.7251,
-    "label": "Tartu, EE 🌍",
+    "label": "Tartu, 🇪🇪",
     "words": [
       "cobblestone street",
       "tram",
@@ -2798,7 +2798,7 @@
   {
     "lat": -17.5065,
     "lng": -149.489,
-    "label": "Mahina, PF 🌍",
+    "label": "Mahina, 🇵🇫",
     "words": [
       "outback road",
       "eucalyptus",
@@ -2954,7 +2954,7 @@
   {
     "lat": 7.4465,
     "lng": 151.8414,
-    "label": "Weno, FM 🌍",
+    "label": "Weno, 🇫🇲",
     "words": [
       "island seafront",
       "palm tree",
@@ -3266,7 +3266,7 @@
   {
     "lat": 59.437,
     "lng": 24.7535,
-    "label": "Tallinn, EE 🌍",
+    "label": "Tallinn, 🇪🇪",
     "words": [
       "cobblestone street",
       "tram",
@@ -3518,7 +3518,7 @@
   {
     "lat": 59.3772,
     "lng": 28.1903,
-    "label": "Narva, EE 🌍",
+    "label": "Narva, 🇪🇪",
     "words": [
       "old town square",
       "market stall",
@@ -4538,7 +4538,7 @@
   {
     "lat": -11.7022,
     "lng": 43.2551,
-    "label": "Moroni, KM 🌍",
+    "label": "Moroni, 🇰🇲",
     "words": [
       "government building",
       "main square",
@@ -4610,7 +4610,7 @@
   {
     "lat": 13.4476,
     "lng": 144.8011,
-    "label": "Mangilao Village, GU 🌍",
+    "label": "Mangilao Village, 🇬🇺",
     "words": [
       "vineyard",
       "winery",
@@ -4646,7 +4646,7 @@
   {
     "lat": -17.5298,
     "lng": -149.5512,
-    "label": "Pirae, PF 🌍",
+    "label": "Pirae, 🇵🇫",
     "words": [
       "beach",
       "surf shop",
@@ -4898,7 +4898,7 @@
   {
     "lat": -22.1576,
     "lng": 166.4572,
-    "label": "Dumbéa, NC 🌍",
+    "label": "Dumbéa, 🇳🇨",
     "words": [
       "beach",
       "surf shop",
@@ -4922,7 +4922,7 @@
   {
     "lat": 13.4875,
     "lng": 144.7814,
-    "label": "Tamuning, GU 🌍",
+    "label": "Tamuning, 🇬🇺",
     "words": [
       "vineyard",
       "winery",
@@ -6506,7 +6506,7 @@
   {
     "lat": 14.9682,
     "lng": 145.62,
-    "label": "San Jose Village, MP 🌍",
+    "label": "San Jose Village, 🇲🇵",
     "words": [
       "island seafront",
       "palm tree",
@@ -6866,7 +6866,7 @@
   {
     "lat": -17.6333,
     "lng": -149.6,
-    "label": "Punaauia, PF 🌍",
+    "label": "Punaauia, 🇵🇫",
     "words": [
       "vineyard",
       "winery",
@@ -8858,7 +8858,7 @@
   {
     "lat": -17.5347,
     "lng": -149.5684,
-    "label": "Papeete, PF 🌍",
+    "label": "Papeete, 🇵🇫",
     "words": [
       "harbour",
       "ferry",
@@ -9722,7 +9722,7 @@
   {
     "lat": 13.4877,
     "lng": 144.7814,
-    "label": "Tamuning-Tumon-Harmon Village, GU 🌍",
+    "label": "Tamuning-Tumon-Harmon Village, 🇬🇺",
     "words": [
       "outback road",
       "eucalyptus",
@@ -12746,7 +12746,7 @@
   {
     "lat": -17.5593,
     "lng": -149.6035,
-    "label": "Faaa, PF 🌍",
+    "label": "Faaa, 🇵🇫",
     "words": [
       "outback road",
       "eucalyptus",
@@ -13226,7 +13226,7 @@
   {
     "lat": -22.2626,
     "lng": 166.5662,
-    "label": "Mont-Dore, NC 🌍",
+    "label": "Mont-Dore, 🇳🇨",
     "words": [
       "beach",
       "surf shop",
@@ -14510,7 +14510,7 @@
   {
     "lat": -22.2741,
     "lng": 166.4488,
-    "label": "Nouméa, NC 🌍",
+    "label": "Nouméa, 🇳🇨",
     "words": [
       "island seafront",
       "palm tree",
@@ -14558,7 +14558,7 @@
   {
     "lat": 15.2123,
     "lng": 145.7545,
-    "label": "Saipan, MP 🌍",
+    "label": "Saipan, 🇲🇵",
     "words": [
       "government building",
       "main square",
@@ -15134,7 +15134,7 @@
   {
     "lat": 13.5178,
     "lng": 144.8391,
-    "label": "Dededo Village, GU 🌍",
+    "label": "Dededo Village, 🇬🇺",
     "words": [
       "island seafront",
       "palm tree",
@@ -16454,7 +16454,7 @@
   {
     "lat": 13.536,
     "lng": 144.8886,
-    "label": "Yigo Village, GU 🌍",
+    "label": "Yigo Village, 🇬🇺",
     "words": [
       "island seafront",
       "palm tree",
