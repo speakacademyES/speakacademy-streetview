@@ -461,19 +461,19 @@ function loadPanorama(loc) {
     if (panorama.getStatus() !== 'OK') {
       console.warn('No coverage at', loc.label, '— auto-skipping');
       document.getElementById('phase-label').textContent = '⚠️ No coverage — loading another…';
-      const newLoc = pickLocation();
-      teamLocs[currentTeam] = newLoc;
-      loadPanorama(newLoc);
+      skipLocation();
     }
   });
 }
 
-// ── Skip Location (manual button) ────────────────────────────────────────
+// ── Skip Location (manual button + auto-skip) ─────────────────────────────
 function skipLocation() {
   const newLoc = pickLocation();
   teamLocs[currentTeam] = newLoc;
   loadPanorama(newLoc);
   document.getElementById('phase-label').textContent = '📍 Study the location…';
+  // Only reset timer if the turn is already running (not during pre-turn load)
+  if (timerInterval !== null) startGuessTimer(currentTeam);
 }
 
 function loadRound() {
