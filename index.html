@@ -28,6 +28,15 @@
   #phase-label {
     font-size: 0.95rem; opacity: 0.7; font-weight: 500; min-width: 160px; text-align: right;
   }
+  #timer-badge {
+    background: rgba(255,255,255,0.08); border: 1.5px solid rgba(255,255,255,0.2);
+    color: #fff; padding: 6px 18px; border-radius: 999px;
+    font-size: 1.1rem; font-weight: 800; letter-spacing: 0.05em;
+    transition: background 0.3s, border-color 0.3s, color 0.3s;
+    min-width: 72px; text-align: center;
+  }
+  #timer-badge.warning { background: rgba(250,204,21,0.15); border-color: #facc15; color: #facc15; }
+  #timer-badge.danger  { background: rgba(239,68,68,0.2);   border-color: #ef4444; color: #ef4444; }
 
   /* ── Score strip ── */
   #scores {
@@ -221,6 +230,7 @@
 <div id="top-bar">
   <div id="logo">Speak<span>Academy</span></div>
   <div id="round-badge">Round <span id="round-num">1</span> / <span id="round-total">5</span></div>
+  <div id="timer-badge">⏱ 1:30</div>
   <div id="phase-label">📍 Study the location…</div>
 </div>
 
@@ -386,10 +396,12 @@ function loadRound() {
   document.getElementById('btn-next').style.display   = 'none';
 
   updateScoreCards();
+  startTimer();
 }
 
 // ── Open Guess Map ───────────────────────────────────────────────────────
 function openGuessMap(team) {
+  stopTimer();
   currentTeam  = team;
   pendingMarker = null;
   pendingLatLng = null;
@@ -611,6 +623,40 @@ function updateScoreCards() {
   const winning = scores[0] <= scores[1] ? 0 : 1;
   document.getElementById('score-card-0').classList.toggle('winning', winning === 0 && (scores[0] > 0 || scores[1] > 0));
   document.getElementById('score-card-1').classList.toggle('winning', winning === 1 && (scores[0] > 0 || scores[1] > 0));
+}
+
+// ── Timer ─────────────────────────────────────────────────────────────────
+const ROUND_SECONDS = 90;
+let timerInterval = null;
+let timerSeconds  = ROUND_SECONDS;
+
+function startTimer() {
+  stopTimer();
+  timerSeconds = ROUND_SECONDS;
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    timerSeconds--;
+    updateTimerDisplay();
+    if (timerSeconds <= 0) {
+      stopTimer();
+      // Auto-trigger Team A guess when time's up
+      if (document.getElementById('btn-guess-a').style.display !== 'none') {
+        openGuessMap(0);
+      }
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+}
+
+function updateTimerDisplay() {
+  const el  = document.getElementById('timer-badge');
+  const min = Math.floor(timerSeconds / 60);
+  const sec = String(Math.max(timerSeconds % 60, 0)).padStart(2, '0');
+  el.textContent = `⏱ ${min}:${sec}`;
+  el.className = timerSeconds <= 10 ? 'danger' : timerSeconds <= 30 ? 'warning' : '';
 }
 
 // ── Pack Selector ─────────────────────────────────────────────────────────
