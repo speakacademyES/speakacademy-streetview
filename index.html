@@ -99,15 +99,18 @@
   #guess-header.team-b { color: #f87171; }
   /* ── Guess search ── */
   #guess-search-wrap {
+    display: none;   /* hidden by default — shown only inside .visible overlay */
     width: min(820px, 95vw);
     position: relative;
   }
+  #guess-overlay.visible #guess-search-wrap { display: block; }
   #guess-search {
     width: 100%; padding: 10px 16px; border-radius: 10px;
     border: 1.5px solid rgba(255,255,255,0.25);
-    background: rgba(20,20,20,0.92); color: #fff;
+    background: #111; color: #fff;
     font-size: 0.95rem; outline: none;
     box-sizing: border-box;
+    -webkit-appearance: none; appearance: none;
   }
   #guess-search::placeholder { color: rgba(255,255,255,0.35); }
   #guess-search:focus { border-color: #facc15; }
